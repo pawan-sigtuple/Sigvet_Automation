@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_HemaCYTE</name>
+   <tag></tag>
+   <elementGuidId>2ebcd250-d11e-4142-949b-4bf4d48a0825</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'HemaCYTE' or . = 'HemaCYTE')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/header/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;HemaCYTE&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>51c0d04e-c86a-4e91-a905-6088f11d9647</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-0 text-[16px] font-normal mb-[5px]</value>
+      <webElementGuid>45cbdb3e-05ed-4b23-8924-633bd709a3a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HemaCYTE</value>
+      <webElementGuid>4efaa4e8-82ad-413c-91ca-009508d15e60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/header[@class=&quot;flex justify-between items-center bg-[#78104F] h-auto w-[100vw] text-white gap-[10px]&quot;]/div[@class=&quot;flex-1 ml-[20px]&quot;]/h1[@class=&quot;m-0 text-[16px] font-normal mb-[5px]&quot;]</value>
+      <webElementGuid>ed5a540c-e047-4d29-accf-d27a22463f43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/header/div/h1</value>
+      <webElementGuid>73534be7-54bc-43a8-a38b-73c223b8bad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hematology'])[1]/preceding::h1[1]</value>
+      <webElementGuid>99d1b9e4-2141-4f88-bad2-9cf649164785</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Reports (74)'])[1]/preceding::h1[1]</value>
+      <webElementGuid>90da90d1-66c5-405b-8da5-37c66704f72b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>f9fe25e6-1db6-485b-b4aa-65cb4fc24450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'HemaCYTE' or . = 'HemaCYTE')]</value>
+      <webElementGuid>8d0fe1f2-fd93-430b-a6aa-0d3c3942c894</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

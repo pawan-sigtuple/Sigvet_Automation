@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_2. Select Execute to run the test</name>
+   <tag></tag>
+   <elementGuidId>9877feae-a7b2-49b3-956d-2faacbb23773</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;2. Select \&quot;Execute\&quot; to run the test&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>eac7ad60-b27f-433d-a246-61bf02883a25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm md:text-base text-black mb-2</value>
+      <webElementGuid>967ae100-a131-4e16-8772-80ddbe0e19e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2. Select &quot;Execute&quot; to run the test</value>
+      <webElementGuid>056eb49d-9864-46fa-8a67-c633ccbb02ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed left-1/2 top-[46.25rem] transform -translate-x-1/2 flex flex-wrap items-start my-4 p-4 border-2 border-black w-full max-w-[34rem] h-auto gap-2.5&quot;]/div[@class=&quot;flex-1&quot;]/p[@class=&quot;text-sm md:text-base text-black mb-2&quot;]</value>
+      <webElementGuid>b07c0e1f-a119-4354-8c1d-f965c360bf07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p[2]</value>
+      <webElementGuid>5553503e-a9f7-4035-950b-523963328bf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[2]</value>
+      <webElementGuid>47245be0-ff2f-422b-8ca4-b442b652527b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[2]</value>
+      <webElementGuid>32f46279-0f98-462d-b896-13b56e4c7c96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::p[1]</value>
+      <webElementGuid>e29d7a61-bcc8-48f9-9278-d041d8aac2ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EXECUTE'])[1]/preceding::p[1]</value>
+      <webElementGuid>9248b7cb-b10d-4493-a12c-d0eecdbc02ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <webElementGuid>7c26d6af-2c48-415e-b787-9b1178e7ae37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>0f934215-2e6e-45ec-9f0f-79af8fdcde54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '2. Select &quot;Execute&quot; to run the test' or . = '2. Select &quot;Execute&quot; to run the test')]</value>
+      <webElementGuid>59c5a506-9a68-4393-a5cd-7cee766c2887</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_r</name>
+   <tag></tag>
+   <elementGuidId>fd586a12-f246-4654-8e6b-38b6be53ca35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/button[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'r' or . = 'r')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;r&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7aac1b34-ed45-42f0-ab1c-d833031747d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-[#6b6b6b] text-white min-w-[9.5%]  h-[58px] rounded-[8px] m-[0.5px] font-semibold transition-all duration-150  active:bg-[#4a4a4a]</value>
+      <webElementGuid>ed93423b-ee3a-4c32-a66d-0b086b771d69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>r</value>
+      <webElementGuid>43362a70-c344-4e6b-8355-cad36e68af43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed   bottom-0 left-0 w-full max-h-auto min-h-[302px] bg-black z-50 py-1&quot;]/div[2]/div[@class=&quot;flex justify-evenly&quot;]/button[@class=&quot;bg-[#6b6b6b] text-white min-w-[9.5%]  h-[58px] rounded-[8px] m-[0.5px] font-semibold transition-all duration-150  active:bg-[#4a4a4a]&quot;]</value>
+      <webElementGuid>4010c856-1558-4bb2-b1ed-75cabae26b24</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/button[4]</value>
+      <webElementGuid>a8ce0b2b-53fa-489f-b0a4-6c3d270cf843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='e'])[1]/following::button[1]</value>
+      <webElementGuid>587f48b9-4cff-4c7d-ab4a-f91cf1377c9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='w'])[1]/following::button[2]</value>
+      <webElementGuid>536f6b01-47fe-47db-8e88-a012f3caa6f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='t'])[1]/preceding::button[1]</value>
+      <webElementGuid>0a9c2209-c641-4b32-9528-d4b97f4ed602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='y'])[1]/preceding::button[2]</value>
+      <webElementGuid>c614f2ce-d3cc-40d8-9f4a-c60a3f13ea27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='r']/parent::*</value>
+      <webElementGuid>24452af9-e4e6-4700-a257-91c16d20883c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/button[4]</value>
+      <webElementGuid>3e1428be-1d1f-4fde-9a95-dd2cefca529a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'r' or . = 'r')]</value>
+      <webElementGuid>c3494f07-133b-4954-8199-61dac62c6205</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

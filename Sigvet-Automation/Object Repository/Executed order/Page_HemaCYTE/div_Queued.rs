@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Queued</name>
+   <tag></tag>
+   <elementGuidId>18e2a5a6-7d37-49b9-a9a6-c01cae9a9c49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = ' Queued' or . = ' Queued')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Queued...&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>790477e1-e466-4660-9d1a-552bcde8f562</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[#C968A3] bg-white w-[98%] h-auto mt-[-10px] mb-4 pl-2 flex items-center gap-2</value>
+      <webElementGuid>953b2d53-03bf-4678-82d1-468ca80ff4be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Queued</value>
+      <webElementGuid>21cd4755-c147-415f-a3b6-8319997c45aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 top-[37%] flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
+        transition-transform duration-500 ease-in-out  py-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col px-4&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col w-full&quot;]/div[@class=&quot;text-[#C968A3] bg-white w-[98%] h-auto mt-[-10px] mb-4 pl-2 flex items-center gap-2&quot;]</value>
+      <webElementGuid>431e5610-a04c-4e37-a960-f0b0530b3c26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div[2]</value>
+      <webElementGuid>5a8182cc-037d-4306-a191-b89a2b0dfd38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[2]/following::div[2]</value>
+      <webElementGuid>8d01e18c-68a0-476c-8eb9-ec0a736eb5f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession number'])[2]/following::div[3]</value>
+      <webElementGuid>3fb55cea-4558-4a50-9753-89b1fbf8e889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::div[1]</value>
+      <webElementGuid>f0998d44-8a43-4c79-aad4-5889da85bc66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Queued...']/parent::*</value>
+      <webElementGuid>1cd42762-7517-4e3b-b500-78e42930c8c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]</value>
+      <webElementGuid>270ddf0b-1e02-44e0-aa53-1207b140f536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Queued...' or . = ' Queued...')]</value>
+      <webElementGuid>a790499d-11af-4350-a8a8-6a3ee87e4e25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

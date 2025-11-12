@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VR-002- Verify the navigation to the report for multiple slots</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>143c6e45-018d-474e-9b1e-d8589419be74</testCaseGuid>
+</TestCaseEntity>

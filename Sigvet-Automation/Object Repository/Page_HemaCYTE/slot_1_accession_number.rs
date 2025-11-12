@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>slot_1_accession_number</name>
+   <tag></tag>
+   <elementGuidId>9cfd3b68-b685-4468-a1c2-59830dad9d7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @placeholder = 'Accession Number']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@placeholder=&quot;Accession number&quot;])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Accession Number&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7b16c55d-3066-4e2a-ab1e-60cad96f0bb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>335d1256-97f3-4383-a3f2-6c924d658912</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[228px] h-[38px] p-3 text-black border placeholder:text-black border-gray-300 bg-white</value>
+      <webElementGuid>d0794c98-ae2e-4bad-8833-c3616fdccf49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Accession Number</value>
+      <webElementGuid>5584c238-ef57-4c58-81c6-7df0c2c1c9aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row p-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 bottom-28 flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
+        transition-transform duration-500 ease-in-out  p-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col m-auto&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col&quot;]/div[@class=&quot;flex flex-col justify-start items-start w-[266px] h-[396px] bg-[#AD4183] p-3.5 mb-2.5&quot;]/div[@class=&quot;mb-1.5 w-full p-1&quot;]/input[@class=&quot;w-[228px] h-[38px] p-3 text-black border placeholder:text-black border-gray-300 bg-white&quot;]</value>
+      <webElementGuid>8df9f77d-3fcc-46b9-b75c-203491d327c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>b35e0445-c68d-4238-b898-635d8f6d9788</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div[3]/input</value>
+      <webElementGuid>25f4467d-20d1-4686-8731-ad7ae924fb7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/input</value>
+      <webElementGuid>755a2f82-3d80-4fca-b8e1-812fbe2863d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Accession Number']</value>
+      <webElementGuid>e67d2c12-5fd3-4fa6-bfcf-f9ea2df04c88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

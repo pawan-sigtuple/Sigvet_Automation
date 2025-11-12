@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_24680</name>
+   <tag></tag>
+   <elementGuidId>63eca558-2aee-469b-97cb-d3b58d036fd8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/div[3]/div/table/tbody/tr[2]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;24680&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>e23e3890-7c35-4cf7-a19c-4a31828c60b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>24680</value>
+      <webElementGuid>0836e70d-0fb6-4915-ac28-7488d6940ab0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-1000&quot;]/div[@class=&quot;bg-white rounded-lg shadow-lg w-[300px] h-auto p-6  flex flex-col justify-evenly&quot;]/div[@class=&quot;text-center text-[15px] mb-5&quot;]/div[@class=&quot;overflow-x-auto&quot;]/table[@class=&quot;w-full text-sm&quot;]/tbody[1]/tr[2]/td[2]</value>
+      <webElementGuid>413228b9-538b-4ca1-a5c7-91d7e492cc60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/div[3]/div/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>ebd8d17b-bae8-45bf-928f-3ec06d43d7f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='charli'])[1]/following::td[2]</value>
+      <webElementGuid>3100415e-e41c-4fbc-b4bd-41273d46812b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet Name'])[1]/following::td[5]</value>
+      <webElementGuid>ca7146b0-7d77-42f2-a7d3-8f4b5c1d79ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bruno'])[1]/preceding::td[1]</value>
+      <webElementGuid>43a2aeef-a264-4162-8234-602042fa4206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[1]/preceding::td[2]</value>
+      <webElementGuid>ed2939dc-eacb-4a33-941f-51aaae97e120</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='24680']/parent::*</value>
+      <webElementGuid>154691de-cd28-41ba-9f78-269c974def15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>5588348b-995f-428a-a48b-afc932718f52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '24680' or . = '24680')]</value>
+      <webElementGuid>54efbf09-3214-4cde-922e-ffc22ea5627b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

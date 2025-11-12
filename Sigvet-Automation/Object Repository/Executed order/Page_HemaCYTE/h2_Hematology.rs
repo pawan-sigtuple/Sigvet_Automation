@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Hematology</name>
+   <tag></tag>
+   <elementGuidId>5b742cf8-c9fe-41f3-b41f-f9106671013f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[(text() = 'Hematology' or . = 'Hematology')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/header/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Hematology&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>4308c4cf-37e7-4477-a999-344139fd777c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-0 text-[16px]</value>
+      <webElementGuid>8637ebcd-3b63-4737-ab6a-76c4f8356fe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hematology</value>
+      <webElementGuid>a92bdd91-935e-467b-bab3-38704fd375e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/header[@class=&quot;flex justify-between items-center bg-[#78104F] h-auto w-[100vw] text-white gap-[10px]&quot;]/div[@class=&quot;flex-1 ml-[20px] items-center&quot;]/h2[@class=&quot;m-0 text-[16px]&quot;]</value>
+      <webElementGuid>7ae4f5a7-06e2-4c42-9e93-3ed0d2639c5b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/header/div/h2</value>
+      <webElementGuid>bb2a9f5e-876f-4de8-91e5-3035031790a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AlphaCYTE'])[1]/following::h2[1]</value>
+      <webElementGuid>7ed9b97a-eca1-4e2e-b781-ae990acdb408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test in progress'])[1]/preceding::h2[1]</value>
+      <webElementGuid>1cbf5557-8f1f-4fe8-ae2f-465c4dcd157a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet name'])[1]/preceding::h2[2]</value>
+      <webElementGuid>3556ad27-e28d-4d69-8225-adf841366fbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hematology']/parent::*</value>
+      <webElementGuid>fff81da5-4ef3-4d26-9b4d-afbb37c1cf1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>b31be079-6a80-4fba-8fb4-53d98cb848dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Hematology' or . = 'Hematology')]</value>
+      <webElementGuid>bf8b664d-613f-4203-9844-b159ba409246</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

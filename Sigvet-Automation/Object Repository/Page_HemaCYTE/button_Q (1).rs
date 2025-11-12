@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Q (1)</name>
+   <tag></tag>
+   <elementGuidId>c5705391-afd8-4472-8845-051f62a4edeb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Q' or . = 'Q')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Q&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>337a80cc-afd5-46b6-ac52-5b323895a97f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-[#6b6b6b] text-white w-[58px] h-[58px] rounded-[8px] m-[0.5px] font-semibold</value>
+      <webElementGuid>0377aa31-6925-4b45-a7a8-04f6f92a1a80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Q</value>
+      <webElementGuid>a11935ec-fbfa-4178-bc28-0639a2ff8aab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row p-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed bottom-0 left-0 w-full h-[302px] bg-black z-50 pt-[4px] pb-[4px]&quot;]/div[2]/div[@class=&quot;flex justify-evenly&quot;]/button[@class=&quot;bg-[#6b6b6b] text-white w-[58px] h-[58px] rounded-[8px] m-[0.5px] font-semibold&quot;]</value>
+      <webElementGuid>5f865c55-b35d-4801-9ac0-eeedbfc28b4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/button</value>
+      <webElementGuid>58dbeaa1-6e71-4392-ae31-2b036eaec9e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[3]/following::button[11]</value>
+      <webElementGuid>871183c1-ef89-44cd-ba42-45ab7508f20b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession Number'])[2]/following::button[11]</value>
+      <webElementGuid>3d679301-3b7d-4366-b99d-34089ea76760</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='W'])[1]/preceding::button[1]</value>
+      <webElementGuid>ee8f185e-7c63-4ca8-8ce0-d399ae95d53e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/preceding::button[2]</value>
+      <webElementGuid>1ac3fcde-c225-4051-9942-ab31b3294c85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Q']/parent::*</value>
+      <webElementGuid>d83b2efd-571b-4b4e-ae7f-1be0e88417a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/button</value>
+      <webElementGuid>f0bdaab0-0b27-4eff-b679-8fc3c076c8d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Q' or . = 'Q')]</value>
+      <webElementGuid>f3880cc9-c6d6-43d4-8083-b9a280f2b8a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

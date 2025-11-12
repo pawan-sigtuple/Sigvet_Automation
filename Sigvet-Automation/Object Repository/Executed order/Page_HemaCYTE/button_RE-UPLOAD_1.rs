@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_RE-UPLOAD_1</name>
+   <tag></tag>
+   <elementGuidId>90e0cf63-af6e-46ba-b602-ef850fe36c32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[5]/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;RE-UPLOAD&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>303cb33c-64c6-4052-b81b-0280756f2eb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[6.75rem] lg:w-[14rem] h-[2.3rem]  lg:h-[4.225rem] bg-secondary  text-sm md:text-tiny lg:text-tiny text-tertiary rounded-3xl lg:rounded-full </value>
+      <webElementGuid>c7df37bd-19dc-45cc-baf3-835e909c5513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RE-UPLOAD</value>
+      <webElementGuid>4b7b4bc9-3f7a-4e33-a569-3bb8aa669da5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;w-full h-full&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 top-[39%] flex flex-col justify-center items-center w-full md:w-full md:h-[47vh] lg:max-w-full lg:h-[52vh]
+        transition-transform duration-500 ease-in-out  py-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col px-4 w-[100%] md:w-[95%] lg:w-[100%] h-[50vh] md:h-[45vh] lg:h-[50vh] md:px-8&quot;]/div[@class=&quot;flex flex-row justify-center p-4 gap-10&quot;]/div[@class=&quot;flex flex-col w-full&quot;]/div[@class=&quot;flex flex-col justify-start items-start h-[40vh] md:h-[37vh] lg:h-[41vh] w-full  bg-primary p-4 md:p-10  gap-2.5 md:gap-[3.4rem] lg:gap-4&quot;]/div[@class=&quot;flex md:w-full gap-2 mt-3 w-full&quot;]/button[@class=&quot;w-[6.75rem] lg:w-[14rem] h-[2.3rem]  lg:h-[4.225rem] bg-secondary  text-sm md:text-tiny lg:text-tiny text-tertiary rounded-3xl lg:rounded-full&quot;]</value>
+      <webElementGuid>920ceafd-f709-42f9-b5cb-d0df0122a46b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[5]/button[2]</value>
+      <webElementGuid>88143935-86fc-4062-b445-0fe9e0f7dd4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW REPORT'])[2]/following::button[1]</value>
+      <webElementGuid>4c1aa2c4-3b2c-438c-a8eb-53740ddde0ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Canine'])[1]/following::button[2]</value>
+      <webElementGuid>4d892cdb-22d0-4a14-bf57-75fb79d64b7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Failed to upload to Nucleus'])[2]/preceding::button[1]</value>
+      <webElementGuid>cfce7129-efe4-4b68-b5d2-fcf02d0e0013</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EJECT TRAY'])[1]/preceding::button[1]</value>
+      <webElementGuid>7ca647e3-ce79-4986-a17a-13b70386bc93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[5]/button[2]</value>
+      <webElementGuid>002147c4-5095-4b4e-b97a-d6d6501fa960</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'RE-UPLOAD' or . = 'RE-UPLOAD')]</value>
+      <webElementGuid>037b609f-ee93-4aee-ad78-9c335b471f99</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

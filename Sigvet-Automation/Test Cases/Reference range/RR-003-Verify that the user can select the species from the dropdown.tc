@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RR-003-Verify that the user can select the species from the dropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a12c0886-809a-44e3-b6d7-494c25c1fe3c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Pet name_w-full h-2.375rem p-3 text-b_af09a5_1</name>
+   <tag></tag>
+   <elementGuidId>d45643d7-f099-4cdc-9883-4600c640d0c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'Pet name']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='jerry']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Pet name&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d050fc3b-1ed1-4ac8-8113-69fd2b7f27f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>e5dd033a-eb89-408d-9a49-9b0b36d897bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-[2.375rem] p-3 text-black border placeholder:text-black border-gray-300 bg-[#AD4183]</value>
+      <webElementGuid>d937be94-4c86-4c46-a26a-e0f439201782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Pet name</value>
+      <webElementGuid>6a41ed92-b6db-4f46-9e1e-61c3ce1ab411</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>jerry</value>
+      <webElementGuid>27315027-52ed-4f75-aa14-c3578607957c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 top-[37%] flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
+        transition-transform duration-500 ease-in-out  py-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col px-4&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col w-full&quot;]/div[@class=&quot;flex flex-col justify-start items-start min-h-[24.75rem] w-[98%] max-w-sm md:max-w-md lg:max-w-lg bg-[#AD4183] p-4 md:p-5 mb-3&quot;]/div[@class=&quot;mb-2 w-full&quot;]/input[@class=&quot;w-full h-[2.375rem] p-3 text-black border placeholder:text-black border-gray-300 bg-[#AD4183]&quot;]</value>
+      <webElementGuid>e4b4104f-01b6-402f-987d-fc1628934ed3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='jerry']</value>
+      <webElementGuid>d4de1f7b-1c10-4a35-aaa5-83acfcd997b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[2]/input</value>
+      <webElementGuid>5bf807e2-6a08-4a99-941a-e5df48035d10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/input</value>
+      <webElementGuid>135a0278-d943-4e12-b50e-7352619e1912</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Pet name']</value>
+      <webElementGuid>fa0f7641-21f0-4063-a5cc-b35942811dc6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

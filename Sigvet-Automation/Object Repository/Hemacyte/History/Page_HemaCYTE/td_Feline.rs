@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Feline</name>
+   <tag></tag>
+   <elementGuidId>8efd3fcd-c961-4885-929d-2932d4d10b13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Feline' or . = 'Feline')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/table/tbody/tr[3]/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>tr:nth-child(3) > td:nth-child(3)</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>cda3541b-e3f0-451d-bdda-c0e2f515f5e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-[1rem] md:px-[0.75rem] py-[0.25rem] text-[0.625rem] md:text-[0.75rem] text-start text-black cursor-pointer</value>
+      <webElementGuid>7a2d87da-6592-44a6-ba74-5e2d82091a30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Feline</value>
+      <webElementGuid>98c57f3a-e2fd-4018-aa26-c6e37ebb637a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[95%] h-[65%] max-h-auto min-w-[20rem] md:min-w-[36.25rem] top-[10.75rem] left-[0.625rem] md:left-[1.25rem] lg:left-[2.5rem] xl:left-[3.75rem]&quot;]/div[@class=&quot;h-full overflow-y-auto overflow-x-auto&quot;]/table[@class=&quot;w-full border-separate border-spacing-y-[0.0625rem]&quot;]/tbody[1]/tr[@class=&quot;h-[3.125rem] w-full bg-white&quot;]/td[@class=&quot;px-[1rem] md:px-[0.75rem] py-[0.25rem] text-[0.625rem] md:text-[0.75rem] text-start text-black cursor-pointer&quot;]</value>
+      <webElementGuid>b12ac859-9f4e-4e87-9c87-e62a7bc30e8a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/table/tbody/tr[3]/td[3]</value>
+      <webElementGuid>db11fc2c-5951-483a-96be-dd9300341f09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bruno'])[3]/following::td[1]</value>
+      <webElementGuid>7fa16781-e45e-4a14-9867-ff80e3794ced</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[2]/following::td[3]</value>
+      <webElementGuid>04440b22-0893-4e62-8b3a-1e92a506981e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled'])[2]/preceding::td[1]</value>
+      <webElementGuid>70c87a19-156b-4459-a0fa-c77139ea8abd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[3]/preceding::td[2]</value>
+      <webElementGuid>7f7d5476-2609-4e6b-b63d-ed64c8a32d23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[3]</value>
+      <webElementGuid>1752ec75-639d-44ce-8e71-1c7d7610e59f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Feline' or . = 'Feline')]</value>
+      <webElementGuid>2814ddd4-3bef-4d8a-a712-030b2d9deec5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

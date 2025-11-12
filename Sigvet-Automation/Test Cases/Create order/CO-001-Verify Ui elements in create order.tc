@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CO-001-Verify Ui elements in create order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9945448f-c429-460d-a443-604e30ebadc1</testCaseGuid>
+</TestCaseEntity>

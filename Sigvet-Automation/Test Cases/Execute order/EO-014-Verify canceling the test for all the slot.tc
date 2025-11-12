@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EO-014-Verify canceling the test for all the slot</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f1a7a3e-abee-4b97-8678-88eef109c92b</testCaseGuid>
+</TestCaseEntity>

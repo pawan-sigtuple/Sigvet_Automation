@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_MAINTENANCE</name>
+   <tag></tag>
+   <elementGuidId>fdc659de-ba8f-4f29-b374-5a527bd194b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'MAINTENANCE' or . = 'MAINTENANCE')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'MAINTENANCE' or . = 'MAINTENANCE')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.bg-white.border-none.w-36.h-9.rounded-full.text-xs.font-semibold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;MAINTENANCE&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>161cb172-8c91-48e1-ad92-04add3e9b818</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-white border-none w-36 h-9 rounded-full text-xs font-semibold</value>
+      <webElementGuid>1ea33c64-2f25-40b5-9a12-f9f4874d55e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MAINTENANCE</value>
+      <webElementGuid>d3628617-2e0a-4771-92f6-66d872aacf45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed bottom-[60px] left-1/2 transform -translate-x-1/2 w-[535px] max-w-[100vw] h-[37px] flex justify-between items-center&quot;]/button[@class=&quot;bg-white border-none w-36 h-9 rounded-full text-xs font-semibold&quot;]</value>
+      <webElementGuid>c43fc4bf-f02f-415f-ab44-f501fd6e35e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/button</value>
+      <webElementGuid>9efb05d5-9651-48b4-be1a-51c427eda5b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hematology'])[1]/following::button[1]</value>
+      <webElementGuid>1773cf7c-6d39-498b-af4c-449ec3025886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HemaCYTE'])[2]/following::button[1]</value>
+      <webElementGuid>1e0a6f27-18d7-4e99-8720-0503cef31a6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SETTINGS'])[1]/preceding::button[1]</value>
+      <webElementGuid>4ddb5135-2e52-487d-8b38-8130b85f3604</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HISTORY'])[1]/preceding::button[2]</value>
+      <webElementGuid>369c695a-3bd6-4673-82a8-a7a6a194953e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MAINTENANCE']/parent::*</value>
+      <webElementGuid>ddd55c01-c8ed-4f95-af87-e05986bc7098</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>364c4020-3a49-46fb-95e1-ca66fffcf508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'MAINTENANCE' or . = 'MAINTENANCE')]</value>
+      <webElementGuid>5fef4bef-4e9d-4614-937b-7894df6c81b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

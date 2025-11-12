@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Suspected, Largegiant platelets</name>
+   <tag></tag>
+   <elementGuidId>40b9fbcf-70f3-4eb5-b05f-be4782062bfa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Suspected, Large/giant platelets ' or . = 'Suspected, Large/giant platelets ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[3]/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.w-\[180px\]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3121c6c0-3657-4576-9a7e-1ab4a501ff2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[180px] min-h-[49px] max-h-auto flex justify-center items-center p-2 bg-white</value>
+      <webElementGuid>a9fbb721-6e69-4014-8d9c-8c323e6c961a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Suspected, Large/giant platelets </value>
+      <webElementGuid>b2e29224-f999-497d-bab5-5c10b946fdfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row w-full&quot;]/div[@class=&quot;w-1/3 p-2&quot;]/div[1]/div[@class=&quot;w-[180px] min-h-[49px] max-h-auto flex justify-center items-center p-2 bg-white&quot;]</value>
+      <webElementGuid>702d3b89-13d1-4177-87a8-4ec696680d20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[3]/div[2]/div/div[2]</value>
+      <webElementGuid>b4aac804-5a6f-4c61-93ac-f771d6c4a9e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::div[31]</value>
+      <webElementGuid>e3585462-9db5-4eb1-97a2-6bc6bcbad3a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::div[36]</value>
+      <webElementGuid>cffee869-44ee-4a0e-b36b-ee49bd752219</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div[2]</value>
+      <webElementGuid>6a5bd472-18e1-405b-9e72-f5f803921cdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Suspected, Large/giant platelets ' or . = 'Suspected, Large/giant platelets ')]</value>
+      <webElementGuid>e12e9293-b842-4591-9ea3-0da0c19140fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

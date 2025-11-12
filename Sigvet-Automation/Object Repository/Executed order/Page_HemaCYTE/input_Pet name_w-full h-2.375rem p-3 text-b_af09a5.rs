@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Pet name_w-full h-2.375rem p-3 text-b_af09a5</name>
+   <tag></tag>
+   <elementGuidId>46253bcc-69bb-4b5c-9c38-b16e3cc876d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'Pet name']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='charlie']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Pet name&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>947c2e50-cf58-42c3-aa02-e96c7a76a7a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>8ff57b67-00be-4137-866b-168125195eef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-[2.375rem] p-3 text-black border placeholder:text-black border-gray-300 bg-[#AD4183]</value>
+      <webElementGuid>5d4f992f-8cef-461e-a1b2-7f046e6cbb8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Pet name</value>
+      <webElementGuid>110f1384-44cd-41e5-804a-1cbd075d2a08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>charlie</value>
+      <webElementGuid>d17e90b6-b302-4973-a2ed-58c31e83e10b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 top-[37%] flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
+        transition-transform duration-500 ease-in-out  py-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col px-4&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col w-full&quot;]/div[@class=&quot;flex flex-col justify-start items-start min-h-[24.75rem] w-[98%] max-w-sm md:max-w-md lg:max-w-lg bg-[#AD4183] p-4 md:p-5 mb-3&quot;]/div[@class=&quot;mb-2 w-full&quot;]/input[@class=&quot;w-full h-[2.375rem] p-3 text-black border placeholder:text-black border-gray-300 bg-[#AD4183]&quot;]</value>
+      <webElementGuid>d4af4989-1871-47df-868e-f90266954930</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='charlie']</value>
+      <webElementGuid>d49fe37d-c81f-49b0-bf6b-993d832ebc02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div[2]/input</value>
+      <webElementGuid>626f3716-d839-4a74-b6bc-51fafcb03085</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>7815377d-5187-44cb-804d-180b2da700f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Pet name']</value>
+      <webElementGuid>61bd406c-6c2a-4c6d-a662-ef8f07696065</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

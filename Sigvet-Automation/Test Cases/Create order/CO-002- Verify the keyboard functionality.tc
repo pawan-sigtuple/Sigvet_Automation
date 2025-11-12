@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CO-002- Verify the keyboard functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>423a669a-5991-40bf-af98-f71ca4b6cc17</testCaseGuid>
+</TestCaseEntity>

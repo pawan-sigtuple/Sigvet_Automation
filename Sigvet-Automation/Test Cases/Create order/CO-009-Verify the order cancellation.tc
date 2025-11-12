@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CO-009-Verify the order cancellation</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>175ddbaa-1483-4e66-9094-aea22efc8ed2</testCaseGuid>
+</TestCaseEntity>

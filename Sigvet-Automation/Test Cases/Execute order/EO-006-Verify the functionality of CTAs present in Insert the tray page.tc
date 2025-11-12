@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EO-006-Verify the functionality of CTAs present in Insert the tray page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ac73a81-4c02-4921-aa3d-e784ecdaa70a</testCaseGuid>
+</TestCaseEntity>

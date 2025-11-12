@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_RESET</name>
+   <tag></tag>
+   <elementGuidId>fce9c04a-a528-4ad2-bdbf-9f1568c4c850</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'RESET' or . = 'RESET')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div/div[5]/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;RESET&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>03f7afd4-17f8-4a66-afca-115bef0129bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[105px] h-[37px] text-sm rounded-[40px] bg-[#F3F3F3] shadow-md</value>
+      <webElementGuid>bf97fbfd-1dbe-45b2-b1eb-5a81c7f51a3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RESET</value>
+      <webElementGuid>04d13ac6-ff85-4946-992c-c53b7fd95c25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-0 bg-black bg-opacity-70 w-full h-full flex items-center justify-center z-[3000]&quot;]/div[@class=&quot;bg-white rounded-sm shadow-lg w-[253px] min-h-[457px] flex flex-col justify-around p-5&quot;]/div[@class=&quot;flex items-center gap-[8px] mt-[10px]&quot;]/button[@class=&quot;w-[105px] h-[37px] text-sm rounded-[40px] bg-[#F3F3F3] shadow-md&quot;]</value>
+      <webElementGuid>97767d24-c72c-4584-8066-58f83617be64</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div/div[5]/button[2]</value>
+      <webElementGuid>f3f0ce36-2a62-4010-9e80-8e6eb04fe4e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='APPLY'])[1]/following::button[1]</value>
+      <webElementGuid>0f5a1404-13fb-4ec2-93f6-8191427b1fc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Failed'])[2]/following::button[2]</value>
+      <webElementGuid>1e8deba8-96b6-47a9-b34a-337c0e4dedf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CLOSE'])[1]/preceding::button[1]</value>
+      <webElementGuid>ef9130d6-b3c1-4682-9170-336006265b14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACCESSION NUMBER'])[1]/preceding::button[2]</value>
+      <webElementGuid>ffaf3f9a-24de-4258-9651-149b30b5e774</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='RESET']/parent::*</value>
+      <webElementGuid>a7da1ebb-cf0e-4a3a-8808-499352271827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button[2]</value>
+      <webElementGuid>90adab66-6aff-4d57-b286-2794207c52ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'RESET' or . = 'RESET')]</value>
+      <webElementGuid>f26474dd-2b7c-430c-8d2c-157e3577642f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

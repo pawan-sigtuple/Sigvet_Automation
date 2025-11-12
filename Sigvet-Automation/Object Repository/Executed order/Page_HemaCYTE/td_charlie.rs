@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_charlie</name>
+   <tag></tag>
+   <elementGuidId>10e8c87d-72d9-47c0-9909-39194d669cd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/div[3]/div/table/tbody/tr/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'charlie' or . = 'charlie')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;charli&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>3f2c63b4-ee56-4402-8cd7-db3fad22c2be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-start py-2 sm:py-3</value>
+      <webElementGuid>f646b371-327d-44d3-b73a-23b44dbbdfe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>charlie</value>
+      <webElementGuid>06d0d1a9-c5a5-40d8-b23f-53145fc13188</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-tertiary rounded-lg shadow-lg w-[20%] md:w-[26%] max-w-[28%] h-fit min-h-[18vh] max-h-[30vh] p-6 md:p-16&quot;]/div[@class=&quot;text-center text-[10px] mb-5 md:text-standard sm:text-[10px] md:h-auto&quot;]/div[@class=&quot;overflow-x-auto&quot;]/table[@class=&quot;w-full text-sm sm:text-base md:text-standard&quot;]/tbody[1]/tr[1]/td[@class=&quot;text-start py-2 sm:py-3&quot;]</value>
+      <webElementGuid>ac8dd09f-2a73-4cb1-b668-270bb585a8ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/div[3]/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>a43b1b91-8e38-474c-996e-430ba48ad144</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet name'])[3]/following::td[3]</value>
+      <webElementGuid>18f92081-6e09-4440-b697-0cff1890adc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession no'])[1]/following::td[3]</value>
+      <webElementGuid>2a5de741-f555-413c-a797-ea77d4d5ae36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jerry'])[1]/preceding::td[3]</value>
+      <webElementGuid>5c2d79ed-5eb8-4fbe-903b-997f8f2fe9af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[1]/preceding::td[4]</value>
+      <webElementGuid>99884366-221c-4bbd-a8b8-e2e155e725d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='charli']/parent::*</value>
+      <webElementGuid>76426a93-6294-4bb6-9500-f6a36a64c08c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]</value>
+      <webElementGuid>6e036fd7-ae83-4313-a4b0-8cf6446ee3ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'charli' or . = 'charli')]</value>
+      <webElementGuid>ec41f2b6-253e-40c9-8ade-8335934d9add</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

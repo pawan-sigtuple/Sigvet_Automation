@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Hematology_p-18px pl-10 gap-20px w-fu_a34b33_1</name>
+   <tag></tag>
+   <elementGuidId>b87aaa90-040f-4154-bc4d-6c2001a07a44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = 'Search by accession number or pet name']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Search by accession number or pet name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>740d3e3d-144f-4c5e-ae1e-6bddcb6010df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-[18px] pl-10 gap-[20px] w-full text-black text-sm</value>
+      <webElementGuid>b271465f-a6f9-4765-8cb0-52787de0394e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search by accession number or pet name</value>
+      <webElementGuid>34bf294e-a160-4a83-bdb0-7ad5b3573e23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>x</value>
+      <webElementGuid>f609fd70-7e96-4107-81ff-74a53a0b51a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed top-[71px] left-[10px]&quot;]/div[@class=&quot;w-[580px] h-[47.69px] gap-[8px] flex&quot;]/div[@class=&quot;w-[548px] h-[47.69px] relative&quot;]/input[@class=&quot;p-[18px] pl-10 gap-[20px] w-full text-black text-sm&quot;]</value>
+      <webElementGuid>c3e26cf5-9be1-4180-90c7-3360a1f02c2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='x']</value>
+      <webElementGuid>d0dc67db-13f7-4dee-a54e-697be492054e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/input</value>
+      <webElementGuid>571a13b7-ec09-452a-bac0-07027e115e4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>41c8be02-5112-449d-854c-84af0f05ac93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search by accession number or pet name']</value>
+      <webElementGuid>cb91fbb3-1831-476f-8e86-5e67ecb9db48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

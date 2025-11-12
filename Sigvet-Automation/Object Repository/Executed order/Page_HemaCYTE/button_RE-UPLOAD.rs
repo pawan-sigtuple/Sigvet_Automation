@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_RE-UPLOAD</name>
+   <tag></tag>
+   <elementGuidId>5b6e8ddd-5fbc-41c9-b3fd-94596e68b6a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[5]/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;RE-UPLOAD&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0808a329-5a0e-4201-acf3-03b60564e4bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[6.75rem] lg:w-[14rem] h-[2.3rem]  lg:h-[4.225rem] bg-secondary  text-sm md:text-tiny lg:text-tiny text-tertiary rounded-3xl lg:rounded-full </value>
+      <webElementGuid>bc799551-0afa-4060-8b5b-02af32e3e505</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RE-UPLOAD</value>
+      <webElementGuid>4cd7308b-392b-4095-ab92-c96873d8a6d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;w-full h-full&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 top-[39%] flex flex-col justify-center items-center w-full md:w-full md:h-[47vh] lg:max-w-full lg:h-[52vh]
+        transition-transform duration-500 ease-in-out  py-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col px-4 w-[100%] md:w-[95%] lg:w-[100%] h-[50vh] md:h-[45vh] lg:h-[50vh] md:px-8&quot;]/div[@class=&quot;flex flex-row justify-center p-4 gap-10&quot;]/div[@class=&quot;flex flex-col w-full&quot;]/div[@class=&quot;flex flex-col justify-start items-start h-[40vh] md:h-[37vh] lg:h-[41vh] w-full  bg-primary p-4 md:p-10  gap-2.5 md:gap-[3.4rem] lg:gap-4&quot;]/div[@class=&quot;flex md:w-full gap-2 mt-3 w-full&quot;]/button[@class=&quot;w-[6.75rem] lg:w-[14rem] h-[2.3rem]  lg:h-[4.225rem] bg-secondary  text-sm md:text-tiny lg:text-tiny text-tertiary rounded-3xl lg:rounded-full&quot;]</value>
+      <webElementGuid>0bc1ee1c-9135-4c06-aa0b-4e71aff6c9e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[5]/button[2]</value>
+      <webElementGuid>c011dd19-7013-4a5c-aa4c-353f591eeeb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW REPORT'])[1]/following::button[1]</value>
+      <webElementGuid>48c83a25-181e-47e0-857a-50526c1aaf28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feline'])[1]/following::button[2]</value>
+      <webElementGuid>b2b6e1f8-9f34-448f-b26a-e15237fd5155</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Failed to upload to Nucleus'])[1]/preceding::button[1]</value>
+      <webElementGuid>bedf98a1-44a3-4cb5-a05a-e529619ceb2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet Name'])[2]/preceding::button[1]</value>
+      <webElementGuid>f0057d2b-e55b-48bd-a598-eef594f72d94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='RE-UPLOAD']/parent::*</value>
+      <webElementGuid>4fb4ccfc-7163-472a-b486-ccc55c95cdcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>5a230008-d078-40a8-8d47-af7f8ad23309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'RE-UPLOAD' or . = 'RE-UPLOAD')]</value>
+      <webElementGuid>26644efd-b690-4be1-af5f-a2919db6fffb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

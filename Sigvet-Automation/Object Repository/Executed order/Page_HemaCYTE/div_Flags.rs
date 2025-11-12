@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Flags</name>
+   <tag></tag>
+   <elementGuidId>9901709c-0e84-4e96-82bf-e55bbd5ecd46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Flags' or . = 'Flags')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[6]/div/div/div[3]/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Flags$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5e74edde-d77c-4452-b5a9-4e92f54f09ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Flags</value>
+      <webElementGuid>5b799dac-214c-4afa-9a3b-eeb046d44935</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 top-[37%] flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
+        transition-transform duration-500 ease-in-out  py-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col px-4&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col w-full&quot;]/div[@class=&quot;flex flex-col justify-start items-start min-h-[24.75rem] w-[98%] max-w-sm md:max-w-md lg:max-w-lg bg-[#AD4183] p-4 md:p-5 mb-3&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row w-full mt-4&quot;]/div[@class=&quot;w-1/3 p-2&quot;]/div[1]</value>
+      <webElementGuid>5639de11-9934-4b34-945b-dcf755652d23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[6]/div/div/div[3]/div[2]/div</value>
+      <webElementGuid>36d20b6a-65fa-4f47-8b57-1ccdf1d0ce0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::div[34]</value>
+      <webElementGuid>8d6adb41-3460-4ec9-8e62-c80206e6b57e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 2'])[2]/following::div[35]</value>
+      <webElementGuid>a83fe625-3f2a-4c21-bd58-2cb56e15033c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test completed'])[2]/preceding::div[5]</value>
+      <webElementGuid>6c541cb0-a80d-4f91-8afc-f41c55b0903d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div</value>
+      <webElementGuid>3e54ea04-1213-4623-9f76-e75965e983bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Flags' or . = 'Flags')]</value>
+      <webElementGuid>721397b6-c687-4f1e-98b6-09ebe4955eb5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EO-005-Verify the UI elements on the Insert the traypage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>294ccc1e-89e4-41dc-8a2f-dd4d4610307e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img (2) (1)</name>
+   <tag></tag>
+   <elementGuidId>08df19d6-1a50-4374-ab69-4657c71dc282</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src = concat(&quot;data:image/svg+xml,%3csvg%20width=&quot; , &quot;'&quot; , &quot;18&quot; , &quot;'&quot; , &quot;%20height=&quot; , &quot;'&quot; , &quot;18&quot; , &quot;'&quot; , &quot;%20viewBox=&quot; , &quot;'&quot; , &quot;0%200%2018%2018&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;none&quot; , &quot;'&quot; , &quot;%20xmlns=&quot; , &quot;'&quot; , &quot;http://www.w3.org/2000/svg&quot; , &quot;'&quot; , &quot;%3e%3cpath%20fill-rule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20clip-rule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20d=&quot; , &quot;'&quot; , &quot;M0.458187%202.99586C-0.573663%201.83503%200.250395%200%201.80352%200H15.7952C17.3484%200%2018.1724%201.83504%2017.1405%202.99586L11.4993%209.34218V17.1C11.4993%2017.4119%2011.3379%2017.7016%2011.0725%2017.8656C10.8072%2018.0296%2010.4759%2018.0445%2010.1969%2017.905L6.59687%2016.105C6.29196%2015.9525%206.09936%2015.6409%206.09936%2015.3V9.34218L0.458187%202.99586ZM15.7952%201.8H1.80352L7.67201%208.40204C7.81844%208.56683%207.89935%208.77959%207.89935%209V14.7438L9.69935%2015.6438V9C9.69935%208.77959%209.78026%208.56683%209.92669%208.40204L15.7952%201.8Z&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;black&quot; , &quot;'&quot; , &quot;/%3e%3c/svg%3e&quot;) and @alt = 'FilterIconOne']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;FilterIconOne&quot;]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'cursor-pointer') and contains(@class,'items-center')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;FilterIconOne&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>bdd86443-531f-49b9-b6dc-7d259b659b71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>data:image/svg+xml,%3csvg%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0.458187%202.99586C-0.573663%201.83503%200.250395%200%201.80352%200H15.7952C17.3484%200%2018.1724%201.83504%2017.1405%202.99586L11.4993%209.34218V17.1C11.4993%2017.4119%2011.3379%2017.7016%2011.0725%2017.8656C10.8072%2018.0296%2010.4759%2018.0445%2010.1969%2017.905L6.59687%2016.105C6.29196%2015.9525%206.09936%2015.6409%206.09936%2015.3V9.34218L0.458187%202.99586ZM15.7952%201.8H1.80352L7.67201%208.40204C7.81844%208.56683%207.89935%208.77959%207.89935%209V14.7438L9.69935%2015.6438V9C9.69935%208.77959%209.78026%208.56683%209.92669%208.40204L15.7952%201.8Z'%20fill='black'/%3e%3c/svg%3e</value>
+      <webElementGuid>b9fee744-ff5b-4c68-8579-56888e93801f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>FilterIconOne</value>
+      <webElementGuid>bc5402e1-7afc-4b0f-941e-a27c827d3d02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed top-[71px] left-[10px]&quot;]/div[@class=&quot;w-[580px] h-[47.69px] gap-[8px] flex&quot;]/div[@class=&quot;w-[17px] h-[47.69px] flex justify-center items-center ml-[10px] cursor-pointer&quot;]/img[1]</value>
+      <webElementGuid>d896c661-4ef2-4540-853a-956777293ed9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/img</value>
+      <webElementGuid>554c205a-4e9d-4cf7-9e32-a95e4daaa390</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='FilterIconOne']</value>
+      <webElementGuid>15e3747c-07d6-4882-b000-3c77a9bfe392</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>d86dc6fb-8423-4aa6-acba-be219ec19d00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = concat(&quot;data:image/svg+xml,%3csvg%20width=&quot; , &quot;'&quot; , &quot;18&quot; , &quot;'&quot; , &quot;%20height=&quot; , &quot;'&quot; , &quot;18&quot; , &quot;'&quot; , &quot;%20viewBox=&quot; , &quot;'&quot; , &quot;0%200%2018%2018&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;none&quot; , &quot;'&quot; , &quot;%20xmlns=&quot; , &quot;'&quot; , &quot;http://www.w3.org/2000/svg&quot; , &quot;'&quot; , &quot;%3e%3cpath%20fill-rule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20clip-rule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20d=&quot; , &quot;'&quot; , &quot;M0.458187%202.99586C-0.573663%201.83503%200.250395%200%201.80352%200H15.7952C17.3484%200%2018.1724%201.83504%2017.1405%202.99586L11.4993%209.34218V17.1C11.4993%2017.4119%2011.3379%2017.7016%2011.0725%2017.8656C10.8072%2018.0296%2010.4759%2018.0445%2010.1969%2017.905L6.59687%2016.105C6.29196%2015.9525%206.09936%2015.6409%206.09936%2015.3V9.34218L0.458187%202.99586ZM15.7952%201.8H1.80352L7.67201%208.40204C7.81844%208.56683%207.89935%208.77959%207.89935%209V14.7438L9.69935%2015.6438V9C9.69935%208.77959%209.78026%208.56683%209.92669%208.40204L15.7952%201.8Z&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;black&quot; , &quot;'&quot; , &quot;/%3e%3c/svg%3e&quot;) and @alt = 'FilterIconOne']</value>
+      <webElementGuid>f31c8e89-858a-47bb-88e5-ea4fd64da0c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

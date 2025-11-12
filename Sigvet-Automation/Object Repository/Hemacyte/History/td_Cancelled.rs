@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Cancelled</name>
+   <tag></tag>
+   <elementGuidId>84752c3d-877f-478f-bd3f-63623b014e51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Canceled' or . = 'Canceled')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/table/tbody/tr/td[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>td:nth-child(4) >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>3587f5e3-afa7-4fc4-864d-bf85cd0b8499</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-[1rem] md:px-[0.75rem] py-[0.25rem] text-[0.625rem] md:text-[0.75rem] text-start cursor-pointer text-red-600</value>
+      <webElementGuid>741256e7-96f5-42da-8ad0-06a7ded6cad3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Canceled</value>
+      <webElementGuid>5aae3615-f80f-4264-9dd0-41430158bba9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[95%] h-[65%] max-h-auto min-w-[20rem] md:min-w-[36.25rem] top-[10.75rem] left-[0.625rem] md:left-[1.25rem] lg:left-[2.5rem] xl:left-[3.75rem]&quot;]/div[@class=&quot;h-full overflow-y-auto overflow-x-auto&quot;]/table[@class=&quot;w-full border-separate border-spacing-y-[0.0625rem]&quot;]/tbody[1]/tr[@class=&quot;h-[3.125rem] w-full bg-white&quot;]/td[@class=&quot;px-[1rem] md:px-[0.75rem] py-[0.25rem] text-[0.625rem] md:text-[0.75rem] text-start cursor-pointer text-red-600&quot;]</value>
+      <webElementGuid>723c0077-637c-4f86-936f-bbb8c706133a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/table/tbody/tr/td[4]</value>
+      <webElementGuid>a4e8deac-4ec2-4df3-b5b5-9c08b2984131</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feline'])[1]/following::td[1]</value>
+      <webElementGuid>a5626608-2125-40d1-b9ad-90e553559e4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='bruno'])[1]/following::td[2]</value>
+      <webElementGuid>2f7dddea-0aaa-4977-9aa1-5447cce2f838</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[1]/preceding::td[1]</value>
+      <webElementGuid>041d562b-7933-47c8-9543-178fefe6f7a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[1]/preceding::td[2]</value>
+      <webElementGuid>3f6da2db-0de6-4e37-bfb1-d9db8f39357c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cancelled']/parent::*</value>
+      <webElementGuid>8a07fdc7-8627-4031-b712-dc58502081f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]</value>
+      <webElementGuid>3ffdd071-eab9-4df2-adf2-d09cd306f13b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Cancelled' or . = 'Cancelled')]</value>
+      <webElementGuid>6dd5d823-e131-439e-89e7-b20f7c169281</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

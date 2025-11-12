@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HI-001-Verify the UI elements on the history page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>986d3b17-d76b-4f69-807c-83565e9701e6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ffc045e-7e51-4ef3-b336-6f0e00b3d5d2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'http://localhost:3000/'</defaultValue>
+      <description></description>
+      <id>3ffc045e-7e51-4ef3-b336-6f0e00b3d5d2</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

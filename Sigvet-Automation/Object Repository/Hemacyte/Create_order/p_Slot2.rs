@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Slot2</name>
+   <tag></tag>
+   <elementGuidId>0af802d1-dbc7-4663-9905-0f5d82640134</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Slot 2' or . = 'Slot 2')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Slot2&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4f00aaad-3298-44ed-ada2-cba1df5e17b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-white text-lg p-1 mb-1.5</value>
+      <webElementGuid>e48c8185-c619-45b5-bcac-d31be8e92b54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Slot 2</value>
+      <webElementGuid>52782abb-5c1d-4f77-832a-fcdd27b9a0ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row p-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 bottom-28 flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
+        transition-transform duration-500 ease-in-out  p-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col m-auto&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col&quot;]/div[@class=&quot;flex flex-col justify-start items-start w-[266px] h-[396px] bg-[#AD4183] p-3.5 mb-2.5&quot;]/div[@class=&quot;w-full flex justify-start&quot;]/p[@class=&quot;text-white text-lg p-1 mb-1.5&quot;]</value>
+      <webElementGuid>940921c1-fe9e-4029-b110-2d05425f6451</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div/p</value>
+      <webElementGuid>a6db57f8-6663-4bc5-9705-5eb396c07c05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[1]/following::p[1]</value>
+      <webElementGuid>6e76241b-a901-4fb2-9f86-bd2087587091</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession Number'])[1]/following::p[1]</value>
+      <webElementGuid>1724e89d-a18f-4c7b-8843-4f0bdf2031c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet Name'])[2]/preceding::p[1]</value>
+      <webElementGuid>9c63eb5a-510b-49be-9894-128fa666b54a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession Number'])[2]/preceding::p[1]</value>
+      <webElementGuid>020d91af-4dc4-408d-9b56-7158b7d15f38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Slot2']/parent::*</value>
+      <webElementGuid>83e2fe53-f569-42fd-a3d9-9d57c96f3455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/p</value>
+      <webElementGuid>4de2019d-eed7-4538-a17d-095bcfde00ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Slot 2' or . = 'Slot 2')]</value>
+      <webElementGuid>3acc0474-22da-4c9b-8ca6-5ce898c49add</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

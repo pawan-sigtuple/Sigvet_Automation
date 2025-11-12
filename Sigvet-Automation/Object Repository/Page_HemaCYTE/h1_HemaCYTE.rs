@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_HemaCYTE</name>
+   <tag></tag>
+   <elementGuidId>d3d3d317-0ebd-438e-a38f-24fafa93a59c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'HemaCYTE' or . = 'HemaCYTE')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/header/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;HemaCYTE&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>31134c72-d185-4425-8c83-eee008025890</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-0 text-[16px] font-normal mb-[5px]</value>
+      <webElementGuid>37957157-ff3a-4806-bef4-a42a1a805d5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HemaCYTE</value>
+      <webElementGuid>be552f6e-ebfd-4ab2-a271-ba25abd6bfd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/header[@class=&quot;flex justify-between items-center bg-[#78104F] h-auto w-[100vw] text-white gap-[10px]&quot;]/div[@class=&quot;flex-1 ml-[20px]&quot;]/h1[@class=&quot;m-0 text-[16px] font-normal mb-[5px]&quot;]</value>
+      <webElementGuid>409a425e-f9cd-4016-9f71-cf60eec7fe9f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/header/div/h1</value>
+      <webElementGuid>f7bf87c6-57db-4930-a757-e6b1adbb18c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hematology'])[1]/preceding::h1[1]</value>
+      <webElementGuid>c6254bcb-6439-4d9b-b030-7d5c653fc2f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Reports (89)'])[1]/preceding::h1[1]</value>
+      <webElementGuid>3171f38d-376d-4864-9968-be5da0c9ae44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>66d9f9da-4441-4ffc-bcd8-318120940de1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'HemaCYTE' or . = 'HemaCYTE')]</value>
+      <webElementGuid>164d3510-6184-4506-9090-5a784f7e453c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prepare the cartridges'])[1]/preceding::h1[1]</value>
+      <webElementGuid>15d49338-09e5-4165-b84b-2f8c86a07a97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

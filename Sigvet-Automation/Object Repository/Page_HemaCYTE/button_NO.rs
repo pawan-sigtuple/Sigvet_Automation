@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_NO</name>
+   <tag></tag>
+   <elementGuidId>32ee4c6a-9131-4134-a20e-db7a82f5bf19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'NO' or . = 'NO')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/div[4]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;NO&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>beced6f5-1b8d-4b91-9a73-a51ca1d5484e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-64 h-9 bg-[#AD4183] text-white rounded-full cursor-pointer text-sm</value>
+      <webElementGuid>95be10a2-b39b-4bc1-86e8-0be6b1a3eb17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NO</value>
+      <webElementGuid>c5bdaeeb-32a4-424c-8c4b-17aab211997a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-1000&quot;]/div[@class=&quot;bg-white rounded-lg shadow-lg w-[300px] h-auto p-6  flex flex-col justify-evenly&quot;]/div[@class=&quot;flex gap-2 items-center&quot;]/button[@class=&quot;w-64 h-9 bg-[#AD4183] text-white rounded-full cursor-pointer text-sm&quot;]</value>
+      <webElementGuid>8c9d7daa-7e67-476d-b22b-b65d912b8814</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/div[4]/button</value>
+      <webElementGuid>57b9781a-a391-4cc4-99c2-e020549e63a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to cancel the test ?'])[1]/following::button[1]</value>
+      <webElementGuid>82d036c8-92d9-4d4d-8acf-1df0f5986bba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/following::button[1]</value>
+      <webElementGuid>b5e97d8e-9086-48a3-bf19-d4bf9d844e17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YES'])[1]/preceding::button[1]</value>
+      <webElementGuid>3ca87783-8d08-4064-a3ef-a6a37cd4536b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='NO']/parent::*</value>
+      <webElementGuid>39e72cf5-3b0e-4da4-bb2b-2d1c0a367b27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button</value>
+      <webElementGuid>128e7b0f-93c3-488f-89bd-9cc39fc98028</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'NO' or . = 'NO')]</value>
+      <webElementGuid>1e39ebb3-980c-444c-b215-9a119b78b5b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to proceed without slot2 ?'])[1]/following::button[1]</value>
+      <webElementGuid>49e986c6-3ba5-4fc6-93d4-80d1f1e1222c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

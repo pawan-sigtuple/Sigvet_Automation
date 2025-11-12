@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EO-013-Verify canceling the test for individuals slot</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59ff7afc-ca49-4bdc-907e-441d8305cec6</testCaseGuid>
+</TestCaseEntity>

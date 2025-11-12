@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Are you confirming that you want to can_bcb4a5</name>
+   <tag></tag>
+   <elementGuidId>ec3bb9aa-ac00-4bc8-a3a0-f9cbd5c7cf53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.overflow-x-auto</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Are you confirming that you want to cancel the following test(s)?SlotAccession n&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b9d98aa8-6b46-4a42-8dc2-03b4172cf9f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overflow-x-auto</value>
+      <webElementGuid>e61af71b-1996-46df-a5ad-78a514b17339</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Are you confirming that you want to cancel the following test(s)?SlotAccession noPet name1111charli2777jerry</value>
+      <webElementGuid>d66602d7-ff4a-4697-9ae8-1defb879c834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-tertiary rounded-lg shadow-lg w-[20%] md:w-[26%] max-w-[28%] h-fit min-h-[18vh] max-h-[30vh] p-6 md:p-16&quot;]/div[@class=&quot;text-center text-[10px] mb-5 md:text-standard sm:text-[10px] md:h-auto&quot;]/div[@class=&quot;overflow-x-auto&quot;]</value>
+      <webElementGuid>39038a6f-7180-4ec8-84c2-84ebed244743</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/div[3]/div</value>
+      <webElementGuid>266e977a-a074-45a8-9c0f-9e751234b490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm to cancel'])[1]/following::div[2]</value>
+      <webElementGuid>4729de19-1903-4a57-96a3-6cc1b667cbff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::div[6]</value>
+      <webElementGuid>8e87588f-edf8-49fe-b69a-1165e5c1fec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div</value>
+      <webElementGuid>6d21e44e-f9bc-483d-a6d8-36cc40f08dee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Are you confirming that you want to cancel the following test(s)?SlotAccession noPet name1111charli2777jerry' or . = 'Are you confirming that you want to cancel the following test(s)?SlotAccession noPet name1111charli2777jerry')]</value>
+      <webElementGuid>d53e7adc-a45e-43e3-8ac2-42d148e382a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

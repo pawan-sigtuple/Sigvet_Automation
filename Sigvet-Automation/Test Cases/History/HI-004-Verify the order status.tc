@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HI-004-Verify the order status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e3a46dd7-ab6d-4250-8686-e56b9116c164</testCaseGuid>
+</TestCaseEntity>

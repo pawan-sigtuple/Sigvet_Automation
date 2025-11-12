@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HI-003-Verify View report functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d11953f-70ed-46a3-a7bf-22f7fa9f1c9b</testCaseGuid>
+</TestCaseEntity>

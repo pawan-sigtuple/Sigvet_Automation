@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pet NametAccession Number6Speciescanine_0e3072</name>
+   <tag></tag>
+   <elementGuidId>606fabc6-a9e4-46e0-a644-2688a0c5b83f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Pet NametAccession Number6SpeciescanineNucleus StatusN/A' or . = 'Pet NametAccession Number6SpeciescanineNucleus StatusN/A')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Pet NametAccession Number6SpeciescanineNucleus StatusN/A$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>399cd7b6-caef-46c4-a70e-726a87921731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-row justify-center items-center bg-white w-[560px] h-[56px] mt-[24px]</value>
+      <webElementGuid>f232ebdd-6fef-46dc-aa92-66fade7d9f53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pet NametAccession Number6SpeciescanineNucleus StatusN/A</value>
+      <webElementGuid>170e3ab3-0b85-4b0b-9747-78cb97f7fe2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white w-[560px] h-[56px] mt-[24px]&quot;]</value>
+      <webElementGuid>c0f7bec2-e7c9-40c3-8a84-aa6c014b22eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]</value>
+      <webElementGuid>b27f3c46-2579-442c-9bff-f2fc10994765</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::div[1]</value>
+      <webElementGuid>835282fc-2897-4c3b-8be2-0aa4562e6ea1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::div[6]</value>
+      <webElementGuid>8f0ef8ef-df6a-4f80-9159-d8d1f1d0914b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]</value>
+      <webElementGuid>d079377f-8db5-4b09-9583-da4714772ffb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pet NametAccession Number6SpeciescanineNucleus StatusN/A' or . = 'Pet NametAccession Number6SpeciescanineNucleus StatusN/A')]</value>
+      <webElementGuid>e5b40395-712d-4b41-a7ec-1cc57fca42a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>2eb468bf-11d3-4fd2-81a8-09b52af149af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::div[2]</value>
+      <webElementGuid>f2c4a478-f4fe-4e9a-a0d6-4e1c2d251344</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::div[7]</value>
+      <webElementGuid>6b8a294f-3068-450c-9508-1e5f18a2bf8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div</value>
+      <webElementGuid>b5f769a4-687f-4ea9-8794-0adc677c4472</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

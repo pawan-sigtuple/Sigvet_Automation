@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Hematology_w-full h-100 pl-10 gap-20p_546fef</name>
+   <tag></tag>
+   <elementGuidId>738586db-8bc4-4022-8a42-eb1029128f87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = 'Search by accession number or pet name']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Search by accession number or pet name&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1bb3f120-b2f7-44fa-b515-f6c61527d4d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-[100%] pl-10 gap-[20px] text-black text-sm</value>
+      <webElementGuid>884ba1d9-71e5-4ae3-8d79-66b112625613</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search by accession number, pet name</value>
+      <webElementGuid>cdf8d42d-036f-46f7-8977-eb952c124ff3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed top-[71px] left-[10px] w-full h-auto&quot;]/div[@class=&quot;w-full min-h-[47.69px] gap-[8px] flex&quot;]/div[@class=&quot;w-[90%] min-h-[47.69px] relative&quot;]/input[@class=&quot;w-full h-[100%] pl-10 gap-[20px] text-black text-sm&quot;]</value>
+      <webElementGuid>b43c7453-995e-4464-933f-580ddc10cc51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>dbb1b5fd-0119-4599-842b-4c02e8607386</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/input</value>
+      <webElementGuid>a83d7fee-99b2-4983-ae78-13dc421618d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>ca7e8704-292f-4404-8000-dbd409922872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search by accession number or pet name']</value>
+      <webElementGuid>35b90179-78b5-4e53-9f6e-c6873803594a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

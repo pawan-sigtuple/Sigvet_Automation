@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_HemaCYTEHematology1234 PMMar 17, 2025Pr_65a49c</name>
+   <tag></tag>
+   <elementGuidId>9487698d-c2cf-491d-bcc5-5e78b3e37fa5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = concat(&quot;HemaCYTEHematology12:34 PMMar 17, 2025Prepare the cartridgesSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline!Note:1. Prepare the cartridges as per the instructions2. Select &quot; , &quot;'&quot; , &quot;Next&quot; , &quot;'&quot; , &quot; to eject the tray loader CANCELNEXT&quot;) or . = concat(&quot;HemaCYTEHematology12:34 PMMar 17, 2025Prepare the cartridgesSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline!Note:1. Prepare the cartridges as per the instructions2. Select &quot; , &quot;'&quot; , &quot;Next&quot; , &quot;'&quot; , &quot; to eject the tray loader CANCELNEXT&quot;))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gradient</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;HemaCYTEHematology12:34 PMMar 17, 2025Prepare the cartridgesSlot1Pet NameAccessi&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8fec249a-8ff3-4a21-bf18-36de30639aad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gradient</value>
+      <webElementGuid>7fc83b83-bf96-4dbf-a73f-ae4ac496a7cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HemaCYTEHematology12:34 PMMar 17, 2025Prepare the cartridgesSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline!Note:1. Prepare the cartridges as per the instructions2. Select 'Next' to eject the tray loader CANCELNEXT</value>
+      <webElementGuid>e98b9da0-8100-4d70-8067-581b69cc8eaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]</value>
+      <webElementGuid>70789382-e5c1-48b3-949c-fc40e27eb80f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div</value>
+      <webElementGuid>fdf871d8-3fc3-4480-bd18-0de7a7e19c33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>24f9e0f5-4b9d-4765-8b98-acff33b72c77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;HemaCYTEHematology12:34 PMMar 17, 2025Prepare the cartridgesSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline!Note:1. Prepare the cartridges as per the instructions2. Select &quot; , &quot;'&quot; , &quot;Next&quot; , &quot;'&quot; , &quot; to eject the tray loader CANCELNEXT&quot;) or . = concat(&quot;HemaCYTEHematology12:34 PMMar 17, 2025Prepare the cartridgesSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline!Note:1. Prepare the cartridges as per the instructions2. Select &quot; , &quot;'&quot; , &quot;Next&quot; , &quot;'&quot; , &quot; to eject the tray loader CANCELNEXT&quot;))]</value>
+      <webElementGuid>a0c334fd-b956-4492-9ec8-aed8f7379a21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

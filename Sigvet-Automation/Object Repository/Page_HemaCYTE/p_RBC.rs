@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_RBC</name>
+   <tag></tag>
+   <elementGuidId>a9e683c5-a3aa-4fbc-8850-60c8340ff54a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[3]/div/div/div/div[2]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.text-blue-600.font-bold.p-2.ml-2 > p.flex-1.text-start</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;RBC&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f3689a60-1c14-40dd-bf1d-16b1c35684e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-1 text-start</value>
+      <webElementGuid>0bf0cf2b-7941-4f94-a942-61911393ddf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RBC</value>
+      <webElementGuid>919af663-932f-4ac1-8e92-e4c31272274f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row w-full&quot;]/div[@class=&quot;w-2/3 p-2&quot;]/div[@class=&quot;w-[353px] mt-[10px]&quot;]/div[@class=&quot;w-[353px] h-[508px] bg-white border overflow-hidden&quot;]/div[@class=&quot;overflow-y-auto max-h-[480px] pb-2&quot;]/div[@class=&quot;flex text-blue-600 font-bold p-2 ml-2&quot;]/p[@class=&quot;flex-1 text-start&quot;]</value>
+      <webElementGuid>cf41d472-69e3-400e-903b-52cdaba55fb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[3]/div/div/div/div[2]/div/p</value>
+      <webElementGuid>54c70b53-4388-49be-8e0f-f31f52234ad0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[14]</value>
+      <webElementGuid>c9276c91-1aee-4621-8c5f-23208f86b7e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::p[14]</value>
+      <webElementGuid>e7f0f012-b80b-4364-96c0-8d14c2adeae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='RBC']/parent::*</value>
+      <webElementGuid>37dedf9c-9e1d-4150-8aee-37a19d62054a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/p</value>
+      <webElementGuid>db9240de-c2cb-49b8-83f9-2e68445388ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'RBC' or . = 'RBC')]</value>
+      <webElementGuid>3d1e6e5f-64cb-4f2c-a3d4-58a844167e0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

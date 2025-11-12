@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EO-012-Verify the Status of the Order being Executed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5cdd18b1-1711-4326-b508-6ac5b0f75e85</testCaseGuid>
+</TestCaseEntity>

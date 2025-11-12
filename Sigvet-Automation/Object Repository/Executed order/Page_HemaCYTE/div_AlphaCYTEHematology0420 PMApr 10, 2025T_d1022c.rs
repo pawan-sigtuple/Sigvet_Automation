@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AlphaCYTEHematology0420 PMApr 10, 2025T_d1022c</name>
+   <tag></tag>
+   <elementGuidId>82bad836-1a6b-4899-95e6-8f1a9dcd4ae9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = concat(&quot;AlphaCYTEHematology04:20 PMApr 10, 2025Test execution completedSlot 1Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedSlot 2Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedDONE!Note:1. Remove the tray2. Select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot; , &quot; to return to home screen&quot;) or . = concat(&quot;AlphaCYTEHematology04:20 PMApr 10, 2025Test execution completedSlot 1Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedSlot 2Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedDONE!Note:1. Remove the tray2. Select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot; , &quot; to return to home screen&quot;))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gradient</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;AlphaCYTEHematology04:20 PMApr 10, 2025Test execution completedSlot 1Pet nameAcc&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c5f2e4ff-9558-467a-b5f7-20e744b1f158</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gradient</value>
+      <webElementGuid>093ebf86-d13c-490e-bedd-bbb64f60fa31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AlphaCYTEHematology04:20 PMApr 10, 2025Test execution completedSlot 1Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedSlot 2Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedDONE!Note:1. Remove the tray2. Select 'Done' to return to home screen</value>
+      <webElementGuid>9936afdf-67c5-4e6b-bca3-e1019dd6a1f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]</value>
+      <webElementGuid>bd19b7d3-7856-4983-adee-de577ba8698f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div</value>
+      <webElementGuid>b4330bf3-f7e2-4275-a7d8-b84423565312</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>9dcf91c4-3536-4ae5-b739-fbebfbadd9b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;AlphaCYTEHematology04:20 PMApr 10, 2025Test execution completedSlot 1Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedSlot 2Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedDONE!Note:1. Remove the tray2. Select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot; , &quot; to return to home screen&quot;) or . = concat(&quot;AlphaCYTEHematology04:20 PMApr 10, 2025Test execution completedSlot 1Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedSlot 2Pet nameAccession numberSpeciesFelineCanineVIEW REPORT Test completedDONE!Note:1. Remove the tray2. Select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot; , &quot; to return to home screen&quot;))]</value>
+      <webElementGuid>25758181-8d9b-40f5-b17f-f2b35ac9ffab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

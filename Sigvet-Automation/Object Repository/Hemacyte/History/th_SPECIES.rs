@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_SPECIES</name>
+   <tag></tag>
+   <elementGuidId>84673af8-c3f4-45f7-81cd-37fa532d05fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//th[(text() = 'SPECIES' or . = 'SPECIES')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;SPECIES&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>3dda68b3-4262-48ef-827f-7733297a0c09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[12px] text-start whitespace-wrap px-3 py-1 text-black</value>
+      <webElementGuid>001e7f02-6e87-4d10-ac2f-331299304dae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SPECIES</value>
+      <webElementGuid>eaf6be2a-b858-4333-a431-2f1a9aaf402d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;max-h-[700px] overflow-y-auto&quot;]/table[@class=&quot;w-full border-separate border-spacing-y-1&quot;]/thead[@class=&quot;sticky top-0 bg-white&quot;]/tr[@class=&quot;h-[50px] bg-white&quot;]/th[@class=&quot;text-[12px] text-start whitespace-wrap px-3 py-1 text-black&quot;]</value>
+      <webElementGuid>16f20beb-4829-495a-87fa-fb281fcdd178</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/table/thead/tr/th[3]</value>
+      <webElementGuid>f7328728-64b5-4e25-bac6-627058f7e6e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PET NAME'])[1]/following::th[1]</value>
+      <webElementGuid>93a4d1ed-6710-4bad-bbc8-e1ddccbc0e09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACCESSION NUMBER'])[1]/following::th[2]</value>
+      <webElementGuid>fddba0d9-0387-4358-8e91-e823eff1b086</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ORDER STATUS'])[1]/preceding::th[1]</value>
+      <webElementGuid>5b0f1d6a-9fb0-45b1-8f44-a6ecd069ba5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REPORT DATE'])[1]/preceding::th[2]</value>
+      <webElementGuid>a002c317-a51b-417d-a640-60d6c25cde71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SPECIES']/parent::*</value>
+      <webElementGuid>755f3c60-2fd5-43f6-8e2a-5049a04b8309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[3]</value>
+      <webElementGuid>43fcb6c9-4ceb-436e-a645-f958b386faa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'SPECIES' or . = 'SPECIES')]</value>
+      <webElementGuid>c3b8d188-5559-46aa-8030-fbed4f5b3ef6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Filter by_svg-inline--fa fa-xmark w-20p_a4cbe3 (1)</name>
+   <tag></tag>
+   <elementGuidId>e0bea85f-57a7-430d-a7d9-0961527734cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Filter by$/ >> svg</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>a47aab49-00b3-404f-badb-825061fbb9d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>5bf2c585-4f15-44dd-ab65-2d6616a563a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>75845ae0-6395-4e28-a829-592959c3d896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-prefix</name>
+      <type>Main</type>
+      <value>fas</value>
+      <webElementGuid>a2b272a0-2cab-4023-ac0e-52f6fddc6e4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-icon</name>
+      <type>Main</type>
+      <value>xmark</value>
+      <webElementGuid>e06b3030-e4dd-4b0b-9c94-46ed07d4fb1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-inline--fa fa-xmark w-[20px] h-[20px] cursor-pointer</value>
+      <webElementGuid>ba314404-6931-456f-8cd2-0c56e2a4d177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>c1f4985c-2b82-4846-b3e8-7ee4a9aa828c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>cf4df06b-913d-4022-a3d9-fb21a4baea41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 384 512</value>
+      <webElementGuid>294bd648-ad67-4831-af56-53119069dcbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-0 bg-black bg-opacity-70 w-full h-full flex items-center justify-center z-[3000]&quot;]/div[@class=&quot;bg-white rounded-sm shadow-lg w-[253px] min-h-[457px] flex flex-col justify-around p-5&quot;]/div[@class=&quot;flex justify-between items-center&quot;]/svg[@class=&quot;svg-inline--fa fa-xmark w-[20px] h-[20px] cursor-pointer&quot;]</value>
+      <webElementGuid>7223a27d-3e07-43d4-b43a-c1a23cd2f3fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>04b03cba-7662-424f-8746-988af372f548</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Reports (74)'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>d127f18d-dbf7-418b-b25f-1dd5ef287556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Canine'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>813a3517-530e-48fd-ae9b-1d86d821312e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feline'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>1ae24376-dbd4-4443-8caf-4fd449fb6fdc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Canceled</name>
+   <tag></tag>
+   <elementGuidId>bdd2fefe-1508-48f7-8633-4d20dc24039b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div[4]/div[2]/div/div/div[2]/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Canceled&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>af5aef01-fcdb-44aa-bb59-b7c7a5d4beb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-lg font-semibold md:text-[1.9rem]</value>
+      <webElementGuid>f2a7faaa-2bbe-4f5c-9382-22e1c1c86b6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Canceled</value>
+      <webElementGuid>f1ba2148-c6cf-4064-9ecc-bd2ebb9a20a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;w-full h-full&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;gradient&quot;]/div[@class=&quot;h-[63.5vh] max-h-auto min-w-[20rem] md:min-w-[36.25rem]  px-4 md:px-[3.13rem]&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-tertiary rounded-lg shadow-lg w-[300px] h-auto flex flex-col justify-evenly md:w-[24%]&quot;]/div[@class=&quot;w-full flex flex-col justify-center items-center h-auto gap-2 md:gap-10 p-[2.28rem]&quot;]/div[2]/h1[@class=&quot;text-lg font-semibold md:text-[1.9rem]&quot;]</value>
+      <webElementGuid>8b7e1d60-0ff8-4db6-ba6d-e6a3e7693e8a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[4]/div[2]/div/div/div[2]/h1</value>
+      <webElementGuid>65b94be3-bb68-461f-9847-baa4f264fb52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[10]/following::h1[1]</value>
+      <webElementGuid>e4204afd-3ba6-4fed-b41a-9adddc957be5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sep 15, 2025 04:39 PM'])[1]/following::h1[1]</value>
+      <webElementGuid>97d10427-24e0-4017-8d19-13426cbaac8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h1[1]</value>
+      <webElementGuid>082c70cc-e3b0-4391-93d4-cec29323d1f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div[2]/h1</value>
+      <webElementGuid>5a076c78-a29a-47bf-89ef-028b1f14ae1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Canceled' or . = 'Canceled')]</value>
+      <webElementGuid>97ae39b1-0384-4602-b554-bb9df3470fd4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

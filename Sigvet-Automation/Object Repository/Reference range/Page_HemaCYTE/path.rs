@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>a846182c-6800-4c97-ad56-e9cc9bc3c460</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(3) > button:nth-child(9)</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>a85d43c4-4f53-4115-8c9d-50603c440584</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>761b001a-871b-409a-8fd1-bd4de2d9ef26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M576 128c0-35.3-28.7-64-64-64L205.3 64c-17 0-33.3 6.7-45.3 18.7L9.4 233.4c-6 6-9.4 14.1-9.4 22.6s3.4 16.6 9.4 22.6L160 429.3c12 12 28.3 18.7 45.3 18.7L512 448c35.3 0 64-28.7 64-64l0-256zM271 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z</value>
+      <webElementGuid>c160c2bb-b3e0-4912-99d2-ff42a552d51f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;w-[95%] h-[80vh]  bg-primary p-8 md:p-16 md:m-10&quot;]/div[@class=&quot;fixed   bottom-0 left-0 w-full  min-h-[302px] md:h-[614px] lg:h-[30vh] bg-black z-50 py-1 md:p-2 md:gap-[1.8rem]&quot;]/div[2]/div[@class=&quot;flex justify-center gap-[0.125rem]&quot;]/button[@class=&quot;bg-[#484747] text-white min-w-[13%] h-[58px] md:w-[172px] md:h-[114px] md:text-[3.8rem] lg:text-[4rem] rounded-[8px] gap-[2px] font-semibold transition-all duration-150  active:bg-[#2a2a2a] flex items-center justify-center&quot;]/svg[@class=&quot;svg-inline--fa fa-delete-left w-6 h-6 md:w-12 md:h-12&quot;]/path[1]</value>
+      <webElementGuid>ae0e5448-b668-440c-837a-1ed1dc4a75eb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

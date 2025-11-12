@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ItemResultUnitRange</name>
+   <tag></tag>
+   <elementGuidId>b6531f12-474c-4e96-8eae-7341ba77b832</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'ItemResultUnitRange' or . = 'ItemResultUnitRange')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[3]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.p-2.border-b.border-gray-300.bg-gray-100</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;ItemResultUnitRange&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>73b325fe-2724-4bc8-9d2c-a12e687a2cb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex p-2 border-b border-gray-300 bg-gray-100</value>
+      <webElementGuid>af411eb4-c51b-4975-8de6-eb79f37e12eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ItemResultUnitRange</value>
+      <webElementGuid>64d927e8-df75-4f8d-b8be-dbbc752bf4e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row w-full&quot;]/div[@class=&quot;w-2/3 p-2&quot;]/div[@class=&quot;w-[353px] mt-[10px]&quot;]/div[@class=&quot;w-[353px] h-[508px] bg-white border overflow-hidden&quot;]/div[@class=&quot;flex p-2 border-b border-gray-300 bg-gray-100&quot;]</value>
+      <webElementGuid>04b7d120-f13e-42f9-b508-0b3250768f76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[3]/div/div/div/div</value>
+      <webElementGuid>67f6cddb-7312-4bf9-9ae2-67830951c59f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::div[11]</value>
+      <webElementGuid>54476feb-7a1c-458e-8a83-7530123bf92e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::div[16]</value>
+      <webElementGuid>cea874cb-be76-4ca5-af51-361814ca658e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/div/div/div/div</value>
+      <webElementGuid>783b47e0-14b1-47e5-8e38-02b20781df12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ItemResultUnitRange' or . = 'ItemResultUnitRange')]</value>
+      <webElementGuid>3e336800-3593-4582-903c-389c670b0b12</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_NA</name>
+   <tag></tag>
+   <elementGuidId>9f50e560-8160-4da7-b649-165041073638</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'N/A' or . = 'N/A')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/table/tbody/tr/td[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>td:nth-child(6) >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>fec44c48-0915-4968-9539-23e538170ad4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-1 text-[12px] text-start cursor-pointer</value>
+      <webElementGuid>6c58a0ce-354e-4c6a-a4b6-a49972186c23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>N/A</value>
+      <webElementGuid>0a89610b-ce8a-4094-8ef7-d5445d97fae7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;max-h-[700px] overflow-y-auto&quot;]/table[@class=&quot;w-full border-separate border-spacing-y-1&quot;]/tbody[1]/tr[@class=&quot;h-[50px] bg-white&quot;]/td[@class=&quot;px-3 py-1 text-[12px] text-start cursor-pointer&quot;]</value>
+      <webElementGuid>869991c5-166a-48b3-8e32-38ab3aa5ddb7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/table/tbody/tr/td[6]</value>
+      <webElementGuid>45f7fd86-be81-460b-9d59-05e265781882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mar 17, 2025 08:54 AM (PCT)'])[1]/following::td[1]</value>
+      <webElementGuid>28225af0-7643-4b9d-a996-4a5fc426f881</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[1]/following::td[2]</value>
+      <webElementGuid>bcbf602c-146a-4d2e-8caa-0a69f2a9ef98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gg'])[1]/preceding::td[1]</value>
+      <webElementGuid>e675846a-66a6-43be-871e-5655008272fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]</value>
+      <webElementGuid>1abc1ee6-cd37-48ee-a882-b736d8b8d0f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'NA' or . = 'NA')]</value>
+      <webElementGuid>5ac252ae-7378-4a77-8e9d-979f93e74bee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

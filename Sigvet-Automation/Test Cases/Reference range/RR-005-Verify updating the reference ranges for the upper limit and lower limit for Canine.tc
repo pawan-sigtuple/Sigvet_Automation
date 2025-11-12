@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RR-005-Verify updating the reference ranges for the upper limit and lower limit for Canine</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>765e40ee-1e2d-4d7c-a58a-8ba86324ad70</testCaseGuid>
+</TestCaseEntity>

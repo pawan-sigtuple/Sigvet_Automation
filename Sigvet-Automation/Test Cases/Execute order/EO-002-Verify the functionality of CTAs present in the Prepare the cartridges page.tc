@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EO-002-Verify the functionality of CTAs present in the Prepare the cartridges page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e75ac48-72b9-407e-93e8-b5d32af2deb9</testCaseGuid>
+</TestCaseEntity>

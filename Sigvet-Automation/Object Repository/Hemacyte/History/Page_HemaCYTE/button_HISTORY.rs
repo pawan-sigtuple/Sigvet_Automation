@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_HISTORY</name>
+   <tag></tag>
+   <elementGuidId>e9d9dc48-96ff-4ce8-9554-4b34eae72fe1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'HISTORY' or . = 'HISTORY')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/button[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;HISTORY&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>af54d44c-9195-4c69-b191-370d25ab8a59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-white border-none w-36 h-9 rounded-full text-xs font-semibold</value>
+      <webElementGuid>7d5395bb-a937-477c-96d1-148fb97a452c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HISTORY</value>
+      <webElementGuid>b443f2a6-3897-4a42-8d9c-a6058afcf301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed bottom-[60px] left-1/2 transform -translate-x-1/2 w-[535px] max-w-[100vw] h-[37px] flex justify-between items-center&quot;]/button[@class=&quot;bg-white border-none w-36 h-9 rounded-full text-xs font-semibold&quot;]</value>
+      <webElementGuid>9d2f4b05-895f-4cc6-a907-073477cf7b6e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/button[3]</value>
+      <webElementGuid>525beb96-86ad-4023-9780-cf8607c90d9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SETTINGS'])[1]/following::button[1]</value>
+      <webElementGuid>5a1b303f-559a-4656-ae91-fd696874c1dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MAINTENANCE'])[1]/following::button[2]</value>
+      <webElementGuid>aa10742b-f94c-49eb-bdf2-e2c8ad761499</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter order details'])[1]/preceding::button[1]</value>
+      <webElementGuid>560f3f42-f240-4c8f-b9ea-45aca6715527</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet name'])[1]/preceding::button[1]</value>
+      <webElementGuid>dcc25e85-ad24-4bbd-91ca-66369aaf2f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='HISTORY']/parent::*</value>
+      <webElementGuid>b8ad5866-1d0c-444a-a69b-f7289e001233</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>dd502447-5996-47cc-9b71-fc1548ad6e84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'HISTORY' or . = 'HISTORY')]</value>
+      <webElementGuid>e7d2336e-823a-463a-866b-7fbf9e231d5d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

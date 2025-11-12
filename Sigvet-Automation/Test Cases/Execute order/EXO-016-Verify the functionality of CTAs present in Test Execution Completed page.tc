@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EXO-016-Verify the functionality of CTAs present in Test Execution Completed page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f5380c86-4698-4b0b-8c01-13ca75f8d194</testCaseGuid>
+</TestCaseEntity>

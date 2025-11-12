@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EXO-015-Verify the UI elements on the Test Execution Completed page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15769721-1149-455f-a845-d0cdf8f08909</testCaseGuid>
+</TestCaseEntity>

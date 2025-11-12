@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VR-003-Verify the UI elements on the View report page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dbd6e6ee-c7d0-413b-a6e2-16264646d7d3</testCaseGuid>
+</TestCaseEntity>

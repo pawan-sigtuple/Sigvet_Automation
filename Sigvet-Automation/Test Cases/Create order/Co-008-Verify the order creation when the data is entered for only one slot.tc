@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CO-008-Verify the order creation when the data is entered for only one slot</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37168b72-76e5-4ca0-b150-58ae3a3664e5</testCaseGuid>
+</TestCaseEntity>

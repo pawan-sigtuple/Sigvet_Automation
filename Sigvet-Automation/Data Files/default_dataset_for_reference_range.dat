@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>default_dataset_for_reference_range</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>37fca767-b88c-430e-ad69-8c3d2736d62f</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>RBC 5.10-8.5 4.6-10.2 null 10%5E12%2FL</data>
+   <data>HGB 11-19 8.5-15.3 null g%2FdL</data>
+   <data>MCV 60-76 38-54 null fL</data>
+   <data>MCH 20-27 11.8-18 null pg</data>
+   <data>MCHC 30-38 29-36 null g%2FdL</data>
+   <data>HCT 33-56 26-47 null %25</data>
+   <data>RDW-SD 33.2-46.3 26.4-43.1 null fL</data>
+   <data>WBC 6-17 5.5-19.5 null 10%5E9%2FL</data>
+   <data>NEU+%23 3.62-12.3 3.12-12.58 null 10%5E9%2FL</data>
+   <data>LYM+%23 0.83-4.91 0.73-7.86 null 10%5E9%2FL</data>
+   <data>MON+%23 0.14-1.97 0.07-1.36 null 10%5E9%2FL</data>
+   <data>EOS+%23 0.04-1.62 0.06-1.93 null 10%5E9%2FL</data>
+   <data>BAS+%23 0.0-0.12 0.0-0.12 null 10%5E9%2FL</data>
+   <data>NEU+%25 52-81 38-80 null %25</data>
+   <data>LYM+%25 12-33 12-45 null %25</data>
+   <data>MON+%25 2-13 1.0-8.0 null %25</data>
+   <data>EOS+%25 0.5-10 1.0-11 null %25</data>
+   <data>BAS+%25 0.0-0.12 0.0-1.2 null %25</data>
+   <data>PLT 117-490 100-518 null 10%5E9%2FL</data>
+   <data>MPV 8.0-14.1 9.9-16.3 null fL</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Measurand_name</name>
+      <size>20</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Canine</name>
+      <size>20</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Feline</name>
+      <size>20</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Equine</name>
+      <size>20</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>Units</name>
+      <size>20</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

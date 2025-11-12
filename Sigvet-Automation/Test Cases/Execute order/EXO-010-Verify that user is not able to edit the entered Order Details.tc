@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EXO-010-Verify that user is not able to edit the entered Order Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9c02e72-bca8-4fbc-962f-61cd52858905</testCaseGuid>
+</TestCaseEntity>

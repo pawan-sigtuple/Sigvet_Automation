@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RR-001-Verify navigation to the Reference range section</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>593d93ec-776a-4d2e-9dad-a4ba68128ffc</testCaseGuid>
+</TestCaseEntity>

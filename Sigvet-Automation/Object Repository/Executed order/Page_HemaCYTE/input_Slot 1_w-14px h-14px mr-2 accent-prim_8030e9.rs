@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Slot 1_w-14px h-14px mr-2 accent-prim_8030e9</name>
+   <tag></tag>
+   <elementGuidId>d80cdf4e-9ff9-4834-9918-93d8fa7b2f7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=checkbox >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>97ed2474-d387-498b-89ba-f5cfdff0761a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>21575fc0-8109-4e9c-9cfd-4a3fe836c732</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[14px] h-[14px] mr-2 accent-primary md:w-[2rem] md:h-[2rem] ml-2</value>
+      <webElementGuid>71a3bb53-8be4-44ed-bf71-24a0bbc33177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-white rounded-lg shadow-lg w-[360px] h-[245px] p-6 flex flex-col justify-evenly md:w-[50%] md:h-[25vh]&quot;]/div[@class=&quot;flex w-full justify-center items-center&quot;]/div[@class=&quot;mr-[10px] flex justify-center items-center w-36 h-20&quot;]/input[@class=&quot;w-[14px] h-[14px] mr-2 accent-primary md:w-[2rem] md:h-[2rem] ml-2&quot;]</value>
+      <webElementGuid>1f59a328-7a64-474e-b040-aaa244d335b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[2]</value>
+      <webElementGuid>17ee2ecd-fc04-4152-b350-55ca4b52f485</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div/div[3]/div[2]/input</value>
+      <webElementGuid>de6dfc92-cdba-4ee7-9a12-228f8c0d9c84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/input</value>
+      <webElementGuid>28c6f389-2f68-464f-9fb7-ded923ef89c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>4e183401-cfff-4be5-ac1c-13fd6f40b687</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

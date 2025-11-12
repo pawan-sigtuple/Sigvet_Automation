@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Confirm</name>
+   <tag></tag>
+   <elementGuidId>c98647b4-2e62-4c89-9762-d319fad1b18e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Confirm to cancel' or . = 'Confirm to cancel')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.justify-center.items-center.mb-3.font-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Confirm&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a303c1e5-b97a-441e-bec8-592c2edb986e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex justify-center items-center mb-3 font-bold</value>
+      <webElementGuid>a869cce4-4c00-42a4-ac70-c3f562aa4687</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirm to cancel</value>
+      <webElementGuid>567cceed-9366-4827-a763-19f70d1db367</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-1000&quot;]/div[@class=&quot;bg-white rounded-lg shadow-lg w-[300px] h-auto p-6  flex flex-col justify-evenly&quot;]/div[@class=&quot;flex justify-center items-center mb-3 font-bold&quot;]</value>
+      <webElementGuid>ce783d24-d342-4ccb-a53a-38ad7981e669</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/div[2]</value>
+      <webElementGuid>6d73eeeb-8779-483f-85c9-61cbfa7d4ce5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEXT'])[1]/following::div[4]</value>
+      <webElementGuid>aa7fa4ff-61ed-4753-b1eb-0bf77d9ac1dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::div[4]</value>
+      <webElementGuid>1fae6b6f-326a-4b1b-a44c-67c6b7b78de3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to cancel the test ?'])[1]/preceding::div[1]</value>
+      <webElementGuid>d414f318-5f94-4c9d-aaac-9bd59366659c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[1]/preceding::div[2]</value>
+      <webElementGuid>6f1b4795-aa5c-42a9-93bf-9d3dfe78f43b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
+      <webElementGuid>0437a8ea-d4b0-4468-a827-1c59405bbfb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]</value>
+      <webElementGuid>af94de15-e671-45df-853b-cfc007b0da26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Confirm' or . = 'Confirm')]</value>
+      <webElementGuid>ab4e5cbc-6114-4113-a473-4d27a6b83ff1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RR-004-Verify the Default reference range for all species</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5c55469d-2acf-4223-a103-bf2fac314210</testCaseGuid>
+</TestCaseEntity>

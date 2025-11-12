@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_tu</name>
+   <tag></tag>
+   <elementGuidId>c10c0f1a-02e3-454a-918e-7c4c0518458f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'tu' or . = 'tu')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/table/tbody/tr[70]/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;tu&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a8bf286d-53c6-4c2a-a4f0-885e0aae1272</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-1 text-[12px] text-start text-black mr-6 cursor-pointer break-words whitespace-normal max-w-[120px]</value>
+      <webElementGuid>25627cea-5ef0-4706-afd1-7904139f7c50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>tu</value>
+      <webElementGuid>f327e73f-e673-4b60-aaf0-e593257969ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;max-h-[700px] overflow-y-auto&quot;]/table[@class=&quot;w-full border-separate border-spacing-y-1&quot;]/tbody[1]/tr[@class=&quot;h-[50px] bg-white&quot;]/td[@class=&quot;px-3 py-1 text-[12px] text-start text-black mr-6 cursor-pointer break-words whitespace-normal max-w-[120px]&quot;]</value>
+      <webElementGuid>9b573f92-c6fa-46c5-85d5-6329badb34f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/table/tbody/tr[70]/td</value>
+      <webElementGuid>05f6c19f-738b-4c77-8178-56a1323eecc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[69]/following::td[1]</value>
+      <webElementGuid>67c1f249-be34-42f3-b405-adb6de5d1ad6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feb 28, 2025 06:51 PM (PCT)'])[1]/following::td[2]</value>
+      <webElementGuid>15e4b259-8c71-4088-8271-b8ebc1f26638</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feline'])[28]/preceding::td[2]</value>
+      <webElementGuid>aa8d310c-6fd7-49f0-a575-36c2ec0ab19b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[70]/preceding::td[3]</value>
+      <webElementGuid>e321abd9-97fd-4878-b79f-ef2fff24896a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='tu']/parent::*</value>
+      <webElementGuid>bded7616-e057-4133-82df-eaf5fac0ddae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[70]/td</value>
+      <webElementGuid>771f4c60-49ef-4452-a725-12a19a92cb8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'tu' or . = 'tu')]</value>
+      <webElementGuid>bb1daad8-c085-4706-b67f-00f44cbcb58d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

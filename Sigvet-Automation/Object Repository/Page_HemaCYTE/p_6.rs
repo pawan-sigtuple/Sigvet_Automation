@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_6</name>
+   <tag></tag>
+   <elementGuidId>d287189b-8642-4a85-b038-2250a027e1ce</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div[2]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(2) > p:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '6' or . = '6')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>p >> internal:has-text=/^6$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d906c06c-2029-44a6-85c8-f05258057598</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>6</value>
+      <webElementGuid>9968e236-40cf-42e1-9dca-dd569329f8de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white w-[560px] h-[56px] mt-[24px]&quot;]/div[@class=&quot;flex justify-between items-center w-[521px] h-[37px]&quot;]/div[2]/p[2]</value>
+      <webElementGuid>fbdb0d0b-05fe-4c06-9f04-d82c13176bc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div[2]/p[2]</value>
+      <webElementGuid>715c4efb-abdb-4c0a-a952-0dd544de8166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[4]</value>
+      <webElementGuid>44767549-0536-4564-b328-35c1d98c7c23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::p[4]</value>
+      <webElementGuid>47ad7688-7cd6-464d-a563-d8bf26de1d6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p[2]</value>
+      <webElementGuid>4f923839-222f-4e04-b3d3-d8cf7d9a8424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '6' or . = '6')]</value>
+      <webElementGuid>272bd3a3-f3b2-416b-b8e3-fadda4e1334a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

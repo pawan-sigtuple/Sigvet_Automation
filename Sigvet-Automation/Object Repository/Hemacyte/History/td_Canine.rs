@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Canine</name>
+   <tag></tag>
+   <elementGuidId>a6192b0e-1161-44d3-a111-23120b5dde6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Canine' or . = 'Canine')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[4]/div/table/tbody/tr[2]/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>tr:nth-child(2) > td:nth-child(3)</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>294e4eed-f8b4-4293-ad3b-f4b6db9f3fb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-3 py-1 text-[12px] text-start text-black cursor-pointer</value>
+      <webElementGuid>3ec85ae8-e57b-44e3-8f8e-fe73d15aea92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Canine</value>
+      <webElementGuid>29a80719-b9e5-48d4-9973-7b65fdc45597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;max-h-[700px] overflow-y-auto&quot;]/table[@class=&quot;w-full border-separate border-spacing-y-1&quot;]/tbody[1]/tr[@class=&quot;h-[50px] bg-white&quot;]/td[@class=&quot;px-3 py-1 text-[12px] text-start text-black cursor-pointer&quot;]</value>
+      <webElementGuid>508b040d-cb4d-4f1e-b529-6e75854513af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/table/tbody/tr[2]/td[3]</value>
+      <webElementGuid>9da54e8f-1792-45a3-9b37-332ff869f67d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gg'])[1]/following::td[2]</value>
+      <webElementGuid>6cc182b6-7060-4970-950e-cf723baa1196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[1]/following::td[3]</value>
+      <webElementGuid>5fb021e4-283a-4793-a78f-35abf3158c68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[2]/preceding::td[1]</value>
+      <webElementGuid>2332a316-dc12-4fde-beb0-8995ed3073ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mar 17, 2025 07:03 AM (PCT)'])[1]/preceding::td[2]</value>
+      <webElementGuid>e97e14fa-1dd1-49c7-a758-611705cea94c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[3]</value>
+      <webElementGuid>174ac4ee-88e9-4a67-97b2-d6c307b216ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Canine' or . = 'Canine')]</value>
+      <webElementGuid>ebd13f62-35b3-4aca-a41d-a4855c2e29fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

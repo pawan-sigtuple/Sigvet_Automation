@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HI-006-Verify the nucleus status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a38657e7-cbf9-4e01-9705-81006c93fb9d</testCaseGuid>
+</TestCaseEntity>

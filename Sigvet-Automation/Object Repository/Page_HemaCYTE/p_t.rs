@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_t</name>
+   <tag></tag>
+   <elementGuidId>10a02b7a-c1cc-4f9c-bb3d-85078bb2f5bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 't' or . = 't')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>p >> internal:has-text=/^t$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>fb89fcd5-b455-4069-bce6-fc40af4dcbe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>t</value>
+      <webElementGuid>4ff0e7a7-2cd6-438b-8d05-c16cc0867ddf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white w-[560px] h-[56px] mt-[24px]&quot;]/div[@class=&quot;flex justify-between items-center w-[521px] h-[37px]&quot;]/div[1]/p[2]</value>
+      <webElementGuid>955506d1-d903-4c1f-a9d1-2595eef2df01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div/p[2]</value>
+      <webElementGuid>28e591f5-d396-4e18-b4a1-8dc364e24b2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[2]</value>
+      <webElementGuid>6df6ce76-5dd4-4815-ac5b-cbfde25c5f0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::p[2]</value>
+      <webElementGuid>3dba4432-63f1-4bdb-bd49-5bf42d8fb83f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>b892446e-7195-4706-b97e-1831627b4d8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 't' or . = 't')]</value>
+      <webElementGuid>f7ff910c-7ec2-4b57-9b86-18851da17906</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

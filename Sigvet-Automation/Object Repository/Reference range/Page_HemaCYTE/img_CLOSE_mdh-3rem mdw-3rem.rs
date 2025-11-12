@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_CLOSE_mdh-3rem mdw-3rem</name>
+   <tag></tag>
+   <elementGuidId>0b3843dc-cbe8-49b8-9098-475e16a4e337</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[5]/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Warning Icon&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>81b9e2ac-e8e8-4b86-985c-cf48e0699817</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20%3e%3cpath%20fillRule='evenodd'%20clipRule='evenodd'%20d='M21.8022%206.27487L21.8022%206.27481C22.7078%204.46314%2025.2921%204.46313%2026.1977%206.27481L26.1978%206.27488L42.817%2039.5267C43.6338%2041.161%2042.4459%2043.084%2040.6192%2043.084H7.38066C5.55408%2043.084%204.36618%2041.1611%205.18302%2039.5267L21.8022%206.27487ZM30.593%204.07622C27.8764%20-1.35871%2020.1235%20-1.35877%2017.4069%204.07623L17.4069%204.0763L0.787721%2037.3282C-1.66287%2042.2313%201.90111%2048%207.38066%2048H40.6192C46.0988%2048%2049.6629%2042.2313%2047.2123%2037.3282L30.5931%204.07629L30.593%204.07622ZM24%2016.0471C25.357%2016.0471%2026.4571%2017.1476%2026.4571%2018.5051V28.3373C26.4571%2029.6948%2025.357%2030.7953%2024%2030.7953C22.643%2030.7953%2021.543%2029.6948%2021.543%2028.3373V18.5051C21.543%2017.1476%2022.643%2016.0471%2024%2016.0471ZM24%2038.1694C25.357%2038.1694%2026.4571%2037.0689%2026.4571%2035.7114C26.4571%2034.3539%2025.357%2033.2534%2024%2033.2534C22.643%2033.2534%2021.543%2034.3539%2021.543%2035.7114C21.543%2037.0689%2022.643%2038.1694%2024%2038.1694Z'%20fill='%23FF8E09'%20/%3e%3c/svg%3e</value>
+      <webElementGuid>0140b779-7b04-4553-981d-48e188ebf6de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Warning Icon</value>
+      <webElementGuid>b6d47357-79db-44fa-b5c5-ddd33016cd41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>md:h-[3rem] md:w-[3rem]</value>
+      <webElementGuid>817b4c05-638f-4799-ae90-acaa19ed8a8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;w-[95%] h-[80vh]  bg-primary p-8 md:p-16 md:m-10&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-tertiary rounded-lg shadow-lg w-[20%] md:w-[26%] max-w-[28%] h-fit min-h-[18vh] max-h-[30vh] p-6 md:p-16&quot;]/div[@class=&quot;flex justify-center mb-3&quot;]/img[@class=&quot;md:h-[3rem] md:w-[3rem]&quot;]</value>
+      <webElementGuid>0949a5c2-3e2d-4282-95e8-67792503d86d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[5]/div/div/img</value>
+      <webElementGuid>f622f448-a690-45ed-94a0-2587ef690682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Warning Icon']</value>
+      <webElementGuid>11e11493-9074-414a-ae1c-cb225127258e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/img</value>
+      <webElementGuid>9df55008-be4c-4be0-bc02-56fe0543ab12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = concat(&quot;data:image/svg+xml,%3csvg%20width=&quot; , &quot;'&quot; , &quot;24&quot; , &quot;'&quot; , &quot;%20height=&quot; , &quot;'&quot; , &quot;24&quot; , &quot;'&quot; , &quot;%20viewBox=&quot; , &quot;'&quot; , &quot;0%200%2048%2048&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;none&quot; , &quot;'&quot; , &quot;%20xmlns=&quot; , &quot;'&quot; , &quot;http://www.w3.org/2000/svg&quot; , &quot;'&quot; , &quot;%20%3e%3cpath%20fillRule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20clipRule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20d=&quot; , &quot;'&quot; , &quot;M21.8022%206.27487L21.8022%206.27481C22.7078%204.46314%2025.2921%204.46313%2026.1977%206.27481L26.1978%206.27488L42.817%2039.5267C43.6338%2041.161%2042.4459%2043.084%2040.6192%2043.084H7.38066C5.55408%2043.084%204.36618%2041.1611%205.18302%2039.5267L21.8022%206.27487ZM30.593%204.07622C27.8764%20-1.35871%2020.1235%20-1.35877%2017.4069%204.07623L17.4069%204.0763L0.787721%2037.3282C-1.66287%2042.2313%201.90111%2048%207.38066%2048H40.6192C46.0988%2048%2049.6629%2042.2313%2047.2123%2037.3282L30.5931%204.07629L30.593%204.07622ZM24%2016.0471C25.357%2016.0471%2026.4571%2017.1476%2026.4571%2018.5051V28.3373C26.4571%2029.6948%2025.357%2030.7953%2024%2030.7953C22.643%2030.7953%2021.543%2029.6948%2021.543%2028.3373V18.5051C21.543%2017.1476%2022.643%2016.0471%2024%2016.0471ZM24%2038.1694C25.357%2038.1694%2026.4571%2037.0689%2026.4571%2035.7114C26.4571%2034.3539%2025.357%2033.2534%2024%2033.2534C22.643%2033.2534%2021.543%2034.3539%2021.543%2035.7114C21.543%2037.0689%2022.643%2038.1694%2024%2038.1694Z&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;%23FF8E09&quot; , &quot;'&quot; , &quot;%20/%3e%3c/svg%3e&quot;) and @alt = 'Warning Icon']</value>
+      <webElementGuid>60b98016-1a11-4161-8764-2fda98c7b28e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

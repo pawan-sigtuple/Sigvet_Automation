@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VR-009-Verify the closing of the report</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f832d2c2-dae5-4bf6-a186-005047f0310e</testCaseGuid>
+</TestCaseEntity>

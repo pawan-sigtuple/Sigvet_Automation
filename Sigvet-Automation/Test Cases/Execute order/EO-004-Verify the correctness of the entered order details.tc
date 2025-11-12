@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EO-004-Verify the correctness of the entered order details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de224757-bf7d-49f1-8c52-de93cb5aab24</testCaseGuid>
+</TestCaseEntity>

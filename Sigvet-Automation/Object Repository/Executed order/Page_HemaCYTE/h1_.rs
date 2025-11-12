@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_</name>
+   <tag></tag>
+   <elementGuidId>62f45e4b-b7eb-4d77-9767-43ce60024d29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = '!' or . = '!')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;!&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>5e39ee18-a88f-47f8-a72b-6ef72e97f592</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-[0.75rem] font-bold</value>
+      <webElementGuid>368a5c20-89b8-4d01-9527-451230bc8169</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>!</value>
+      <webElementGuid>cc2d240a-5565-4b67-a18f-c699a5bb16a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed left-1/2 top-[46.25rem] transform -translate-x-1/2 flex flex-wrap items-start my-4 p-4 border-2 border-black w-full max-w-[34rem] h-auto gap-2.5&quot;]/div[@class=&quot;bg-black text-white rounded-lg w-[1.2rem] h-[1rem] flex items-center justify-center&quot;]/h1[@class=&quot;text-[0.75rem] font-bold&quot;]</value>
+      <webElementGuid>017f2c6f-130c-40d1-8b68-27ccfa5edec4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/h1</value>
+      <webElementGuid>f7eb3a6c-7398-429c-95d3-af4a20ea1619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DONE'])[1]/following::h1[1]</value>
+      <webElementGuid>27ca9468-7a00-47c8-8e95-db850ef8baf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test completed'])[2]/following::h1[1]</value>
+      <webElementGuid>d9233cd2-1514-4f54-ad51-5397af602a33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/preceding::h1[1]</value>
+      <webElementGuid>3e03ab3f-511b-474e-9112-2ed3c5cc5dcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='!']/parent::*</value>
+      <webElementGuid>99922835-f08d-4bcd-a69e-bbc5069a0c28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/h1</value>
+      <webElementGuid>d93964d7-8259-465b-9824-786346f0e7f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = '!' or . = '!')]</value>
+      <webElementGuid>563b10fa-4b6e-4482-98a4-33481e498ddc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

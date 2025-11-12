@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VR-006-Verify the result is displayed for all the measurands</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5dfe6f10-6789-469f-8808-330efb1d5755</testCaseGuid>
+</TestCaseEntity>

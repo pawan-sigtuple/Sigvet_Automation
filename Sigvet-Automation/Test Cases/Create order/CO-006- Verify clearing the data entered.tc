@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CO-006- Verify clearing the data entered</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ba7c29ad-37ca-411d-9043-50e59a1aa16e</testCaseGuid>
+</TestCaseEntity>

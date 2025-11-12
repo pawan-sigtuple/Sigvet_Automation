@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_DONE</name>
+   <tag></tag>
+   <elementGuidId>8efc18fc-62db-49ca-bb0c-8f4b5e6f3ac2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.bg-white.border-none.w-36.h-9.rounded-full.text-xs.text-black.font-semibold</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'DONE' or . = 'DONE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;DONE&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>945db532-61af-4173-a746-601bdb63574c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-white border-none w-36 h-9 rounded-full text-xs text-black font-semibold</value>
+      <webElementGuid>c39c874a-b10f-4318-89d4-ce721f5adec2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DONE</value>
+      <webElementGuid>1da094e5-32ff-43dc-8f05-f13ffd67635c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed bottom-[60px] left-1/2 transform -translate-x-1/2 max-w-[100vw] w-[535px] h-[37px] flex justify-center items-center gap-4&quot;]/button[@class=&quot;bg-white border-none w-36 h-9 rounded-full text-xs text-black font-semibold&quot;]</value>
+      <webElementGuid>07ba9ac2-64e4-4198-a5f0-022218bad677</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/button</value>
+      <webElementGuid>fdd6bbbb-bbcc-459f-93f0-4555cc3fe9e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[2]/following::button[1]</value>
+      <webElementGuid>4953c136-f771-4a9f-800a-9704bf52e5b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession number'])[2]/following::button[1]</value>
+      <webElementGuid>09ee1377-a2b6-4923-8200-7011d859cd04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/preceding::button[1]</value>
+      <webElementGuid>cdde0bec-7021-4493-aa8e-1d15623fcb88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/preceding::button[1]</value>
+      <webElementGuid>f79ad28a-72e6-49b2-a55b-e94d0eb05ac9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DONE']/parent::*</value>
+      <webElementGuid>2cde0f9f-13e6-440d-aa8e-a658b7e464c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>ab7944f1-8b03-49b6-9f75-82537730d54e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'DONE' or . = 'DONE')]</value>
+      <webElementGuid>e3e24d53-dbc0-46d0-b989-60404664311e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test canceled'])[2]/following::button[1]</value>
+      <webElementGuid>a74f70a7-f1c7-468c-8114-63c14976a651</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feline'])[1]/following::button[1]</value>
+      <webElementGuid>fefe193d-a4d1-4c57-bd6d-c9d3da684dbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>fe722ce9-6ebb-4cf0-8c8f-25cfdb09df3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test completed'])[2]/following::button[1]</value>
+      <webElementGuid>69fdf3e8-95d3-4485-8cbc-9ef937e33e8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW REPORT'])[2]/following::button[1]</value>
+      <webElementGuid>e7443761-4039-4aeb-9e73-b7c7616a522c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

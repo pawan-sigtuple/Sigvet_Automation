@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_1. Please place the tray into the tray ho_2a78bf</name>
+   <tag></tag>
+   <elementGuidId>ac76a215-226d-4488-b32c-b165278f2c7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;1. Please place the tray into the tray holder and ensure it is seated properly&quot;</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>9fd5a015-188c-402d-adfb-4ace09c15cd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm md:text-base text-black mb-2</value>
+      <webElementGuid>e0096019-e636-4d85-90ff-49b6704f0173</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1. Please place the tray into the tray holder and ensure it is seated properly</value>
+      <webElementGuid>ccda2cf3-d72a-4864-b2b4-f8545f685285</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed left-1/2 top-[46.25rem] transform -translate-x-1/2 flex flex-wrap items-start my-4 p-4 border-2 border-black w-full max-w-[34rem] h-auto gap-2.5&quot;]/div[@class=&quot;flex-1&quot;]/p[@class=&quot;text-sm md:text-base text-black mb-2&quot;]</value>
+      <webElementGuid>62019e03-b192-4c67-a4a5-8486c9555296</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p</value>
+      <webElementGuid>06637891-6f47-4716-8b07-454f9ac876e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[1]</value>
+      <webElementGuid>ccace75e-6376-4dd6-b99f-434ffdc7e465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[1]</value>
+      <webElementGuid>fe7609ac-c094-4166-b1c8-6ecf64233197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::p[2]</value>
+      <webElementGuid>34750138-74f8-47ce-b174-00dc8e0d2232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EXECUTE'])[1]/preceding::p[2]</value>
+      <webElementGuid>e3d49e9f-ea14-425f-97f8-de74a62a31d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
+      <webElementGuid>0179abec-e0b9-44fc-8367-abe73e94b16c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/p</value>
+      <webElementGuid>23c3fd8a-932c-4e6e-be18-c150365bfb39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '1. Please place the tray into the tray holder and ensure it is seated properly' or . = '1. Please place the tray into the tray holder and ensure it is seated properly')]</value>
+      <webElementGuid>1242a06c-06c8-46f1-8a05-223a9e2dbc64</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AlphaCyte_fixed bottom-1 left-12 transf_401963</name>
+   <tag></tag>
+   <elementGuidId>c93ae899-48e5-4d2e-8412-74a1dc25fc56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.fixed >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>458b26a6-2e31-4e57-a997-75bf125bdf75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fixed bottom-[1%] left-1/2 transform -translate-x-1/2 w-full flex justify-center items-center h-[12vh] flex flex-col p-6 md:p-12</value>
+      <webElementGuid>644ae60e-e7d8-4293-9e3e-38939e5213b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed bottom-[1%] left-1/2 transform -translate-x-1/2 w-full flex justify-center items-center h-[12vh] flex flex-col p-6 md:p-12&quot;]</value>
+      <webElementGuid>ec7c7a7b-56f0-449f-9905-18ae1ba8fb29</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div</value>
+      <webElementGuid>587b424e-8148-4ef9-a86b-72e299357a23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AlphaCyte'])[1]/following::div[5]</value>
+      <webElementGuid>4c499c2c-7aa7-45c6-84ad-aa1df60063d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test execution completed'])[1]/preceding::div[2]</value>
+      <webElementGuid>b68c04ec-5210-43b4-93ad-b65f2589c6d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet name'])[1]/preceding::div[4]</value>
+      <webElementGuid>5050b273-dcf5-4471-8910-229e0b7eff90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>97a2533c-be06-4a34-bf0b-0921e2cb4f0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

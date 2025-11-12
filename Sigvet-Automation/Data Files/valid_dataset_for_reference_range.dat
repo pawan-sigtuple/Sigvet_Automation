@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>valid_dataset_for_reference_range</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>05882f06-a1f6-4b2b-80c5-e889b6ffaaf2</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>0 0.1</data>
+   <data>0.20 0.99</data>
+   <data>1 1.01</data>
+   <data>1.20 1.99</data>
+   <data>21 21.01</data>
+   <data>21.19 99.90</data>
+   <data>90 100</data>
+   <data>85 100.00</data>
+   <data>100.01 222.10</data>
+   <data>900.00 999.99</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Lower_limit</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Upper_limit</name>
+      <size>10</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

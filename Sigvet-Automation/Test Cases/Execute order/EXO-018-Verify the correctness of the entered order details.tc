@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EXO-018-Verify the correctness of the entered order details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7609a62e-5de9-4a17-848f-8e75ba8e17d2</testCaseGuid>
+</TestCaseEntity>

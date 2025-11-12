@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Scan_Cancel_Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47c5187c-07a1-410c-b608-7982f3f0b688</testCaseGuid>
+</TestCaseEntity>

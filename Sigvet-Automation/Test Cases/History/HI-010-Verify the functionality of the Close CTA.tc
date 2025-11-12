@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HI-010-Verify the functionality of the Close CTA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8fd800ac-3f05-4caf-b8e8-0c51ed8ba0ab</testCaseGuid>
+</TestCaseEntity>

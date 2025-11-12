@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_2. Select Done to return to home screen</name>
+   <tag></tag>
+   <elementGuidId>da90145d-316c-43c8-add9-d32c7f67d380</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = concat(&quot;2. Select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot; , &quot; to return to home screen&quot;) or . = concat(&quot;2. Select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot; , &quot; to return to home screen&quot;))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div[2]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;2. Select 'Done' to return to home screen&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>deb541e5-0d8e-4748-8fd3-ea184cc531dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm md:text-base text-black mb-2</value>
+      <webElementGuid>78d3e17d-214d-4944-bb9a-17ef9a6414b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2. Select 'Done' to return to home screen</value>
+      <webElementGuid>2ccd856c-5b76-4793-a4cc-10205a97cdb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed left-1/2 top-[46.25rem] transform -translate-x-1/2 flex flex-wrap items-start my-4 p-4 border-2 border-black w-full max-w-[34rem] h-auto gap-2.5&quot;]/div[@class=&quot;flex-1&quot;]/p[@class=&quot;text-sm md:text-base text-black mb-2&quot;]</value>
+      <webElementGuid>8ebd7fb6-e991-4a51-b681-c9b032417110</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div[2]/p[2]</value>
+      <webElementGuid>b25c72f2-e52c-4cd5-9f2c-7b340a47384a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[2]</value>
+      <webElementGuid>d7dbb94e-7795-4701-a70a-eb96731b72d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[2]</value>
+      <webElementGuid>4a50e628-2cb4-4f91-95b8-94701796a8f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <webElementGuid>02d00531-a0c8-4a19-8ffb-1a49f04e4ef7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>a18e0d1d-08fd-43e2-a2d0-5dd2174b135f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = concat(&quot;2. Select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot; , &quot; to return to home screen&quot;) or . = concat(&quot;2. Select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot; , &quot; to return to home screen&quot;))]</value>
+      <webElementGuid>0989dfbb-187e-4ec8-b23d-8f6312034083</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CO-005-Verify the species selection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d65b9e9e-a351-4404-b852-3d1db27d016f</testCaseGuid>
+</TestCaseEntity>

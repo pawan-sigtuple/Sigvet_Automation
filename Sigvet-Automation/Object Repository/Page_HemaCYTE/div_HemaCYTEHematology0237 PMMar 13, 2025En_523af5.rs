@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_HemaCYTEHematology0237 PMMar 13, 2025En_523af5</name>
+   <tag></tag>
+   <elementGuidId>8f59df80-8a4c-4c95-89b4-83ee7ca56ece</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'HemaCYTEHematology02:37 PMMar 13, 2025Enter Order DetailsSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineCLEAR ALLSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline CANCELNEXT' or . = 'HemaCYTEHematology02:37 PMMar 13, 2025Enter Order DetailsSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineCLEAR ALLSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline CANCELNEXT')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gradient</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;HemaCYTEHematology02:37 PMMar 13, 2025Enter Order DetailsSlot1Pet NameAccession &quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>40f3a582-0ba6-4158-b1ae-527a3ac201f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gradient</value>
+      <webElementGuid>93d6a8ca-b79a-4915-acb0-d2ae3af489d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HemaCYTEHematology02:37 PMMar 13, 2025Enter Order DetailsSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineCLEAR ALLSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline CANCELNEXT</value>
+      <webElementGuid>bd8f013a-9f71-4748-826b-711c1da4a067</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]</value>
+      <webElementGuid>9fc79d76-0c0b-4851-ae32-93e604597a95</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div</value>
+      <webElementGuid>94c0b9c4-3133-4251-ad2f-d66099c09942</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>24dc9bed-fdc6-4582-89af-fddc1390324b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'HemaCYTEHematology02:37 PMMar 13, 2025Enter Order DetailsSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineCLEAR ALLSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline CANCELNEXT' or . = 'HemaCYTEHematology02:37 PMMar 13, 2025Enter Order DetailsSlot1Pet NameAccession NumberSpeciesSpeciesCanineFelineCLEAR ALLSlot2Pet NameAccession NumberSpeciesSpeciesCanineFeline CANCELNEXT')]</value>
+      <webElementGuid>0ec53cee-d531-4867-8631-427bca66e3dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

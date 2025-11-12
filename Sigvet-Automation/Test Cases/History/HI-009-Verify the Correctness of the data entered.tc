@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HI-009-Verify the Correctness of the data entered</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0bdaf23-c17c-4b7e-aead-9920c8dbb26e</testCaseGuid>
+</TestCaseEntity>

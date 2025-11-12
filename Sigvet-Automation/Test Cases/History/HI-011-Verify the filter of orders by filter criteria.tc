@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HI-011-Verify the filter of orders by filter criteria</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff2510a5-a214-453e-b8e9-e15e4c192030</testCaseGuid>
+</TestCaseEntity>

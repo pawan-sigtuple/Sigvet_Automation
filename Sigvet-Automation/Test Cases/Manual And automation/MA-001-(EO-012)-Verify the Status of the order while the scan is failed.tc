@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA-001-(EO-012)-Verify the Status of the order while the scan is failed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82b38d2f-e79d-41e3-96f2-b4d31f64ac93</testCaseGuid>
+</TestCaseEntity>

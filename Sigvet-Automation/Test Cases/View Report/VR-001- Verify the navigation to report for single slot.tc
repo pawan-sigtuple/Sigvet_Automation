@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VR-001- Verify the navigation to report for single slot</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c795d2c3-879f-4976-abd0-a4e38b840394</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_1. Prepare the cartridges as per the inst_0b040d</name>
+   <tag></tag>
+   <elementGuidId>6df3a935-c763-4372-a398-6bfa42e0efc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-sm.text-black.mb-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div/div[2]/div[2]/div/div[2]/p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;1. Prepare the cartridges as per the instructions&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>cb59f7eb-4391-486b-89f0-fe7e73ec2a8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm text-black mb-2</value>
+      <webElementGuid>843f445f-e0a2-4057-abab-1e2b1532dfc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1. Prepare the cartridges as per the instructions</value>
+      <webElementGuid>66a34131-3c48-44e2-9c3e-60dced9a659a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row p-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;flex my-4 p-4 border-2 border-black rounded left-1/2 transform -translate-x-1/2 max-w-[100vw] w-[543px] h-auto gap-2.5 fixed top-[740px]&quot;]/div[2]/p[@class=&quot;text-sm text-black mb-2&quot;]</value>
+      <webElementGuid>4fd691b8-1d7a-4944-9e6a-4e970a440853</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p</value>
+      <webElementGuid>07e8d3d6-a112-44cd-9dae-85305fbbbe1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[1]</value>
+      <webElementGuid>09feeebf-546a-47c3-af4c-2493bff66a8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[1]</value>
+      <webElementGuid>bae42e71-b50e-41d0-83aa-315a24224eb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::p[2]</value>
+      <webElementGuid>7333413b-e892-400c-9e80-b26fc5e9ce0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEXT'])[1]/preceding::p[2]</value>
+      <webElementGuid>da6059fa-7318-4878-942a-fa3b809e40ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
+      <webElementGuid>6b3a4b43-3661-430e-ab2e-7c31aa85c1a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/p</value>
+      <webElementGuid>0c9a8ae1-179a-4bf7-ac67-cafdb70199ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '1. Prepare the cartridges as per the instructions' or . = '1. Prepare the cartridges as per the instructions')]</value>
+      <webElementGuid>6a4be19c-9abd-4f7f-8c10-7af3e524811b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

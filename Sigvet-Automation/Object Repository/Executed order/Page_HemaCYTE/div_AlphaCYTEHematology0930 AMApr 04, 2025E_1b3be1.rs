@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AlphaCYTEHematology0930 AMApr 04, 2025E_1b3be1</name>
+   <tag></tag>
+   <elementGuidId>69499766-e0b4-4216-ba50-e71d18a64916</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'AlphaCYTEHematology09:30 AMApr 04, 2025Enter order detailsSlot 1Pet nameAccession numberSpeciesSpeciesFelineCanineSlot 2Pet nameAccession numberSpeciesSpeciesFelineCanine CANCEL' or . = 'AlphaCYTEHematology09:30 AMApr 04, 2025Enter order detailsSlot 1Pet nameAccession numberSpeciesSpeciesFelineCanineSlot 2Pet nameAccession numberSpeciesSpeciesFelineCanine CANCEL')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gradient</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;AlphaCYTEHematology09:30 AMApr 04, 2025Enter order detailsSlot 1Pet nameAccessio&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8b94fae9-19d1-4b16-9b7f-e65eab1c5bcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gradient</value>
+      <webElementGuid>12ffe4aa-57d6-4f32-86cc-9baa88191cd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AlphaCYTEHematology09:30 AMApr 04, 2025Enter order detailsSlot 1Pet nameAccession numberSpeciesSpeciesFelineCanineSlot 2Pet nameAccession numberSpeciesSpeciesFelineCanine CANCEL</value>
+      <webElementGuid>74d5e940-8f99-47a7-bd20-79a8fb77e518</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]</value>
+      <webElementGuid>0bdf590b-eb59-45a8-ac7f-853c6e92a0d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div</value>
+      <webElementGuid>a88bce33-a8ab-433b-9c05-c76593577808</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>c42511cb-5b76-4a1c-b324-c87bf2eb8a90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AlphaCYTEHematology09:30 AMApr 04, 2025Enter order detailsSlot 1Pet nameAccession numberSpeciesSpeciesFelineCanineSlot 2Pet nameAccession numberSpeciesSpeciesFelineCanine CANCEL' or . = 'AlphaCYTEHematology09:30 AMApr 04, 2025Enter order detailsSlot 1Pet nameAccession numberSpeciesSpeciesFelineCanineSlot 2Pet nameAccession numberSpeciesSpeciesFelineCanine CANCEL')]</value>
+      <webElementGuid>06a0bd29-b980-4546-a327-396bd25ea1f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

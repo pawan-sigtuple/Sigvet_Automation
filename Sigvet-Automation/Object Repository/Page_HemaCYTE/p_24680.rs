@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_24680</name>
+   <tag></tag>
+   <elementGuidId>6702d152-7020-4082-9ec9-a17af973a9a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>p >> internal:has-text=&quot;24680&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e7baa33a-378e-4e45-82cb-4f70d449cdaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>break-words whitespace-normal text-sm</value>
+      <webElementGuid>df02dafa-4910-45d1-b746-35ebd9480ed6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>24680</value>
+      <webElementGuid>bb153a88-c38f-4002-920f-bf3929ac72ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[95%] h-[65%] max-h-auto min-w-[20rem] md:min-w-[36.25rem] top-[10.75rem] left-[0.625rem] md:left-[1.25rem] lg:left-[2.5rem] xl:left-[3.75rem]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white h-auto w-[100%] min-h-[56px] mt-2&quot;]/div[@class=&quot;flex justify-between items-center w-full h-[6vh] p-2&quot;]/div[@class=&quot;min-w-[20%] max-w-[30%]&quot;]/p[@class=&quot;break-words whitespace-normal text-sm&quot;]</value>
+      <webElementGuid>b90fa28d-1c28-4068-b6a2-084bfbbfcc6b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div[2]/p[2]</value>
+      <webElementGuid>d1569197-604a-4833-afe5-42a038d0fac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[4]</value>
+      <webElementGuid>5a58b91c-b1e0-445b-bf84-8a360e1911c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[103]/following::p[4]</value>
+      <webElementGuid>a75a633e-b711-427b-8e0d-81f1c9fddf67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p[2]</value>
+      <webElementGuid>eefac1e5-45c3-411c-a83c-e2660fbb4964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '24680' or . = '24680')]</value>
+      <webElementGuid>1a6b6baa-e92b-46cb-adfb-edc0671fd8f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[6]/div/div/div[2]/div/div[2]/p[2]</value>
+      <webElementGuid>08d60c72-d7c5-4eb3-9c11-4555870314f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 2'])[2]/following::p[4]</value>
+      <webElementGuid>3846600b-6bfb-44fe-b423-e488feb15fc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test completed'])[2]/preceding::p[91]</value>
+      <webElementGuid>a9dda1d2-d860-46cd-a6ab-66c2122c92f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='24680']/parent::*</value>
+      <webElementGuid>037505de-d80e-43f8-a313-f300d102bb79</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

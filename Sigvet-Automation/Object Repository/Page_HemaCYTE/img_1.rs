@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_1</name>
+   <tag></tag>
+   <elementGuidId>b1ba1c37-b3d8-4591-898a-429159b87801</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src = concat(&quot;data:image/svg+xml,%3csvg%20width=&quot; , &quot;'&quot; , &quot;24&quot; , &quot;'&quot; , &quot;%20height=&quot; , &quot;'&quot; , &quot;24&quot; , &quot;'&quot; , &quot;%20viewBox=&quot; , &quot;'&quot; , &quot;0%200%2048%2048&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;none&quot; , &quot;'&quot; , &quot;%20xmlns=&quot; , &quot;'&quot; , &quot;http://www.w3.org/2000/svg&quot; , &quot;'&quot; , &quot;%20%3e%3cpath%20fillRule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20clipRule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20d=&quot; , &quot;'&quot; , &quot;M21.8022%206.27487L21.8022%206.27481C22.7078%204.46314%2025.2921%204.46313%2026.1977%206.27481L26.1978%206.27488L42.817%2039.5267C43.6338%2041.161%2042.4459%2043.084%2040.6192%2043.084H7.38066C5.55408%2043.084%204.36618%2041.1611%205.18302%2039.5267L21.8022%206.27487ZM30.593%204.07622C27.8764%20-1.35871%2020.1235%20-1.35877%2017.4069%204.07623L17.4069%204.0763L0.787721%2037.3282C-1.66287%2042.2313%201.90111%2048%207.38066%2048H40.6192C46.0988%2048%2049.6629%2042.2313%2047.2123%2037.3282L30.5931%204.07629L30.593%204.07622ZM24%2016.0471C25.357%2016.0471%2026.4571%2017.1476%2026.4571%2018.5051V28.3373C26.4571%2029.6948%2025.357%2030.7953%2024%2030.7953C22.643%2030.7953%2021.543%2029.6948%2021.543%2028.3373V18.5051C21.543%2017.1476%2022.643%2016.0471%2024%2016.0471ZM24%2038.1694C25.357%2038.1694%2026.4571%2037.0689%2026.4571%2035.7114C26.4571%2034.3539%2025.357%2033.2534%2024%2033.2534C22.643%2033.2534%2021.543%2034.3539%2021.543%2035.7114C21.543%2037.0689%2022.643%2038.1694%2024%2038.1694Z&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;%23FF8E09&quot; , &quot;'&quot; , &quot;%20/%3e%3c/svg%3e&quot;) and @alt = 'Warning Icon']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Warning Icon&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Warning Icon&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>31c88c3c-10b1-4b91-b2f2-befe6757c417</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20%3e%3cpath%20fillRule='evenodd'%20clipRule='evenodd'%20d='M21.8022%206.27487L21.8022%206.27481C22.7078%204.46314%2025.2921%204.46313%2026.1977%206.27481L26.1978%206.27488L42.817%2039.5267C43.6338%2041.161%2042.4459%2043.084%2040.6192%2043.084H7.38066C5.55408%2043.084%204.36618%2041.1611%205.18302%2039.5267L21.8022%206.27487ZM30.593%204.07622C27.8764%20-1.35871%2020.1235%20-1.35877%2017.4069%204.07623L17.4069%204.0763L0.787721%2037.3282C-1.66287%2042.2313%201.90111%2048%207.38066%2048H40.6192C46.0988%2048%2049.6629%2042.2313%2047.2123%2037.3282L30.5931%204.07629L30.593%204.07622ZM24%2016.0471C25.357%2016.0471%2026.4571%2017.1476%2026.4571%2018.5051V28.3373C26.4571%2029.6948%2025.357%2030.7953%2024%2030.7953C22.643%2030.7953%2021.543%2029.6948%2021.543%2028.3373V18.5051C21.543%2017.1476%2022.643%2016.0471%2024%2016.0471ZM24%2038.1694C25.357%2038.1694%2026.4571%2037.0689%2026.4571%2035.7114C26.4571%2034.3539%2025.357%2033.2534%2024%2033.2534C22.643%2033.2534%2021.543%2034.3539%2021.543%2035.7114C21.543%2037.0689%2022.643%2038.1694%2024%2038.1694Z'%20fill='%23FF8E09'%20/%3e%3c/svg%3e</value>
+      <webElementGuid>1776670e-2d99-45a6-94c6-eff5d1c901bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Warning Icon</value>
+      <webElementGuid>7a1ddefd-1397-4daa-8c91-6a4dbf8f7c51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-1000&quot;]/div[@class=&quot;bg-white rounded-lg shadow-lg w-[300px] h-auto p-6  flex flex-col justify-evenly&quot;]/div[@class=&quot;flex justify-center mb-3&quot;]/img[1]</value>
+      <webElementGuid>06c8c3b0-f6cb-4677-b6cd-5ea6a381a267</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[4]/div/div/img</value>
+      <webElementGuid>a2b6e2b7-562b-4e21-a05d-4b1e44b4baf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Warning Icon']</value>
+      <webElementGuid>db4c6842-be7c-484c-96a8-7a27e353b039</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>f8a63d46-6741-4a45-ab4d-1c9f4ec57398</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = concat(&quot;data:image/svg+xml,%3csvg%20width=&quot; , &quot;'&quot; , &quot;24&quot; , &quot;'&quot; , &quot;%20height=&quot; , &quot;'&quot; , &quot;24&quot; , &quot;'&quot; , &quot;%20viewBox=&quot; , &quot;'&quot; , &quot;0%200%2048%2048&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;none&quot; , &quot;'&quot; , &quot;%20xmlns=&quot; , &quot;'&quot; , &quot;http://www.w3.org/2000/svg&quot; , &quot;'&quot; , &quot;%20%3e%3cpath%20fillRule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20clipRule=&quot; , &quot;'&quot; , &quot;evenodd&quot; , &quot;'&quot; , &quot;%20d=&quot; , &quot;'&quot; , &quot;M21.8022%206.27487L21.8022%206.27481C22.7078%204.46314%2025.2921%204.46313%2026.1977%206.27481L26.1978%206.27488L42.817%2039.5267C43.6338%2041.161%2042.4459%2043.084%2040.6192%2043.084H7.38066C5.55408%2043.084%204.36618%2041.1611%205.18302%2039.5267L21.8022%206.27487ZM30.593%204.07622C27.8764%20-1.35871%2020.1235%20-1.35877%2017.4069%204.07623L17.4069%204.0763L0.787721%2037.3282C-1.66287%2042.2313%201.90111%2048%207.38066%2048H40.6192C46.0988%2048%2049.6629%2042.2313%2047.2123%2037.3282L30.5931%204.07629L30.593%204.07622ZM24%2016.0471C25.357%2016.0471%2026.4571%2017.1476%2026.4571%2018.5051V28.3373C26.4571%2029.6948%2025.357%2030.7953%2024%2030.7953C22.643%2030.7953%2021.543%2029.6948%2021.543%2028.3373V18.5051C21.543%2017.1476%2022.643%2016.0471%2024%2016.0471ZM24%2038.1694C25.357%2038.1694%2026.4571%2037.0689%2026.4571%2035.7114C26.4571%2034.3539%2025.357%2033.2534%2024%2033.2534C22.643%2033.2534%2021.543%2034.3539%2021.543%2035.7114C21.543%2037.0689%2022.643%2038.1694%2024%2038.1694Z&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;%23FF8E09&quot; , &quot;'&quot; , &quot;%20/%3e%3c/svg%3e&quot;) and @alt = 'Warning Icon']</value>
+      <webElementGuid>2ff0cab9-5996-43b7-996b-80d52ac5ea49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div[3]/button/img</value>
+      <webElementGuid>6ba61d92-e4ba-43d5-8841-727e6b2492ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Caps Icon']</value>
+      <webElementGuid>816e2654-1690-4785-832c-d10bd64864b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = concat(&quot;data:image/svg+xml,%3csvg%20width=&quot; , &quot;'&quot; , &quot;88&quot; , &quot;'&quot; , &quot;%20height=&quot; , &quot;'&quot; , &quot;58&quot; , &quot;'&quot; , &quot;%20viewBox=&quot; , &quot;'&quot; , &quot;0%200%2088%2058&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;none&quot; , &quot;'&quot; , &quot;%20xmlns=&quot; , &quot;'&quot; , &quot;http://www.w3.org/2000/svg&quot; , &quot;'&quot; , &quot;%20%3e%3crect%20width=&quot; , &quot;'&quot; , &quot;88&quot; , &quot;'&quot; , &quot;%20height=&quot; , &quot;'&quot; , &quot;58&quot; , &quot;'&quot; , &quot;%20rx=&quot; , &quot;'&quot; , &quot;8&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;%23484747&quot; , &quot;'&quot; , &quot;%20/%3e%3cpath%20d=&quot; , &quot;'&quot; , &quot;M39.7778%2039V30.5789H34.5L44%2019L53.5%2030.5789H48.2222V39H39.7778Z&quot; , &quot;'&quot; , &quot;%20fill=&quot; , &quot;'&quot; , &quot;white&quot; , &quot;'&quot; , &quot;%20/%3e%3c/svg%3e&quot;) and @alt = 'Caps Icon']</value>
+      <webElementGuid>423586e4-590a-4a08-8acf-1413209e96d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

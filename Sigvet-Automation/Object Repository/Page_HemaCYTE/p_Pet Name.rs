@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Pet Name</name>
+   <tag></tag>
+   <elementGuidId>13237c80-5be5-483e-a107-aed026cc7d0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.font-semibold</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pet Name' or . = 'Pet Name')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Pet Name&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b39a9dc5-ac4e-4cd5-917d-4caf782fee09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold</value>
+      <webElementGuid>b1b8ce19-8a45-40be-837a-137a4e443122</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pet Name</value>
+      <webElementGuid>2509266d-cb96-4d50-aaa8-dad1b2999af9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white w-[560px] h-[56px] mt-[24px]&quot;]/div[@class=&quot;flex justify-between items-center w-[521px] h-[37px]&quot;]/div[1]/p[@class=&quot;font-semibold&quot;]</value>
+      <webElementGuid>6e1c2603-4742-4cce-82ac-bb753c3190f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div/p</value>
+      <webElementGuid>4f37d9e2-852a-4ef3-bb84-865d13673bbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[1]</value>
+      <webElementGuid>084f8faa-6aec-46cf-a0be-557a9df6a263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::p[1]</value>
+      <webElementGuid>c27fbd3d-d9db-4d98-bcd3-2122f34e3228</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pet Name']/parent::*</value>
+      <webElementGuid>9bb801c1-4700-4bae-9242-430612909ded</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/p</value>
+      <webElementGuid>b4fb7894-b1f7-4373-89fa-3d759816377b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Pet Name' or . = 'Pet Name')]</value>
+      <webElementGuid>7fe2f7eb-26af-4ba9-b429-e309d46105e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

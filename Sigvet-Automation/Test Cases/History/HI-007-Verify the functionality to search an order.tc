@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HI-007-Verify the functionality to search an order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>570155e3-2605-4e68-b1e0-ba6a894d6a7e</testCaseGuid>
+</TestCaseEntity>

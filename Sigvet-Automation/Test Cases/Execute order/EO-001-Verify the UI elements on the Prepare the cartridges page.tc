@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EO-001-Verify the UI elements on the Prepare the cartridges page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b4a791c-edea-4460-9a46-560ab6b4f118</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Are you sure you want to cancel the t_ab777c</name>
+   <tag></tag>
+   <elementGuidId>390f4e75-07ef-4b9a-859d-3b1436fec9f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='checkbox'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=checkbox >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c6c01044-e296-4e02-8c3d-bc104512b90a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>780e6a51-d764-4a7c-8ba6-c142d5cf703c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-[14px] h-[14px] mr-2 accent-primary md:w-[2rem] md:h-[2rem] ml-2</value>
+      <webElementGuid>4847c4da-024d-4be9-9eff-215f3af2c33c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-white rounded-lg shadow-lg w-[360px] h-[245px] p-6 flex flex-col justify-evenly md:w-[50%] md:h-[25vh]&quot;]/div[@class=&quot;flex w-full justify-center items-center&quot;]/div[@class=&quot;mr-[10px] flex justify-center items-center  w-36 h-20&quot;]/input[@class=&quot;w-[14px] h-[14px] mr-2 accent-primary md:w-[2rem] md:h-[2rem] ml-2&quot;]</value>
+      <webElementGuid>d2b53a3f-c441-4f6e-b49e-902894ea4fb6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='checkbox']</value>
+      <webElementGuid>5a4debbe-7ee9-487d-abf0-17873816f415</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div/div[3]/div/input</value>
+      <webElementGuid>ecec0ef3-0e40-4be4-9e3d-b8cbf53d21a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>4cdd71d5-74d0-400a-8224-f85be62b4f0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>0672d35c-ecf0-42e6-b57c-f81bfc8426a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

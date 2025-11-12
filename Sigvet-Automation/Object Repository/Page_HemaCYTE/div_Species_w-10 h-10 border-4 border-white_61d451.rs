@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Species_w-10 h-10 border-4 border-white_61d451</name>
+   <tag></tag>
+   <elementGuidId>3a3c5d1d-8731-4ddc-ad29-b50e1da13d82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-col justify-end items-center w-full h-[80%]&quot;]/div[@class=&quot;w-10 h-10 border-4 border-white border-t-transparent rounded-full animate-spin&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-10.h-10.border-4.border-white.border-t-transparent.rounded-full.animate-spin</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.w-10</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>95229cf8-07a8-4037-a1d1-62c0a901ab70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-10 h-10 border-4 border-white border-t-transparent rounded-full animate-spin</value>
+      <webElementGuid>85f42041-869c-4a07-939c-7d6ad4fe766c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-col justify-end items-center w-full h-[80%]&quot;]/div[@class=&quot;w-10 h-10 border-4 border-white border-t-transparent rounded-full animate-spin&quot;]</value>
+      <webElementGuid>369d79a5-d20d-407f-b07f-0b945177c297</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div</value>
+      <webElementGuid>3a893710-a7d2-400c-99fa-0b9a1d0143f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div</value>
+      <webElementGuid>788e1435-9c8f-47e0-abcf-8c05883bf869</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

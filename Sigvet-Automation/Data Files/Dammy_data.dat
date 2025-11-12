@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Dammy_data</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>241acfb3-689e-444d-8177-3db1195cbd83</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>RBC 8.00-19.50 8.00-19.50</data>
+   <data>MPV 16.34-19.50 16.34-19.50</data>
+   <data>PLT 300.00-900.00 300.00-900.00</data>
+   <data>HB 10.00-29.00 10.00-29.00</data>
+   <data>HCT 54.00-56.00 54.00-56.00</data>
+   <data>MCV 61.00-76.00 61.00-76.00</data>
+   <data>MCH 22.00-27.00 22.00-27.00</data>
+   <data>MCHC 36.00-38.00 36.00-38.00</data>
+   <data>RDW-SD 37.20-46.30 37.20-46.30</data>
+   <data>WBC 8.00-17.00 8.00-17.00</data>
+   <data>NEUT%25 58.00-81.00 58.00-81.00</data>
+   <data>LYM%25 19.00-33.00 19.00-33.00</data>
+   <data>MONO%25 7.00-13.00 7.00-13.00</data>
+   <data>EOS%25 8.50-10.00 8.50-10.00</data>
+   <data>BAS%25 9.50-10.00 9.50-10.00</data>
+   <data>NEUT%23 4.62-12.30 4.62-12.30</data>
+   <data>LYM%23 4.83-4.91 4.83-4.91</data>
+   <data>MONO%23 1.14-1.97 1.14-1.97</data>
+   <data>EOS%23 1.04-1.97 1.04-1.97</data>
+   <data>BAS%23 0.00-0.12 0.00-0.12</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Measurand_name</name>
+      <size>20</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Canine</name>
+      <size>20</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Feline</name>
+      <size>20</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

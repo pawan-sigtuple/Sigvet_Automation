@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Equine</name>
+   <tag></tag>
+   <elementGuidId>90e8cf1f-7cc4-4d14-a5f8-31b60501f5d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Equine' or . = 'Equine')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[normalize-space(text())='Equine']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c256106f-51c5-480f-b7e8-f3685f2d10f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>efcd3842-1a5c-4a96-b273-efa5129ff0de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+                  px-4 py-4 cursor-pointer hover:bg-gray-100 border-b text-standard w-full text-left
+
+                </value>
+      <webElementGuid>1da6dc95-bcd4-48c0-8a30-345705f38652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>slot-slot1-species-dropdown-option-35354009</value>
+      <webElementGuid>245e660f-c843-49a6-8257-0efe391e133a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Equine</value>
+      <webElementGuid>e83dee6d-e921-4ef2-9eb0-9f279f38f43f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;bg-white border shadow-md overflow-y-auto text-black mt-2&quot;]/button[@class=&quot;px-4 py-4 cursor-pointer hover:bg-gray-100 border-b text-standard w-full text-left&quot;]</value>
+      <webElementGuid>c483566c-9957-4cfa-b3aa-91383e96029f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Equine' or . = 'Equine')]</value>
+      <webElementGuid>95b60f21-d28d-45bf-a7ff-8c4c94042e3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

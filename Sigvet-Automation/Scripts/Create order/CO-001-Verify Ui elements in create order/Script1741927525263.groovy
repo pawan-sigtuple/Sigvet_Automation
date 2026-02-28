@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat
 
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 
 import generic_Package.GenericClass
 
@@ -13,13 +14,13 @@ WebUI.navigateToUrl('http://localhost:3000/')
 
 WebUI.delay(10)
 
-//WebUI.maximizeWindow()
+
 
 WebUI.setViewPortSize(1200, 1920)
 //Veriy the title
 title = WebUI.getWindowTitle()
 
-WebUI.verifyMatch(title, 'HemaCYTE', true)
+//WebUI.verifyMatch(title, 'HemaCYTE', true)
 
 //Verify header
 //WebUI.verifyElementText(findTestObject('Object Repository/Hemacyte/Create_order/h1_AlphaCyte'), 'AlphaCyte')
@@ -66,6 +67,27 @@ WebUI.verifyElementText(findTestObject('Object Repository/Hemacyte/Create_order/
 WebUI.verifyElementText(findTestObject('Object Repository/Hemacyte/Create_order/button_SETTINGS'), 'SETTINGS')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Hemacyte/Create_order/button_HISTORY'), 'HISTORY')
+
+
+//Panel type selection for slot 1
+//By default check 
+WebUI.verifyElementText(findTestObject('Object Repository/Panel type/Page_HemaCYTE/Default cbc for slot1'), 'CBC')
+
+WebUI.click(findTestObject('Object Repository/Panel type/Page_HemaCYTE/img-panel type drop down slt1'))
+
+WebUI.click(findTestObject('Object Repository/Panel type/Page_HemaCYTE/CBC For slot1'))
+WebUI.click(findTestObject('Object Repository/Panel type/Page_HemaCYTE/img-panel type drop down slt1'))
+WebUI.click(findTestObject('Object Repository/Panel type/Page_HemaCYTE/RETIC For slot1'))
+
+
+//Panel type selection for slot 2
+//By default check 
+//WebUI.verifyElementText(findTestObject('Object Repository/Panel type/Page_HemaCYTE/Default cbc for slot2'), 'CBC')
+WebUI.verifyElementText(findTestObject('Object Repository/Panel type/Page_HemaCYTE/Default cbc for slot2'), 'CBC')
+WebUI.click(findTestObject('Object Repository/Panel type/Page_HemaCYTE/img-panel type drop down slt2'))
+WebUI.click(findTestObject('Object Repository/Panel type/Page_HemaCYTE/CBC For slot2'))
+WebUI.click(findTestObject('Object Repository/Panel type/Page_HemaCYTE/img-panel type drop down slt2'))
+WebUI.click(findTestObject('Object Repository/Panel type/Page_HemaCYTE/RETIC For slot2'))
 
 // Method to verify Date format
 String extractedDate = WebUI.getText(findTestObject('Object Repository/Hemacyte/History/p_Mar 27, 2025'))

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Others</name>
+   <tag></tag>
+   <elementGuidId>a9c1777e-cb86-4e62-aa67-a980ab6c223b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[normalize-space(text())='Others']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>94609a53-d6c9-47cc-89a6-576a74dc861d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f2d9a819-150a-4dbc-ba68-af5fa0599c13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+                  px-4 py-4 cursor-pointer hover:bg-gray-100 border-b text-standard w-full text-left
+
+                </value>
+      <webElementGuid>71f23038-4773-499e-bdc5-e946067a57aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>slot-slot1-species-dropdown-option-387961004</value>
+      <webElementGuid>58af7985-1e46-4844-93ae-648f50e13ab1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Others</value>
+      <webElementGuid>a9196a2a-df93-49f4-ba63-292ede12a774</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;bg-white border shadow-md overflow-y-auto text-black mt-2&quot;]/button[@class=&quot;px-4 py-4 cursor-pointer hover:bg-gray-100 border-b text-standard w-full text-left&quot;]</value>
+      <webElementGuid>9e220739-3076-4ffe-ba18-c3ce819d3056</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Others' or . = 'Others')]</value>
+      <webElementGuid>174de8d8-3f47-43f3-825e-5456529cc250</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_2. Select Next to eject the tray loader</name>
+   <name>p_1. Place the cartridge(s) in their designated slots</name>
    <tag></tag>
-   <elementGuidId>251ceaa2-2e94-4ddb-afc4-4fc52bb8ea63</elementGuidId>
+   <elementGuidId>6df3a935-c763-4372-a398-6bfa42e0efc9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>p.text-sm.text-black.mb-2</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div/div[2]/div[2]/div/div[2]/p[2]</value>
+         <value>//li[contains(text(), 'Place the cartridge(s) in their designated slots.')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '1. Prepare the cartridges as per the instructions' or . = '1. Prepare the cartridges as per the instructions')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;2. Select 'Next' to eject the tray loader&quot;i</value>
+         <value>internal:text=&quot;1. Prepare the cartridges as per the instructions&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>98af456f-b7c4-4426-be69-4cc333fd8b11</webElementGuid>
+      <webElementGuid>840d28d7-d7b7-4072-8c90-75151d3b08b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>text-sm text-black mb-2</value>
-      <webElementGuid>75cafc1a-8e4b-474f-b0ed-3cb0231519ce</webElementGuid>
+      <webElementGuid>7a1d1f91-bd3a-4a7d-b5e4-5ed425896c96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>2. Select 'Next' to eject the tray loader</value>
-      <webElementGuid>8177bd68-5967-4b9b-8d68-51e11fcfee6b</webElementGuid>
+      <value>1. Prepare the cartridges as per the instructions</value>
+      <webElementGuid>300580ea-f3f8-4afc-9f04-7fa3fb5d45a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,70 +57,70 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row p-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;flex my-4 p-4 border-2 border-black rounded left-1/2 transform -translate-x-1/2 max-w-[100vw] w-[543px] h-auto gap-2.5 fixed top-[740px]&quot;]/div[2]/p[@class=&quot;text-sm text-black mb-2&quot;]</value>
-      <webElementGuid>fa078d74-8b55-4927-acbc-33aa97da00ec</webElementGuid>
+      <webElementGuid>bff2b696-13f6-4d9b-8fe3-29be19428a16</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p[2]</value>
-      <webElementGuid>f4f38642-f664-4091-af78-d2f5520895ed</webElementGuid>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p</value>
+      <webElementGuid>1454a369-1e98-4ff6-919b-c7c0fe9764d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[2]</value>
-      <webElementGuid>2fc3323f-7686-4a2e-91a2-8db49336acf4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[1]</value>
+      <webElementGuid>d42c472b-d5a8-42f4-8411-36f8858b9d77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[2]</value>
-      <webElementGuid>fe7e45ef-6e2f-4354-86cf-47f5c54664a4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[1]</value>
+      <webElementGuid>9f3221d6-9db1-4d9b-9a7b-a549d96c0b67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::p[1]</value>
-      <webElementGuid>0366f28e-26bc-496c-a303-046be4a48c6f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::p[2]</value>
+      <webElementGuid>71f4fb47-3f49-4a0b-92f2-1920bfd1cfbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEXT'])[1]/preceding::p[1]</value>
-      <webElementGuid>7f968c36-8224-4dbf-bd40-5b3fff6834c2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEXT'])[1]/preceding::p[2]</value>
+      <webElementGuid>421737cd-c11d-4846-996f-8d0e82a50f9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
-      <webElementGuid>250eef7c-a883-4ba4-a196-b485462a5f5c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
+      <webElementGuid>260944a0-42a4-45d4-afbd-256121d5efc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[2]</value>
-      <webElementGuid>7390a52a-9956-4755-afe7-b64a92f56fd7</webElementGuid>
+      <value>//div[2]/div[2]/p</value>
+      <webElementGuid>3c3faaed-4cfb-4d05-b81c-028de1f11cf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = concat(&quot;2. Select &quot; , &quot;'&quot; , &quot;Next&quot; , &quot;'&quot; , &quot; to eject the tray loader&quot;) or . = concat(&quot;2. Select &quot; , &quot;'&quot; , &quot;Next&quot; , &quot;'&quot; , &quot; to eject the tray loader&quot;))]</value>
-      <webElementGuid>38f8341f-913c-47be-bd34-d0c5ff3d17fc</webElementGuid>
+      <value>//p[(text() = '1. Prepare the cartridges as per the instructions' or . = '1. Prepare the cartridges as per the instructions')]</value>
+      <webElementGuid>5542ada2-5de9-4cd6-8b90-6a493ba34128</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

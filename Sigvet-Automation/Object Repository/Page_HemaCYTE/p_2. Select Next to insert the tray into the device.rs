@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_1. Prepare the cartridges as per the inst_0b040d</name>
+   <name>p_2. Select Next to insert the tray into the device</name>
    <tag></tag>
-   <elementGuidId>6df3a935-c763-4372-a398-6bfa42e0efc9</elementGuidId>
+   <elementGuidId>251ceaa2-2e94-4ddb-afc4-4fc52bb8ea63</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>p.text-sm.text-black.mb-2</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div/div[2]/div[2]/div/div[2]/p[1]</value>
+         <value>//li[contains(text(), 'Select &quot;Next&quot; to insert the tray into the device.')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = concat(&quot;2. Select &quot; , &quot;'&quot; , &quot;Next&quot; , &quot;'&quot; , &quot; to eject the tray loader&quot;) or . = concat(&quot;2. Select &quot; , &quot;'&quot; , &quot;Next&quot; , &quot;'&quot; , &quot; to eject the tray loader&quot;))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;1. Prepare the cartridges as per the instructions&quot;i</value>
+         <value>internal:text=&quot;2. Select 'Next' to eject the tray loader&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>cb59f7eb-4391-486b-89f0-fe7e73ec2a8f</webElementGuid>
+      <webElementGuid>f2bc2d5f-1c31-498f-8c07-dbd601b1eedc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>text-sm text-black mb-2</value>
-      <webElementGuid>843f445f-e0a2-4057-abab-1e2b1532dfc4</webElementGuid>
+      <webElementGuid>14534649-8e35-4670-8b45-827025bae1f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1. Prepare the cartridges as per the instructions</value>
-      <webElementGuid>66a34131-3c48-44e2-9c3e-60dced9a659a</webElementGuid>
+      <value>2. Select 'Next' to eject the tray loader</value>
+      <webElementGuid>4d0cb410-f1d7-4a96-8e87-918f0740c693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,70 +56,70 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row p-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;flex my-4 p-4 border-2 border-black rounded left-1/2 transform -translate-x-1/2 max-w-[100vw] w-[543px] h-auto gap-2.5 fixed top-[740px]&quot;]/div[2]/p[@class=&quot;text-sm text-black mb-2&quot;]</value>
-      <webElementGuid>4fd691b8-1d7a-4944-9e6a-4e970a440853</webElementGuid>
+      <webElementGuid>7964ac73-b8a8-4a94-a96c-555dd7ddc1bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p</value>
-      <webElementGuid>07e8d3d6-a112-44cd-9dae-85305fbbbe1d</webElementGuid>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p[2]</value>
+      <webElementGuid>85c7be36-7515-411c-a9e5-c6393ca9bcae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[1]</value>
-      <webElementGuid>09feeebf-546a-47c3-af4c-2493bff66a8b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[2]</value>
+      <webElementGuid>e4d2ef31-ae43-4390-bcdd-9f65eddce997</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[1]</value>
-      <webElementGuid>bae42e71-b50e-41d0-83aa-315a24224eb6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[2]</value>
+      <webElementGuid>90893f58-9ec4-4abf-884a-d0e12220ef33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::p[2]</value>
-      <webElementGuid>7333413b-e892-400c-9e80-b26fc5e9ce0e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::p[1]</value>
+      <webElementGuid>24144cb3-2e48-480f-91ed-70d88f475471</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEXT'])[1]/preceding::p[2]</value>
-      <webElementGuid>da6059fa-7318-4878-942a-fa3b809e40ad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NEXT'])[1]/preceding::p[1]</value>
+      <webElementGuid>6f41a389-1aed-4caf-b69e-4d8f90104be6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
-      <webElementGuid>6b3a4b43-3661-430e-ab2e-7c31aa85c1a6</webElementGuid>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <webElementGuid>e7be4811-15f3-497c-8635-d9bc93512574</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/p</value>
-      <webElementGuid>0c9a8ae1-179a-4bf7-ac67-cafdb70199ef</webElementGuid>
+      <value>//p[2]</value>
+      <webElementGuid>86a6d199-f39e-4231-b5cd-3dcd5ccdb49a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = '1. Prepare the cartridges as per the instructions' or . = '1. Prepare the cartridges as per the instructions')]</value>
-      <webElementGuid>6a4be19c-9abd-4f7f-8c10-7af3e524811b</webElementGuid>
+      <value>//li[contains(text(), 'Select &quot;Next&quot; to insert the tray into the device.')]</value>
+      <webElementGuid>371762f4-2d6b-42fe-8778-bee9a696f0c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

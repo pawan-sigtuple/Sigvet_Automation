@@ -40,12 +40,16 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_2'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_3'))
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_e'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_e'))
 
-GenericClass gen_methods = new GenericClass()
+//GenericClass gen_methods = new GenericClass()
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline'), 'canine', true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+GenericClass genericClass = new GenericClass()
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
@@ -93,16 +97,20 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_3'))
 
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_t'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_t'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_5'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_6'))
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_y'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_y'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline_1'), 'canine', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
+genericClass.selectSpeciesFromDropDown("Slot_2", "Canine")
+WebUI.delay(1)
+
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
+
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
@@ -146,10 +154,13 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_2'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_3'))
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_e'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_e'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline_1'), 'canine', true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'), 30)
 

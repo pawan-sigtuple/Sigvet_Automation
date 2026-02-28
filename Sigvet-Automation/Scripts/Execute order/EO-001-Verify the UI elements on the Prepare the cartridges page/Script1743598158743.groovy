@@ -13,6 +13,7 @@ WebUI.setViewPortSize(1200, 1920)
 
 GenericClass gen_methods1 = new GenericClass()
 
+
 assert gen_methods1.verifyPresencOfUIElementsInHeader() == true
 
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
@@ -43,9 +44,12 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 //
 //WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_Canine_for_Slot1'))
 //WebUI.selectOptionByValue(findTestObject('Executed order/Page_HemaCYTE/select_SpeciesFelineCanine'), 'Canine', true)
-GenericClass gen_methods = new GenericClass()
 
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+GenericClass genericClass = new GenericClass()
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+
 
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
@@ -74,16 +78,18 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 //WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_Feline_for_Slot2'))
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_SpeciesFelineCanine_1'), 
 //    'Feline', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/h2_Prepare the cartridges'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/h2_Prepare the cartridge(s)'), 10)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/h2_Prepare the cartridges'), 'Prepare the cartridges')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/h2_Prepare the cartridge(s)'),'Prepare the cartridge(s)')
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/h1_HemaCYTE'))
 WebUI.verifyElementText(findTestObject('Hemacyte/History/h1_AlphaCYTE'), 'AlphaCYTE')
@@ -94,16 +100,15 @@ WebUI.verifyElementText(findTestObject('Hemacyte/History/h1_AlphaCYTE'), 'AlphaC
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/div_Prepare the cartridgesSlot1Pet NameAcce_2ad88c'))
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/h3_Note'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/h3_Note'), 'Note:')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/h3_Note'), 'Note :')
 
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/p_1. Prepare the cartridges as per the inst_0b040d'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/p_1. Prepare the cartridges as per the inst_0b040d'), 
-    '1. Place the cartridges in their designated slots.')
 
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/p_2. Select Next to eject the tray loader'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/p_1. Place the cartridge(s) in their designated slots'), 'Place the cartridge(s) in their designated slots.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/p_2. Select Next to eject the tray loader'), '2. Select "Next" to insert the tray into the device.')
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/p_2. Select Next to insert the tray into the device'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/p_2. Select Next to insert the tray into the device'), 'Select "Next" to insert the tray into the device.')
 
 WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
 

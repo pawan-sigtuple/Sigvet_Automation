@@ -16,57 +16,93 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import generic_Package.GenericClass as GenericClass
+
+//WebUI.openBrowser('')
+
+//WebUI.navigateToUrl('http://localhost:3000/')
+
+//WebUI.delay(5)
+
+//WebUI.setViewPortSize(1200, 1920)
+
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/img slot1'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/button_Equine'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/img slot1'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/button_Feline'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/img slot1'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/button_Others'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/img slot1'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/button_Canine'))
+
+////Slot2	
+//
+
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/img slot2'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/button_Canine-1'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/img slot2'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/button_Feline_1'))
+
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/img slot2'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/button_Equine_1'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/img slot2'))
+
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/Page_HemaCYTE/button_Others_1'))
+
+
+
+//method return for the all the slots.
 import generic_Package.GenericClass
 
+GenericClass genericClass = new GenericClass()
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:3000/')
-
 WebUI.delay(5)
-
 WebUI.setViewPortSize(1200, 1920)
+//
+//// ========= SLOT 1 =========
+WebUI.comment("---- Slot 1 Species Selection ----")
 
-GenericClass gen_methods= new GenericClass()
+genericClass.selectSpeciesFromDropDown("Slot_1", "Equine")
+WebUI.delay(1)
 
-gen_methods.selectSpeciesFromDropDown("Slot_1", "Canine")
-gen_methods.selectSpeciesFromDropDown("Slot_2", "Feline")
-gen_methods.selectSpeciesFromDropDown("Slot_1", "Feline")
-gen_methods.selectSpeciesFromDropDown("Slot_2", "Canine")
+genericClass.selectSpeciesFromDropDown("Slot_1", "Feline")
+WebUI.delay(1)
 
+genericClass.selectSpeciesFromDropDown("Slot_1", "Others")
+WebUI.delay(1)
 
-//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline'))
-//
-//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/select_Feline_for_slot1'))
-//
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline'))
-//
-//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/select_Canine_for_slot1'))
-//
-//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'))
-//
-//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/select_Canine_for_slot2'))
-//
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'))
-//
-//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/select_Feline_for_slot2'))
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
 
+//// ========= SLOT 2 =========
+WebUI.comment("---- Slot 2 Species Selection ----")
 
+genericClass.selectSpeciesFromDropDown("Slot_2", "Canine")
+WebUI.delay(1)
 
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline'), 'canine', 
-//    true)
+genericClass.selectSpeciesFromDropDown("Slot_2", "Equine")
+WebUI.delay(1)
 //
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline'), 'feline', 
-//    true)
-//
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1'), 'feline', 
-//    true)
-//
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1'), 'canine', 
-//    true)
-
+genericClass.selectSpeciesFromDropDown("Slot_2", "Others")
+WebUI.delay(1)

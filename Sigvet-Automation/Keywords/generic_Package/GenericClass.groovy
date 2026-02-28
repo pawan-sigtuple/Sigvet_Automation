@@ -1,39 +1,119 @@
+//package generic_Package
+//
+//import com.kms.katalon.core.webui.driver.DriverFactory
+//import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+//import com.kms.katalon.core.testobject.TestObject
+//import com.kms.katalon.core.testobject.ConditionType
+//import org.openqa.selenium.*
+//import org.openqa.selenium.support.ui.WebDriverWait
+//import org.openqa.selenium.support.ui.ExpectedConditions
+////import com.kms.katalon.core.webui.driver.DriverFactory
+//import com.kms.katalon.core.webui.common.WebUiCommonHelper
+////import com.kms.katalon.core.testobject.TestObject
+//import java.time.Duration
+//import org.openqa.selenium.JavascriptExecutor
+//
+//import org.openqa.selenium.WebDriver
+
 package generic_Package
 
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import org.openqa.selenium.By
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.WebElement
-
-import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.By
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.support.ui.WebDriverWait
+import org.openqa.selenium.support.ui.ExpectedConditions
+import java.time.Duration
+
+//
+//import com.kms.katalon.core.webui.driver.DriverFactory
+//import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+//import com.kms.katalon.core.testobject.TestObject
+//import com.kms.katalon.core.testobject.ConditionType
+//import com.kms.katalon.core.webui.common.WebUiCommonHelper
+//import org.openqa.selenium.WebDriver
+//import org.openqa.selenium.WebElement
+//import org.openqa.selenium.By
+//import org.openqa.selenium.JavascriptExecutor
+//import org.openqa.selenium.support.ui.WebDriverWait
+//import org.openqa.selenium.support.ui.ExpectedConditions
+//import java.time.Duration
+
+public void selectSpeciesFromDropDown(String Slot_Num, String Species) {
+	WebDriver driver = DriverFactory.getWebDriver()
+	String slotNum = Slot_Num.equals("Slot_1") ? "1" : "3"
+
+	// Step 1: Wait and click the Species dropdown trigger button
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15))
+	WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
+		"(//img[@alt='ArrowDown'])[" + slotNum + "]"
+	)))
+	dropdown.click()
+
+	// Step 2: Wait for options to appear
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
+		"//div[normalize-space(text())='" + Species + "']"
+	)))
+
+	// Step 3: Click the matching option
+	WebElement option = driver.findElement(By.xpath(
+		"//div[normalize-space(text())='" + Species + "']"
+	))
+	option.click()
+}
+ 
 
 
-public class GenericClass {
-	WebDriver driver= DriverFactory.getWebDriver()
-	public void selectSpeciesFromDropDown(String Slot_Num, String Species) {
 
-		List<WebElement> dropdowns=driver.findElements(By.xpath("//label[text()='Species']/following::div[contains(@class,'cursor-pointer') and contains(@class,'bg-white')]"))  
-		if(Slot_Num.equals("Slot_1")) {
-			dropdowns[0].click()
-		}
-		if(Slot_Num.equals("Slot_2")) {
-			dropdowns[1].click()
-		}
-		List<WebElement> options = driver.findElements(By.xpath("//div[contains(@class,'overflow-y-auto')]//div[contains(@class,'cursor-pointer')]"));
-		for (WebElement option : options) {
-			String optionText = option.getText().trim();
-			WebUI.comment(optionText)
-			if (optionText.equalsIgnoreCase(Species)) {
-				option.click();
-				break;
-			}
-		}
-	}
+
+		
+
+
+
+
+
+
+
+	
+	
+//public class GenericClass {
+//	
+//		// Get the driver inside a method to ensure the browser is already open
+//		WebDriver getDriver() {
+//			return DriverFactory.getWebDriver()
+//		}
+//	
+//		public void selectSpeciesFromDropDown(String Slot_Num, String Species) {
+//			WebDriver driver = getDriver()
+//			List<WebElement> dropdowns = driver.findElements(By.xpath("//label[text()='Species']/following::div[contains(@class,'cursor-pointer') and contains(@class,'bg-white')]"))
+//			
+//			if (dropdowns.size() > 0) {
+//				if (Slot_Num.equals("Slot_1")) {
+//					dropdowns[0].click()
+//				} else if (Slot_Num.equals("Slot_2") && dropdowns.size() > 1) {
+//					dropdowns[1].click()
+//				}
+//	
+//				List<WebElement> options = driver.findElements(By.xpath("//div[contains(@class,'overflow-y-auto')]//div[contains(@class,'cursor-pointer')]"))
+//				for (WebElement option : options) {
+//					String optionText = option.getText().trim()
+//					if (optionText.equalsIgnoreCase(Species)) {
+//						option.click()
+//						break
+//					}
+//				}
+//			}
+//		}
+
+
 
 	public boolean verifyPresencOfUIElementsInHeader() {
+		WebDriver driver = DriverFactory.getWebDriver()
 		boolean flag
 		boolean wifi_icon_presence_status=driver.findElement(By.xpath('//img[@alt="Wifi Icon"]')).isDisplayed()
 		boolean power_icon_presence_status=driver.findElement(By.xpath('//img[@alt="Power Icon"]')).isDisplayed()
@@ -182,10 +262,14 @@ return result;
 			} else {
 				WebUI.comment("❌ No matches found for searched keyword")
 			}
-		} else {
+		} 
+		else {
 			WebUI.verifyElementText(findTestObject('Object Repository/Hemacyte/History/h1_No matches found'), 'No matches found')
 			WebUI.comment('❌ No order rows found in the table.')
 		}
 	}
-}
 
+	
+	
+	
+	

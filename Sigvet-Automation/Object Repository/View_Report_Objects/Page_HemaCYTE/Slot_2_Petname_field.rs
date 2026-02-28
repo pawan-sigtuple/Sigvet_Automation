@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@placeholder=&quot;Pet Name&quot;])[2]</value>
+         <value>(//input[@placeholder='Pet name'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

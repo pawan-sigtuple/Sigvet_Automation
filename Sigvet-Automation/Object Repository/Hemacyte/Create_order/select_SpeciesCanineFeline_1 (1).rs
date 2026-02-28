@@ -6,12 +6,15 @@
    <elementGuidId>6cab7d94-6dba-441e-bbcd-0bc2b8ac359f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[4]/select</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'SpeciesCanineFeline' or . = 'SpeciesCanineFeline')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>16e70bc2-c37f-453b-817b-7c3d192622b1</webElementGuid>
+      <webElementGuid>4144631e-5ed6-48af-b34f-d66d05ca8010</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-[228px] h-[38px] pl-3 text-black border border-gray-300 bg-white</value>
-      <webElementGuid>ab242522-f38c-4415-b2d0-e77c700049b1</webElementGuid>
+      <webElementGuid>f3330f81-e543-490d-a7a2-b7f361057b78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SpeciesCanineFeline</value>
-      <webElementGuid>71d858a5-b17b-4181-8d47-f1231e4740d1</webElementGuid>
+      <webElementGuid>1c4e1370-1301-45f5-9224-65fcb9a72bc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +57,7 @@
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row p-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-24 flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
         transition-transform duration-500 ease-in-out  p-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col m-auto&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col&quot;]/div[@class=&quot;flex flex-col justify-start items-start w-[266px] h-[396px] bg-[#AD4183] p-3.5 mb-2.5&quot;]/div[@class=&quot;mb-1.5 w-full p-1&quot;]/select[@class=&quot;w-[228px] h-[38px] pl-3 text-black border border-gray-300 bg-white&quot;]</value>
-      <webElementGuid>e2a4c47e-5454-4ce3-a37f-ce290dd30dba</webElementGuid>
+      <webElementGuid>dd4d8f62-be5a-4f2c-b7d2-5740afeec7e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[4]/select</value>
-      <webElementGuid>c37b5a6c-bcf8-4ab2-b5e0-cc5d9ea15a42</webElementGuid>
+      <webElementGuid>347ad987-3088-437e-a6e1-26406312587c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[3]/following::select[1]</value>
-      <webElementGuid>40e59804-8414-4637-9810-c7a8f3c7439a</webElementGuid>
+      <webElementGuid>dc41bded-72aa-4811-927b-fe5884611794</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession Number'])[2]/following::select[1]</value>
-      <webElementGuid>49445856-aef0-4e71-9042-a53a6583982a</webElementGuid>
+      <webElementGuid>3444ec47-7430-4611-8d0a-3b2eaae1fdf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CLEAR ALL'])[2]/preceding::select[1]</value>
-      <webElementGuid>77b53d2a-2cb8-4b5f-9f7c-30f173db8e03</webElementGuid>
+      <webElementGuid>f9d874f1-c593-42cb-a491-cce321a1674b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='q'])[1]/preceding::select[1]</value>
-      <webElementGuid>b9ab2c55-4bbd-4c37-a9a1-f47a5b79e38c</webElementGuid>
+      <webElementGuid>d555f69c-dad0-4185-ac46-1bc6383b3e55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/select</value>
-      <webElementGuid>1db6bc2f-bbd7-46e2-b351-73834cc1ce39</webElementGuid>
+      <webElementGuid>9db6c1e4-0a72-4100-bf3f-8d5a92d484ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[(text() = 'SpeciesCanineFeline' or . = 'SpeciesCanineFeline')]</value>
-      <webElementGuid>81c10507-bed6-44ea-bfbe-b8e64849b016</webElementGuid>
+      <webElementGuid>3908cd10-62be-4ee5-8f88-64f8b584b9de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

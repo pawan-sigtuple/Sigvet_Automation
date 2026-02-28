@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Canine-1</name>
+   <tag></tag>
+   <elementGuidId>e045bce9-9631-4612-a20f-16871c55c3a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[normalize-space(text())='Canine']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a99d5dbf-9f3e-4bad-a046-fb8d977ec45e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d5cd932d-1395-4a76-acdb-42372de5b825</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+                  px-4 py-4 cursor-pointer hover:bg-gray-100 border-b text-standard w-full text-left
+
+                </value>
+      <webElementGuid>b700b818-621f-4fc8-830c-49c7b351439a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>slot-slot2-species-dropdown-option-448771007</value>
+      <webElementGuid>95f9faaf-2f54-4553-a3fe-d5476b117e05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Canine</value>
+      <webElementGuid>b0673d1c-1ca6-47d7-97b5-6b054415b1c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;bg-white border shadow-md overflow-y-auto text-black mt-2&quot;]/button[@class=&quot;px-4 py-4 cursor-pointer hover:bg-gray-100 border-b text-standard w-full text-left&quot;]</value>
+      <webElementGuid>8916e58a-ea01-40e7-81bf-35a34ebd5de3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Canine' or . = 'Canine')]</value>
+      <webElementGuid>7ec5ee3d-0bf0-4bf8-87db-a3335c073626</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

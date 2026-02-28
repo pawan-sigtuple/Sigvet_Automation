@@ -55,11 +55,17 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_4'))
 
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
-GenericClass gen_methods = new GenericClass()
+//GenericClass gen_methods = new GenericClass()
+
+GenericClass genericClass = new GenericClass()
+WebUI.comment("---- Slot 1 Species Selection ----")
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -92,7 +98,12 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_1'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1 (1)'), 'feline', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+
+WebUI.comment("---- Slot 2 Species Selection ----")
+
+genericClass.selectSpeciesFromDropDown("Slot_2", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_NEXT'))
@@ -143,7 +154,10 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -176,7 +190,10 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_1'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1 (1)'), 'feline', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_NEXT'))
@@ -227,7 +244,10 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -260,7 +280,10 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_1'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1 (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_2", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_NEXT'))
@@ -311,7 +334,10 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -344,7 +370,9 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_1'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1 (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
+genericClass.selectSpeciesFromDropDown("Slot_2", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_NEXT'))
@@ -395,7 +423,9 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -428,7 +458,10 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1 (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_2", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_NEXT'))
@@ -479,7 +512,9 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -512,7 +547,9 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1 (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
+genericClass.selectSpeciesFromDropDown("Slot_2", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_NEXT'))
@@ -563,7 +600,10 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -596,7 +636,9 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1 (1)'), 'feline', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_NEXT'))
@@ -647,7 +689,10 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline (1)'), 'canine', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -680,7 +725,9 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_5'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Hemacyte/Create_order/select_SpeciesCanineFeline_1 (1)'), 'feline', 
 //    true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
+//gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
 
 //WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/button_NEXT'))

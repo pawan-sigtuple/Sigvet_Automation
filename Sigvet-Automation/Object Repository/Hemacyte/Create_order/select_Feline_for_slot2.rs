@@ -6,15 +6,20 @@
    <elementGuidId>68fb112a-9481-417e-8cd3-c23295328fd0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;root&quot;]/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div/div[2]/div[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>ef3ebf1e-5170-4e28-b055-41608a927760</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = 'r' or . = 'r')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/button[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'r' or . = 'r')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -24,7 +24,7 @@
          <value>internal:role=button[name=&quot;r&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dddc6dba-d3ca-42ca-b8b4-d267a786cf1e</webElementGuid>
+      <webElementGuid>cfd17326-81f8-4abb-a18b-d944a6388c5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bg-[#6b6b6b] text-white min-w-[9.5%]  h-[58px] rounded-[8px] m-[0.5px] font-semibold transition-all duration-150  active:bg-[#4a4a4a]</value>
-      <webElementGuid>8fd00869-15c4-405c-aaec-efd48cabe56c</webElementGuid>
+      <webElementGuid>39d5209d-45b3-4d40-96d3-c33bff4990ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>r</value>
-      <webElementGuid>c626eeb4-f172-4ce0-873c-0439cd93bcb9</webElementGuid>
+      <webElementGuid>d4978033-34a0-439c-81e7-4db51b73f334</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed   bottom-0 left-0 w-full max-h-auto min-h-[302px] bg-black z-50 py-1&quot;]/div[2]/div[@class=&quot;flex justify-evenly&quot;]/button[@class=&quot;bg-[#6b6b6b] text-white min-w-[9.5%]  h-[58px] rounded-[8px] m-[0.5px] font-semibold transition-all duration-150  active:bg-[#4a4a4a]&quot;]</value>
-      <webElementGuid>a260ac09-ebd2-460f-b0b3-8e917e05718f</webElementGuid>
+      <webElementGuid>354ee764-6fb5-46ff-82b1-204d568a00b5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/button[4]</value>
-      <webElementGuid>60313847-faf6-47b9-a9e9-8316a1d936fb</webElementGuid>
+      <webElementGuid>c1c0f5cb-bf28-43bc-b2dc-c1901fac537e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='e'])[1]/following::button[1]</value>
-      <webElementGuid>dd114bd4-ddc6-4d4d-a92b-8038fa1f6e92</webElementGuid>
+      <webElementGuid>42e8077a-04a1-4982-b458-40309362ea50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='w'])[1]/following::button[2]</value>
-      <webElementGuid>d1a1cc0a-8840-4d8d-a7de-b4313a345035</webElementGuid>
+      <webElementGuid>2d1cc7e9-1104-41d2-938e-9ec42d8edd9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='t'])[1]/preceding::button[1]</value>
-      <webElementGuid>125e3174-0c60-4037-9288-cf66581cfb9f</webElementGuid>
+      <webElementGuid>a76b293b-d4ab-43fc-ba07-20a5fae270d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='y'])[1]/preceding::button[2]</value>
-      <webElementGuid>165e8aae-44ff-4f9a-b732-20ccd499b75d</webElementGuid>
+      <webElementGuid>500a99d9-6a7e-4d26-8eb4-c6c6257ff2a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='r']/parent::*</value>
-      <webElementGuid>9788eea9-d98f-4c27-a2c3-7abfa54111b0</webElementGuid>
+      <webElementGuid>80a7d476-a783-4af8-9f50-f85a37e824c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div[2]/div/button[4]</value>
-      <webElementGuid>6a9cc03a-230e-4d16-b327-9443d0e51599</webElementGuid>
+      <webElementGuid>d00e1ba2-a2a9-4ee4-af65-f4e4bbf88c77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'r' or . = 'r')]</value>
-      <webElementGuid>997c701f-6b4f-46a2-8a6c-e9c969b4a79c</webElementGuid>
+      <webElementGuid>99bf3edf-8314-4abb-a249-17e68f65c209</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

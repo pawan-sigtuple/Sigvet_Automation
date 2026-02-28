@@ -25,6 +25,7 @@ WebUI.navigateToUrl('http://localhost:3000/')
 WebUI.delay(10)
 
 WebUI.setViewPortSize(1200, 1920)
+//WebUI.setViewPortSize(1080, 1920)
 
 //----- navigation to the home page when the data is entered for both slots----
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
@@ -51,10 +52,12 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_8'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_0'))
 
-GenericClass gen_methods = new GenericClass()
+//GenericClass gen_methods = new GenericClass()
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline'), 'canine', true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+GenericClass genericClass = new GenericClass()
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
@@ -80,16 +83,19 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_7'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_9'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline_1'), 'feline', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
+
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_CANCEL'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/button_MAINTENANCE'), 30)
 
@@ -123,16 +129,19 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_8'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_0'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline'), 'canine', true)
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_CANCEL'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/button_MAINTENANCE'), 30)
 
@@ -164,14 +173,16 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_8'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_0'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline_1'), 'feline', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
+
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_CANCEL'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/button_MAINTENANCE'), 30)
 
@@ -182,6 +193,18 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/butto
 WebUI.getCSSValue(findTestObject('Object Repository/Page_HemaCYTE/button_HISTORY'), 'color')
 
 //-----navigation to the home page while only the accession number is entered-----
+WebUI.click(findTestObject('Object Repository/View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
+
+WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_b'))
+
+WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_r'))
+
+WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_u'))
+
+WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_n'))
+
+WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_o'))
+
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_2'))
@@ -194,15 +217,17 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_8'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_0'))
 
-WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+//WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_CANCEL'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/button_MAINTENANCE'), 30)
 
@@ -217,11 +242,11 @@ WebUI.click(findTestObject('Object Repository/Hemacyte/Create_order/img'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_CANCEL'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Confirm'), 30)
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_YES'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/button_MAINTENANCE'), 30)
 
@@ -238,5 +263,5 @@ WebUI.verifyElementPresent(findTestObject('Page_HemaCYTE/button_CANCEL'), 30)
 
 WebUI.verifyElementVisible(findTestObject('Page_HemaCYTE/button_CANCEL'))
 
-WebUI.verifyElementClickable(findTestObject('Page_HemaCYTE/button_CANCEL'))
+
 

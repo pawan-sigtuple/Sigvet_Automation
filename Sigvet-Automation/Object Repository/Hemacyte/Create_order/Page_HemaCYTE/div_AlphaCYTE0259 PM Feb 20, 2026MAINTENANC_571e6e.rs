@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AlphaCYTE0259 PM Feb 20, 2026MAINTENANC_571e6e</name>
+   <tag></tag>
+   <elementGuidId>0984faaa-3ad5-4689-8ac7-9c121bac5eb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gradient</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;AlphaCYTE02:59 PM Feb 20, 2026MAINTENANCESETTINGSHISTORYEnter order detailsSlot &quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>24639294-7ded-4ae3-b980-43fb23e8ec8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gradient</value>
+      <webElementGuid>58370afb-e284-4cdf-a2cc-caa23d884dbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AlphaCYTE02:59 PM Feb 20, 2026MAINTENANCESETTINGSHISTORYEnter order detailsSlot 1Nucleus ordersPet nameAccession numberSpeciesSpeciesPanel typeCBCSlot 2Nucleus ordersPet nameAccession numberSpeciesSpeciesPanel typeCBC </value>
+      <webElementGuid>ff56f742-2219-4527-be68-c08366403ead</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;w-full h-full&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;gradient&quot;]</value>
+      <webElementGuid>b68658fc-d671-4c77-8557-0f7cc035d3da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div</value>
+      <webElementGuid>c3175ea8-d438-457a-b222-4f71606dcc31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>0422784f-ab10-47ee-977d-0a3795be2b86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AlphaCYTE02:59 PM Feb 20, 2026MAINTENANCESETTINGSHISTORYEnter order detailsSlot 1Nucleus ordersPet nameAccession numberSpeciesSpeciesPanel typeCBCSlot 2Nucleus ordersPet nameAccession numberSpeciesSpeciesPanel typeCBC ' or . = 'AlphaCYTE02:59 PM Feb 20, 2026MAINTENANCESETTINGSHISTORYEnter order detailsSlot 1Nucleus ordersPet nameAccession numberSpeciesSpeciesPanel typeCBCSlot 2Nucleus ordersPet nameAccession numberSpeciesSpeciesPanel typeCBC ')]</value>
+      <webElementGuid>33a47a25-eaa7-47f7-91a3-1201e3190064</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

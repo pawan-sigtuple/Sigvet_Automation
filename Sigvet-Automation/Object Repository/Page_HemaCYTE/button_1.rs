@@ -6,18 +6,19 @@
    <elementGuidId>5ff4eaf3-b831-426b-90d6-068464c93be3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = '1' or . = '1')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div[2]/div/button</value>
+         <value>//div[@aria-label='Custom Keyboard']//button[normalize-space()='1']
+</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//button[(text() = '1' or . = '1')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -32,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>33c1cd88-75bf-4fe7-aafb-edd4c9bd4cc6</webElementGuid>
+      <webElementGuid>9e4cc01c-2950-4786-bc29-1b8120fb1b28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bg-[#6b6b6b] text-white min-w-[9.5%]  h-[58px] rounded-[8px] m-[0.5px] font-semibold transition-all duration-150  active:bg-[#4a4a4a]</value>
-      <webElementGuid>8c44367e-8baa-46b8-bb3e-ab9e9cf00bfd</webElementGuid>
+      <webElementGuid>863cef2a-08c6-42e4-9cf4-a23bdd7a3f9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>20330a31-6a03-403c-a84a-d7a932ded39f</webElementGuid>
+      <webElementGuid>9c5b2bfc-8a30-461c-a3d4-6b158ca14782</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed   bottom-0 left-0 w-full max-h-auto min-h-[302px] bg-black z-50 py-1&quot;]/div[@class=&quot;flex justify-evenly&quot;]/button[@class=&quot;bg-[#6b6b6b] text-white min-w-[9.5%]  h-[58px] rounded-[8px] m-[0.5px] font-semibold transition-all duration-150  active:bg-[#4a4a4a]&quot;]</value>
-      <webElementGuid>d08c3e64-ba6c-4c81-bccd-a01033e7f7af</webElementGuid>
+      <webElementGuid>47fcc778-63f6-49e3-932f-388ba1be773f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[2]/div/button</value>
-      <webElementGuid>fa04c4f9-16ef-4a22-b143-b62a3496ee30</webElementGuid>
+      <webElementGuid>1ccec84c-a69f-4d90-b3bb-8747f6b87e75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[3]/following::button[1]</value>
-      <webElementGuid>c1c83457-b041-41f4-b772-9cb3db7c422b</webElementGuid>
+      <webElementGuid>88badef3-e977-4d64-8cbf-e765a5e5f5b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession number'])[2]/following::button[1]</value>
-      <webElementGuid>b1aa8a05-8136-49fb-abe7-d2ebe38cd9af</webElementGuid>
+      <webElementGuid>7afe7865-1f28-46c4-8959-695cc94dbba2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='q'])[1]/preceding::button[10]</value>
-      <webElementGuid>961fe331-4c02-4b16-bc77-c20bf52e78e7</webElementGuid>
+      <webElementGuid>c327a2d9-aeb3-4fe5-8e81-d39cc267498e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='w'])[1]/preceding::button[11]</value>
-      <webElementGuid>4afef3a8-6335-4456-ad20-e8ea3492b22f</webElementGuid>
+      <webElementGuid>3d1247e7-741f-48c1-a998-bad714a2ce39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1']/parent::*</value>
-      <webElementGuid>20418b0f-055e-4ecc-86d3-b7b4973a2692</webElementGuid>
+      <webElementGuid>7b428a90-b211-4a0c-b4e7-4757c3297db0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>6b1b5705-6277-45eb-8e34-3660d4867036</webElementGuid>
+      <webElementGuid>2687a717-9b53-444c-bd7d-dfd2c252c067</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = '1' or . = '1')]</value>
-      <webElementGuid>0ee3c51f-03a2-4b5b-a7ad-1ac06154bcb9</webElementGuid>
+      <webElementGuid>6fd36ec7-ee5a-4663-b7b7-46920ee2e3a8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

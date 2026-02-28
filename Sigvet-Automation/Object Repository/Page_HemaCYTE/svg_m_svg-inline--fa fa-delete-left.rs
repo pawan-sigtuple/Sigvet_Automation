@@ -6,12 +6,12 @@
    <elementGuidId>95cc2b4e-fad6-427c-977c-e056fb3f3b54</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>svg.svg-inline--fa.fa-delete-left</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='m'])[1]/following::button[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='m'])[1]/following::*[name()='svg'][1]</value>
+         <key>CSS</key>
+         <value>svg.svg-inline--fa.fa-delete-left</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>8b18a87f-910e-4cb6-9208-bb60a3cf35de</webElementGuid>
+      <webElementGuid>c980ecdc-53e6-427f-97e9-b49ec1200216</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3c7e998c-cf3b-4785-b4d5-2e09d1fa4478</webElementGuid>
+      <webElementGuid>e18023db-1102-4509-8bb9-d3c15e2b789e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bdf18f99-f7b4-44b6-abd2-385e92675b9a</webElementGuid>
+      <webElementGuid>de47633f-725e-4bf0-87e5-40961e7c30bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-prefix</name>
       <type>Main</type>
       <value>fas</value>
-      <webElementGuid>4acdaee3-2008-4dc1-a098-e818336963c5</webElementGuid>
+      <webElementGuid>d4733bab-9640-45eb-8603-e209c04a1129</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-icon</name>
       <type>Main</type>
       <value>delete-left</value>
-      <webElementGuid>5e7400ed-b4d3-4f89-8de4-9bb9256d772b</webElementGuid>
+      <webElementGuid>9fb7f19a-1cc9-417d-a6d7-7be41036166a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>svg-inline--fa fa-delete-left </value>
-      <webElementGuid>8625a985-796a-4635-9f76-7fec3130e09c</webElementGuid>
+      <webElementGuid>a769bb53-2062-4acc-8483-80ea7fa392c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>09a3549e-d12f-4053-af78-34068f0aedc8</webElementGuid>
+      <webElementGuid>aaa64f46-be85-40e1-98cb-be3c4a729fc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>dd3772cf-34ff-4bf7-b18c-b033e90fd39e</webElementGuid>
+      <webElementGuid>c1ef8ffa-e70a-44db-abd2-8f35e19579ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 576 512</value>
-      <webElementGuid>9bd5e036-e4e0-4191-890a-2b05868aed82</webElementGuid>
+      <webElementGuid>b59d9ffb-f0fd-4bb4-9537-78b06bb56f96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed   bottom-0 left-0 w-full max-h-auto min-h-[302px] bg-black z-50 py-1&quot;]/div[2]/div[@class=&quot;flex justify-center gap-[0.125rem]&quot;]/button[@class=&quot;bg-[#484747] text-white min-w-[13%] h-[58px] rounded-[8px] gap-[2px] font-semibold transition-all duration-150  active:bg-[#2a2a2a]&quot;]/svg[@class=&quot;svg-inline--fa fa-delete-left&quot;]</value>
-      <webElementGuid>6aa6f6f1-798c-444d-914b-b54eb6b65fa5</webElementGuid>
+      <webElementGuid>cf61ea74-0097-46de-a355-717cb2fafd2a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='m'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>57293bdd-b775-4419-ad00-9ca0811df27e</webElementGuid>
+      <webElementGuid>d735bb91-6203-45d7-9f90-ea23e9a0e697</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='n'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>5d28c612-7af2-4e4c-9a99-3b9b83a3f3aa</webElementGuid>
+      <webElementGuid>b4c95960-4ee8-4275-bb45-82e6e7b2db11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='.?123'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>ae7e3e7f-6493-4927-83e3-f7a1805f7018</webElementGuid>
+      <webElementGuid>267b0aee-95ca-41c2-93e9-2e72c1c0ad26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Space'])[1]/preceding::*[name()='svg'][1]</value>
-      <webElementGuid>a4b1cd8c-c552-4806-80fb-3d5f1bcfaf59</webElementGuid>
+      <webElementGuid>672fa321-4f03-412d-9406-5efdbde87b5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

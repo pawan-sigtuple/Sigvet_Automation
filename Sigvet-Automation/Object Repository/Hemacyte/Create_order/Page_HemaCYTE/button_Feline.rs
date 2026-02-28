@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Feline</name>
+   <tag></tag>
+   <elementGuidId>843f780d-2e7f-490e-b222-d97367b4995a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[normalize-space(text())='Feline']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>51d02b10-d984-4889-9226-d456600afcb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>74ec8bab-7350-41d9-8c34-fc5ea0eb8d5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+                  px-4 py-4 cursor-pointer hover:bg-gray-100 border-b text-standard w-full text-left
+
+                </value>
+      <webElementGuid>8239778a-1fae-4f4a-baac-6673b3cecd13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>slot-slot1-species-dropdown-option-448169003</value>
+      <webElementGuid>2578798c-8cad-4cbe-be9c-b1bbe3017a66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Feline</value>
+      <webElementGuid>2ad1ed10-07d6-409e-aaf1-b4904498f94d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@class=&quot;bg-white border shadow-md overflow-y-auto text-black mt-2&quot;]/button[@class=&quot;px-4 py-4 cursor-pointer hover:bg-gray-100 border-b text-standard w-full text-left&quot;]</value>
+      <webElementGuid>130486c8-6dd1-4039-9d7d-581fe24692b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Feline' or . = 'Feline')]</value>
+      <webElementGuid>05b31873-96eb-4c6e-8e04-031a9b28210a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

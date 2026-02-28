@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Equine_2</name>
+   <tag></tag>
+   <elementGuidId>d9fd7b19-3cb1-4c1b-8651-2376912cbe45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;slot-slot2-species-dropdown&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7eb0142c-48d9-483a-95a7-7242c669d64f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7b6edb14-5f70-4454-8462-b3c82fdb942b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>slot-slot2-species-dropdown</value>
+      <webElementGuid>41c2c0eb-d444-4ca9-b5de-e39c0524e395</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b41a4613-1fdd-40cb-a694-4a8a61305226</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>f1e3d69e-41e7-46a0-b5da-00363e0e0d32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+          px-4 py-4 border cursor-pointer flex items-center transition-all
+          text-left
+          md:text-[26px] w-full
+         placeholder:text-black   text-black
+         
+         bg-tertiary 
+        </value>
+      <webElementGuid>8269b47c-f3df-4ee6-b61e-774f3448250f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Equine</value>
+      <webElementGuid>9651c935-f0ec-4846-8235-9efdeea8284f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;w-full h-full&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 top-[33%] flex flex-col justify-center items-center w-full md:w-full md:h-[47vh] lg:max-w-full lg:h-[52vh]
+        transition-transform duration-500 ease-in-out  py-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col px-4 w-[100%] md:w-[95%] lg:w-[100%] h-[50vh] md:h-[45vh] lg:h-[50vh] md:px-8&quot;]/div[@class=&quot;flex flex-row justify-center p-4 gap-10&quot;]/div[@class=&quot;flex flex-col w-full&quot;]/div[@class=&quot;flex flex-col justify-start items-start h-[40vh] md:h-[37vh] lg:h-[48vh] w-full bg-primary p-4 md:p-10  gap-2.5 md:gap-[3.4rem] lg:gap-4&quot;]/div[@class=&quot;mb-2 w-full lg:mb-6&quot;]/div[@class=&quot;relative w-full&quot;]/button[@class=&quot;px-4 py-4 border cursor-pointer flex items-center transition-all
+          text-left
+          md:text-[26px] w-full
+         placeholder:text-black   text-black
+         
+         bg-tertiary&quot;]</value>
+      <webElementGuid>39adcc07-c07c-4c75-877e-fb239610ab67</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>8b21a27e-3d47-46d8-a1b7-096f70ae5ee6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div/div[2]/div[2]/div/div[4]/div/button</value>
+      <webElementGuid>aa2bc39c-7679-426b-a36a-42088edfa432</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[3]/following::button[1]</value>
+      <webElementGuid>13141af2-aa29-40e9-ae15-92dda7c17ecb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession number'])[2]/following::button[1]</value>
+      <webElementGuid>e5978e6f-ef1e-4b70-b7fa-8b67f87ffb2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Panel type'])[2]/preceding::button[1]</value>
+      <webElementGuid>93aeed29-ae1f-4fcb-b858-4d6a2ceab917</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div/button</value>
+      <webElementGuid>2f615790-b4df-43dc-9c5d-186fdedda67c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Equine' or . = 'Equine')]</value>
+      <webElementGuid>6f840dc1-2ba3-4c10-914f-6a98430dec18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

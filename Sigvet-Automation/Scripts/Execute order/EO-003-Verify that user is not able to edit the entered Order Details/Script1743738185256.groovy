@@ -12,48 +12,9 @@ WebUI.delay(10)
 
 WebUI.setViewPortSize(1200, 1920)
 
+//Slot1 inputs for petname field
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
 
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_4'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_5'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_6'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/slot_1_accession_number'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_3'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_4'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_5'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_6'))
-//
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline'), 'canine', true)
-//
-////WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
-//WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_2'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_3'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_4'))
-//
-//WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_r'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_t'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_y'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_u'))
-//
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline_1'), 'canine', true)
-//
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesCanineFeline_1'), 'feline', true)
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_c'))
 
@@ -69,6 +30,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_e'))
 
+//Slot1 inputs for accession number field
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_1'))
@@ -79,12 +41,15 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_SpeciesFelineCanine'), 'canine', 
-//    true)
-GenericClass gen_methods = new GenericClass()
 
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
+//Method for selecting the species for slot 1
+GenericClass genericClass = new GenericClass()
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+
+
+//Slot 2 inputs for pet name field
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_j'))
@@ -107,18 +72,21 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_SpeciesFelineCanine_1'), 
-//    'feline', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+
+
+//Method for selecting the species slot2
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
 
 
 //WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
 
+//Verfiying the fields not clickable for both slots1 and 2
 WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
 WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_HemaCYTE/slot_1_accession_number'))
+
 
 String dropdown_Disabled_for_slot1 = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_species_dropdown'), 'class')
 assert dropdown_Disabled_for_slot1.contains('cursor-not-allowed') == true : 'Element is clickable for slot1'
@@ -129,3 +97,10 @@ WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYT
 String dropdown_Disabled_for_slot2 = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'), 'class')
 assert dropdown_Disabled_for_slot2.contains('cursor-not-allowed') == true : 'Element is clickable for slot2'
 
+//Verifying the Slot1 panel type not clickable 
+String dropdown_Disabled_panel_slot1 = WebUI.getAttribute(findTestObject('Object Repository/Panel type/Page_HemaCYTE/image panel type drop down slt1 not clickable'), 'class')
+assert dropdown_Disabled_panel_slot1.contains('cursor-not-allowed') == true : 'Panel type dropdown is clickable for slot1'
+
+//Verifying the Slot2 panel type not clickable
+String dropdown_Disabled_panel_slot2 = WebUI.getAttribute(findTestObject('Object Repository/Panel type/Page_HemaCYTE/image panel type drop down slt2 not clickable'), 'class')
+assert dropdown_Disabled_panel_slot2.contains('cursor-not-allowed') == true : 'Panel type dropdown is clickable for slot2'

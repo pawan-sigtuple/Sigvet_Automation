@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>ca05abb0-f3aa-44bb-8359-0e699bc697ac</webElementGuid>
+      <webElementGuid>9373c193-6686-4775-ad1a-b15367af9646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-[228px] h-[38px] pl-3 text-black border border-gray-300 bg-white</value>
-      <webElementGuid>527299dd-01a4-43a3-a905-dd2bda526750</webElementGuid>
+      <webElementGuid>d62c8f36-fc45-40de-b1ee-0518abf6f54e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SpeciesCanineFeline</value>
-      <webElementGuid>afde722b-56df-4de0-81b7-f7edb52cff31</webElementGuid>
+      <webElementGuid>3543ea7b-f6f3-4ee7-80c2-25f1e3f9bbb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row p-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 bottom-28 flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
         transition-transform duration-500 ease-in-out  p-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col m-auto&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col&quot;]/div[@class=&quot;flex flex-col justify-start items-start w-[266px] h-[396px] bg-[#AD4183] p-3.5 mb-2.5&quot;]/div[@class=&quot;mb-1.5 w-full p-1&quot;]/select[@class=&quot;w-[228px] h-[38px] pl-3 text-black border border-gray-300 bg-white&quot;]</value>
-      <webElementGuid>5cd3337f-1b00-4f32-8b78-2be132310beb</webElementGuid>
+      <webElementGuid>6f83c350-10eb-4b0b-89c4-0528fb8d3ab6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[4]/select</value>
-      <webElementGuid>5a82fd35-1c25-4fe3-8993-8bd21696bc58</webElementGuid>
+      <webElementGuid>00970ad6-9a6d-4e92-a6a8-347e98bcffb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[3]/following::select[1]</value>
-      <webElementGuid>0818ab54-6950-4377-a865-763bb2a09c4e</webElementGuid>
+      <webElementGuid>05e30c86-0aa3-471d-b707-06b38bc86b8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession Number'])[2]/following::select[1]</value>
-      <webElementGuid>ae09ad77-198e-4c64-b4ab-7955bbfb5df1</webElementGuid>
+      <webElementGuid>44bc54d0-7ff5-4e6f-b718-e951a2f7f76b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]/select</value>
-      <webElementGuid>9642967a-b10b-429c-87e7-a1634fa6b957</webElementGuid>
+      <webElementGuid>d36c8ae2-dc5c-4059-92c9-6bf254be1ec0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[(text() = 'SpeciesCanineFeline' or . = 'SpeciesCanineFeline')]</value>
-      <webElementGuid>90a2351c-f1cb-4975-9a4e-e1f62973a8c2</webElementGuid>
+      <webElementGuid>287ee027-3e6a-45c2-a2a8-d766951889c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

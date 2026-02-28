@@ -6,12 +6,12 @@
    <elementGuidId>8eae03d5-6640-442e-850c-f96c1251116d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = '3' or . = '3')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div[2]/div[2]/div/button[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = '3' or . = '3')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -24,7 +24,7 @@
          <value>internal:role=button[name=&quot;3&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>617897da-c455-49e6-a38a-e2d51208f96c</webElementGuid>
+      <webElementGuid>dd293c70-9d37-4fd1-b821-4ba44b0c3e98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bg-[#6b6b6b] text-white min-w-[9.5%]  h-[58px] rounded-[8px] m-[0.5px] font-semibold transition-all duration-150  active:bg-[#4a4a4a]</value>
-      <webElementGuid>058bae0a-12a5-438d-8c46-d3061cf5a0b6</webElementGuid>
+      <webElementGuid>177d6657-a7d0-4bc4-a288-8ff9b87e5f06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>9b63040e-db04-4f38-bdbd-2da3f6591eed</webElementGuid>
+      <webElementGuid>2e0e5487-ef5d-49ec-b9f4-8096d453f921</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed   bottom-0 left-0 w-full max-h-auto min-h-[302px] bg-black z-50 py-1&quot;]/div[@class=&quot;flex justify-evenly&quot;]/button[@class=&quot;bg-[#6b6b6b] text-white min-w-[9.5%]  h-[58px] rounded-[8px] m-[0.5px] font-semibold transition-all duration-150  active:bg-[#4a4a4a]&quot;]</value>
-      <webElementGuid>01dde1b8-1baf-4915-b6e3-62ff35e235af</webElementGuid>
+      <webElementGuid>e3f17108-3ebc-4295-b539-8b05b11255c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[2]/div/button[3]</value>
-      <webElementGuid>32698d72-6b6f-4dcf-87a7-a7d9c9e30d34</webElementGuid>
+      <webElementGuid>c42d764f-791b-4c51-b348-3fcd4ed0707b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Species'])[3]/following::button[3]</value>
-      <webElementGuid>60547bbb-858d-457c-b703-c71894d47377</webElementGuid>
+      <webElementGuid>d63aaffd-b450-402b-b33a-56e43d7a9eac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accession number'])[2]/following::button[3]</value>
-      <webElementGuid>cfba144e-c214-475a-9ce5-79dec8633ed5</webElementGuid>
+      <webElementGuid>84cdade5-49d8-43e0-a14a-352b314924a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='q'])[1]/preceding::button[8]</value>
-      <webElementGuid>5d761908-eaa6-459d-9d1c-b7ad0a4937e4</webElementGuid>
+      <webElementGuid>1e7fcac2-c9eb-4240-b6d3-1e0004119f1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='w'])[1]/preceding::button[9]</value>
-      <webElementGuid>40696169-7683-4bb7-a5b7-8c15f93db0c5</webElementGuid>
+      <webElementGuid>da1cb267-d88c-41fa-b38c-4c1acdc59863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='3']/parent::*</value>
-      <webElementGuid>d8b569b5-8297-4326-843b-093128c087a3</webElementGuid>
+      <webElementGuid>8cff7e67-1279-4472-b99f-652db75afba0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]</value>
-      <webElementGuid>8a7d716b-47d1-4089-bb77-aea9499749ee</webElementGuid>
+      <webElementGuid>817821fb-5b85-41df-868c-764f8b0c0889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = '3' or . = '3')]</value>
-      <webElementGuid>ac7fb275-56f3-463c-8b3e-0dc52a5d586c</webElementGuid>
+      <webElementGuid>5100591e-5623-415a-a8cd-860e6f20ee6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

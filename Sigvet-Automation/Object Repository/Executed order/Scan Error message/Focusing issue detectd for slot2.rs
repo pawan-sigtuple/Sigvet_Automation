@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Slot2_species_dropdown</name>
+   <name>Focusing issue detectd for slot2</name>
    <tag></tag>
-   <elementGuidId>2a501300-3249-47f7-9bd1-ac4312bf4645</elementGuidId>
+   <elementGuidId>023ff400-af3d-4874-9459-2461ff6e4baf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//label[text()='Species']/following::div[contains(@class,'cursor-pointer') or contains(@class,'cursor-not-allowed')])[3] 
-</value>
+         <value>(//div[contains(@class, 'bg-tertiary') and contains(@class, 'overflow-hidden') and contains(@class, 'break-words')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

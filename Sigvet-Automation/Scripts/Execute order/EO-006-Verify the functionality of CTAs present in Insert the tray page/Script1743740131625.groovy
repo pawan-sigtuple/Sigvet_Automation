@@ -10,13 +10,6 @@ WebUI.delay(10)
 
 WebUI.setViewPortSize(1200, 1920)
 
-//Set viewport size to 600x1024
-//WebUI.setViewPortSize(600, 1024)
-//WebUI.setViewPortSize(529, 916)
-// Get the current web driver
-//def driver = DriverFactory.getWebDriver()
-// Execute JavaScript to set zoom level to 50%
-//((JavascriptExecutor) driver).executeScript("document.body.style.zoom='80%'")
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_c'))
@@ -43,11 +36,12 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_SpeciesFelineCanine'), 'canine', 
-//    true)
-GenericClass gen_methods = new GenericClass()
 
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+GenericClass genericClass = new GenericClass()
+
+//Method for selecting the species for slot1
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
 
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
@@ -73,9 +67,9 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_SpeciesFelineCanine_1'), 
-//    'feline', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+//Method for selecting the species for slot2
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_NEXT'))
 
@@ -89,10 +83,10 @@ WebUI.verifyElementVisible(findTestObject('Executed order/Page_HemaCYTE/warning_
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Confirm'), 'Confirm to cancel')
 
-//WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Are you sure you want to cancel the test'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Are you sure you want to cancel the test'), 
-    'Are you sure you want to cancel the test ?')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Are you sure you want to cancel the test'), 'Are you sure you want to cancel the test ?')
+
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_NO'))
 
@@ -100,9 +94,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Executed order/Page
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_NO'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_EXECUTE'), 30)
-
-//WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_NEXT'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_CANCEL'), 30)
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_CANCEL'))

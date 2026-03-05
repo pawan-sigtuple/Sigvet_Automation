@@ -6,12 +6,12 @@
    <elementGuidId>49c5aac8-05d4-4292-ad1a-4070ae570b1d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//h3[(text() = 'Note:' or . = 'Note:')]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div/div[2]/div/div[2]/div[2]/div/div[2]/h3</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div[3]/div[2]/h3</value>
+         <key>BASIC</key>
+         <value>//h3[(text() = 'Note :' or . = 'Note :')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>61c303bc-022e-4e05-b9d2-a6c69f0b5a70</webElementGuid>
+      <webElementGuid>9759f029-287c-4a46-8c12-b4840a86aae0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-2.5 font-bold text-base md:text-lg text-black</value>
-      <webElementGuid>c5063d8a-1c00-4983-824b-0608559ee3af</webElementGuid>
+      <webElementGuid>6b17ab29-cf56-4690-bcd3-e10175942f61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Note:</value>
-      <webElementGuid>d9032564-009f-4a24-9be1-b8ce0112df5f</webElementGuid>
+      <value>Note :</value>
+      <webElementGuid>ecf37fde-6d65-465d-b061-6bc2850eea8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed left-1/2 top-[46.25rem] transform -translate-x-1/2 flex flex-wrap items-start my-4 p-4 border-2 border-black w-full max-w-[34rem] h-auto gap-2.5&quot;]/div[@class=&quot;flex-1&quot;]/h3[@class=&quot;mb-2.5 font-bold text-base md:text-lg text-black&quot;]</value>
-      <webElementGuid>ca147083-e101-4b33-92a2-2099d441fac5</webElementGuid>
+      <webElementGuid>da7b4c3e-f420-4bc9-b0dd-04a0cbd33042</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[3]/div[2]/h3</value>
-      <webElementGuid>55934f88-3045-4a42-b270-457b4f0ec173</webElementGuid>
+      <webElementGuid>96fffafb-0dba-4255-af3a-1fab5081f9c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::h3[1]</value>
-      <webElementGuid>f754af3d-c85d-4d1e-bb4e-01251aa46066</webElementGuid>
+      <webElementGuid>8c3de61e-39af-48c4-9881-4878228e3922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DONE'])[1]/following::h3[1]</value>
-      <webElementGuid>06eb77ed-19e9-4d0a-9085-f17542400e2b</webElementGuid>
+      <webElementGuid>c89215bc-322a-4e69-ac5a-05368159d78b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Note:']/parent::*</value>
-      <webElementGuid>fa54798d-fe7d-4bfa-85cb-047aa33d1f49</webElementGuid>
+      <webElementGuid>9760da35-6645-4a58-bce4-d3723a037c79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
-      <webElementGuid>5fad7321-42f8-49e8-91f8-badb3c2580c8</webElementGuid>
+      <webElementGuid>57db024a-d741-4a89-8936-cf5d9859c7d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,6 +104,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Note:' or . = 'Note:')]</value>
-      <webElementGuid>4e68edfe-fe3f-401e-8c24-311b0bc34a7a</webElementGuid>
+      <webElementGuid>231d9ced-45a4-41a3-b408-87463ca46c15</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Slot2_species_dropdown</name>
+   <name>Verify CBC Selected in the slot1</name>
    <tag></tag>
-   <elementGuidId>2a501300-3249-47f7-9bd1-ac4312bf4645</elementGuidId>
+   <elementGuidId>76028e85-f9e2-4806-bbac-be4ec88bbefa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//label[text()='Species']/following::div[contains(@class,'cursor-pointer') or contains(@class,'cursor-not-allowed')])[3] 
-</value>
+         <value>//*[@id=&quot;root&quot;]/div/div[2]/div/div[2]/div[1]/div/div[2]/div[1]/div/div[5]/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

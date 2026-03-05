@@ -19,7 +19,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[normalize-space(.)=&quot;Are you sure you want to cancel the test?&quot;]</value>
+         <value>//div[normalize-space(.)=&quot;Are you sure you want to cancel the test ?&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>03a57ae1-4deb-4ddf-a44c-1ad9b9409d5d</webElementGuid>
+      <webElementGuid>25d2a723-3b22-4c84-8b47-0dba27dd90c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex justify-center items-center text-sm pr-[40px] pl-[40px] text-center break-words md:text-standard leading-relaxed md:leading-9</value>
-      <webElementGuid>fd02631f-0a95-474c-bb67-3b45319f0557</webElementGuid>
+      <webElementGuid>0a509072-edd0-4073-8fc7-9f22d0e63c87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <type>Main</type>
       <value>Are you sure you want to cancel the test  ? 
        </value>
-      <webElementGuid>5b496f81-0863-493e-829a-fdf39293e8d5</webElementGuid>
+      <webElementGuid>6d576443-31d2-43b1-9e6e-1f137c231150</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-white rounded-lg shadow-lg w-[360px] h-[245px] p-6 flex flex-col justify-evenly md:w-[50%] md:h-[25vh]&quot;]/div[@class=&quot;flex justify-center items-center text-sm pr-[40px] pl-[40px] text-center break-words md:text-standard leading-relaxed md:leading-9&quot;]</value>
-      <webElementGuid>9d894553-b409-475c-8248-3581e18981a3</webElementGuid>
+      <webElementGuid>f7d2e515-2b43-4143-bb4d-c2b0307168b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[2]/div/div[2]</value>
-      <webElementGuid>fd03a2d7-06c6-4ad3-8005-ed8390515272</webElementGuid>
+      <webElementGuid>868e07ea-9927-4168-a7a7-006020daf1ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Queued...'])[1]/following::div[4]</value>
-      <webElementGuid>696b0524-a1c0-44a0-9cfc-a1957551c9aa</webElementGuid>
+      <webElementGuid>1f965894-aeca-4b0a-90a5-c38539404d37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Feline'])[1]/following::div[6]</value>
-      <webElementGuid>9d7a9aa5-9569-4e12-841a-35293c61ba78</webElementGuid>
+      <webElementGuid>cc2ada9b-7394-40c4-8aa4-04ba8d72250c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 1'])[2]/preceding::div[1]</value>
-      <webElementGuid>d0a8d92c-c78d-427b-bcb5-677d9f5803ee</webElementGuid>
+      <webElementGuid>89e1d5ed-368a-4830-8807-fce105575d55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 2'])[2]/preceding::div[2]</value>
-      <webElementGuid>20f52380-275b-4646-b240-a9f3fee676a9</webElementGuid>
+      <webElementGuid>f68171a7-7c6b-4f61-a1c2-3cd486745435</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Are you sure you want to cancel the test?']/parent::*</value>
-      <webElementGuid>05ce7d61-3186-41ee-8cce-cc9d620c9247</webElementGuid>
+      <webElementGuid>6da8914d-3bcb-4c85-a27f-753aca6dcad1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]</value>
-      <webElementGuid>7f8632e5-7604-4aab-83c9-ef0488768a97</webElementGuid>
+      <webElementGuid>8b321453-db48-4862-9330-7b6b9c4c1ae3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <value>//div[(text() = 'Are you sure you want to cancel the test? 
        ' or . = 'Are you sure you want to cancel the test? 
        ')]</value>
-      <webElementGuid>f88c38dc-47c1-4213-a81d-bd88f5c49143</webElementGuid>
+      <webElementGuid>b2cb539a-8696-42fd-b01c-42c22d8a5bb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[4]/div/div[3]</value>
-      <webElementGuid>56b66939-5bb7-4b1d-a877-40e1776282a9</webElementGuid>
+      <webElementGuid>54c01157-9c70-48a7-bc9b-085dcdcb64ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +144,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/following::div[1]</value>
-      <webElementGuid>25f8e30f-d982-431b-92c3-4b3e91c8efed</webElementGuid>
+      <webElementGuid>50342eb3-b23a-4929-a4e3-bea3967a9d6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,7 +152,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NEXT'])[1]/following::div[5]</value>
-      <webElementGuid>aea4f274-902d-4719-93b9-2b1a1bf342ff</webElementGuid>
+      <webElementGuid>0b89167d-baa8-4a26-8d5c-0a7b07531d9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,7 +160,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[1]/preceding::div[1]</value>
-      <webElementGuid>a9e191cc-2aab-4393-9383-cfe2231f18c5</webElementGuid>
+      <webElementGuid>4ab47651-0e8c-4837-8e1e-b8331bd43d09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -168,7 +168,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='YES'])[1]/preceding::div[1]</value>
-      <webElementGuid>d4ace949-1c4f-47f0-960e-5acad1557f0d</webElementGuid>
+      <webElementGuid>0e922379-6601-46d2-8bc7-0c55b79c6f19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -176,7 +176,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Are you sure you want to cancel the test ?']/parent::*</value>
-      <webElementGuid>4c83074d-9b65-4993-a031-1362feac2fd8</webElementGuid>
+      <webElementGuid>02911d66-8281-4356-8bf5-540e560935cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -184,7 +184,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[3]</value>
-      <webElementGuid>bf2322a0-4b93-45ac-8815-afa7b5674e1e</webElementGuid>
+      <webElementGuid>03d95ea3-bd92-46ff-b254-0340c8b416e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -192,6 +192,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Are you sure you want to cancel the test ?' or . = ' Are you sure you want to cancel the test ?')]</value>
-      <webElementGuid>ef991e94-535a-47e6-8ad2-c245e566d904</webElementGuid>
+      <webElementGuid>0719ebb8-56f7-40d8-9a38-7efbf2d55d6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

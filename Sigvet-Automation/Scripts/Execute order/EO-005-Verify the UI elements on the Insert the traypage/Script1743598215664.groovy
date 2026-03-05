@@ -26,11 +26,7 @@ GenericClass gen_methods1= new  GenericClass()
 
 assert gen_methods1.verifyPresencOfUIElementsInHeader() == true
 
-//WebUI.setViewPortSize(529, 916)
-// Get the current web driver
-//def driver = DriverFactory.getWebDriver()
-// Execute JavaScript to set zoom level to 50%
-//((JavascriptExecutor) driver).executeScript("document.body.style.zoom='80%'")
+
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_c'))
@@ -57,10 +53,11 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine'), 'canine', true)
-GenericClass gen_methods = new GenericClass()
 
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+GenericClass genericClass = new GenericClass()
+
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
 
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
@@ -86,8 +83,9 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_7'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine_1'), 'feline', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
 
@@ -95,7 +93,7 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/h1_AlphaCYTE'), 30)
 
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/h2_Hematology'), 0)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/h2_Insert the tray'), 30)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/div_Slot 1'), 30)
@@ -118,10 +116,9 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/butto
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_HemaCYTE/button_EXECUTE'), 30)
 
-//WebUI.verifyElementVisible(findTestObject('Object Repository/Page_HemaCYTE/div_'))
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/info_img'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/h3_Note'), 'Note:')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/h3_Note'), 'Note :')
 
-WebUI.verifyElementText(findTestObject('Page_HemaCYTE/p_1. Please place the tray into the tray ho_2a78bf'), '1. Please place the tray into the device and select "Execute".')
-
+WebUI.verifyElementText(findTestObject('Object Repository/Page_HemaCYTE/p_1. Please place the tray into the tray ho_2a78bf'),'Please place the tray into the device and select "Execute".')

@@ -6,15 +6,15 @@
    <elementGuidId>f1c990a5-6dfb-4b55-b431-bd69bf4d77c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//ol[contains(@class,'list-decimal')]/li[normalize-space()='Remove the tray and select &quot;Done&quot;.']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//p[(text() = concat(&quot;1. Remove the tray and select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot;) or . = concat(&quot;1. Remove the tray and select &quot; , &quot;'&quot; , &quot;Done&quot; , &quot;'&quot;))]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[contains(text(), &quot;Remove the tray and select 'Done'&quot;)]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>bb611c19-9cea-4f91-8047-d19aebd52f96</webElementGuid>
+      <webElementGuid>4abf55b3-85cb-404a-827f-5fc7e2ed721e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-sm md:text-base text-black mb-2</value>
-      <webElementGuid>0810879d-086b-4a98-9640-e3e467b199a6</webElementGuid>
+      <webElementGuid>a69c210d-2d76-4a14-9f4f-850b361d3be6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1. Remove the tray and select 'Done'</value>
-      <webElementGuid>80d2e609-0ff8-419d-959f-d4cd6e5e9949</webElementGuid>
+      <webElementGuid>b2272c08-3876-45f8-958c-d6901cb2e132</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed left-1/2 top-[46.25rem] transform -translate-x-1/2 flex flex-wrap items-start my-4 p-4 border-2 border-black w-full max-w-[34rem] h-auto gap-2.5&quot;]/div[@class=&quot;flex-1&quot;]/p[@class=&quot;text-sm md:text-base text-black mb-2&quot;]</value>
-      <webElementGuid>8bdf1a5d-9470-4f8c-ba6b-11914d72de4d</webElementGuid>
+      <webElementGuid>6544c59a-e564-4144-8a26-2297625154be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[3]/div[2]/p</value>
-      <webElementGuid>529a5683-d816-4a74-b58a-91ba033b80cb</webElementGuid>
+      <webElementGuid>3d7f6cd6-8e31-49f2-aff8-5909be41bdf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[1]</value>
-      <webElementGuid>14f408bb-6c88-4c11-a719-a2e649790c13</webElementGuid>
+      <webElementGuid>b1789b84-6eda-4c39-8550-74092433ac1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[1]</value>
-      <webElementGuid>7e0466b8-44fc-4f21-9ab5-69ca79380605</webElementGuid>
+      <webElementGuid>9d11c7a8-c148-435d-ba2e-42d8606ddc9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1']/parent::*</value>
-      <webElementGuid>d6e865c9-7804-45e0-ad8c-7d1b54f7974e</webElementGuid>
+      <webElementGuid>a3a6440f-00c2-49f6-8ef2-e23e491064ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/p</value>
-      <webElementGuid>a663fa6d-907d-4fd2-81dd-27c6b27ca289</webElementGuid>
+      <webElementGuid>32efa023-aa2c-46b2-81f9-fcf7d828b5cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,6 +104,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = '1. Remove the tray' or . = '1. Remove the tray')]</value>
-      <webElementGuid>86daf220-c464-47d0-aec3-8eaca2a86805</webElementGuid>
+      <webElementGuid>4f79e65f-6563-490d-a8c7-a6e03199a141</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

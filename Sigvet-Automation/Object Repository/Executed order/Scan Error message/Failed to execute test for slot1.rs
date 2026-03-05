@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Slot2_species_dropdown</name>
+   <name>Failed to execute test for slot1</name>
    <tag></tag>
-   <elementGuidId>2a501300-3249-47f7-9bd1-ac4312bf4645</elementGuidId>
+   <elementGuidId>29f8a3d8-f783-46f6-b617-572435f18bfb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//label[text()='Species']/following::div[contains(@class,'cursor-pointer') or contains(@class,'cursor-not-allowed')])[3] 
+         <value>(//div[contains(@class, 'text-red-600') and contains(text(), 'Failed to execute test')])[1]
 </value>
       </entry>
    </selectorCollection>

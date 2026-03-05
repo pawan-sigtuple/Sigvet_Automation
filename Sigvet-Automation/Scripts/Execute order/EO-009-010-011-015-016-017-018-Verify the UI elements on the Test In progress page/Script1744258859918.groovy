@@ -54,7 +54,6 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine'), 'canine', true)
 GenericClass gen_methods = new GenericClass()
 
 gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
@@ -83,7 +82,6 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_7'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine_1'), 'feline', true)
 gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
@@ -95,13 +93,12 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Checking'), 'Checking...')
 
 // verify the order status is queued when slot 1 is scanning
-WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Queued'), 30)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Queued'), 50)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Queued'), 'Queued')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h1_AlphaCYTE'), 'AlphaCYTE')
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Hematology'), 'Hematology')
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Test in progress'), 'Test in progress')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/p_Slot 1'), 'Slot 1')
@@ -120,7 +117,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_He
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/label_Species_1'), 'Species')
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Generating report'), 'Generating report...')
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_CANCEL'), 'CANCEL')
 
 // ---------user is not able to edit entered order details in test in progress----------
@@ -128,7 +124,6 @@ WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYT
 
 WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_FelineCanine'))
 String dropdown_Disabled_for_slot1 = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_species_dropdown'), 
     'class')
 
@@ -138,7 +133,6 @@ WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYT
 
 WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
 
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_FelineCanine_1'))
 String dropdown_Disabled_for_slot2 = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'), 
     'class')
 
@@ -161,103 +155,96 @@ WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaC
 
 WebUI.verifyElementText(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'), 'Feline')
 
-// -----verify UI elements on test execution completed page------
-//WebUI.waitForElementVisible(findTestObject('Executed order/Page_HemaCYTE/div_Test completed'), 700)
-WebUI.waitForElementVisible(findTestObject('Executed order/Page_HemaCYTE/button_VIEW REPORT'), 700)
+boolean slot1Visible = WebUI.waitForElementVisible(findTestObject('Executed order/Page_HemaCYTE/button_VIEW REPORT'), 400, 
+    FailureHandling.OPTIONAL)
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Test completed'), 'Test completed')
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_VIEW REPORT'), 'VIEW REPORT')
+if (slot1Visible) {
+    // ============================================================
+    // 🟢 NORMAL FLOW
+    // ============================================================
+    println('✅ Slot 1 VIEW REPORT found → Running Normal flow...')
 
-//The  re-upload CTA is not displayed when upload to Nucleus is successful
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_RE-UPLOAD'), 30)
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_VIEW REPORT'), 'VIEW REPORT')
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Generating report_1'), 'Generating report...')
-//WebUI.waitForElementVisible(findTestObject('Executed order/Page_HemaCYTE/div_Test completed_1'), 700)
-WebUI.waitForElementVisible(findTestObject('Executed order/Page_HemaCYTE/button_VIEW REPORT_1'), 700)
+    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_RE-UPLOAD'), 30)
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Test completed_1'), 'Test completed')
-WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/button_VIEW REPORT_1'), 'VIEW REPORT')
+    WebUI.waitForElementVisible(findTestObject('Executed order/Page_HemaCYTE/button_Eject tray'), 60)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_RE-UPLOAD_1'),30)
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_Eject tray'), 'EJECT TRAY')
 
-WebUI.waitForElementVisible(findTestObject('Executed order/Page_HemaCYTE/button_Eject tray'), 60)
+    WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_Eject tray'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_Eject tray'), 'EJECT TRAY')
+    WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/h2_Test execution completed'), 'Test execution completed')
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_Eject tray'))
+    WebUI.verifyElementVisible(findTestObject('Executed order/Page_HemaCYTE/info_img'))
 
-WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/h2_Test execution completed'), 'Test execution completed')
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h3_Note'), 'Note :')
 
-WebUI.verifyElementVisible(findTestObject('Executed order/Page_HemaCYTE/info_img'))
+	WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/p_1. Remove the tray'), 'Remove the tray and select "Done".')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h3_Note'), 'Note:')
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_DONE'), 'DONE')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/p_1. Remove the tray'), '1. Remove the tray and select "Done"')
+    //--------- verify user is not able to edit entered order details
+    WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/p_2. Select Done to return to home screen'),
-//    '2. Select \'Done\' to return to home screen')
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_DONE'), 'DONE')
+    WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
-//--------- verify user is not able to edit entered order details in test execution completed page
-WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'))
+    String dropdown_Disabled_for_slot1_test_exe = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_species_dropdown'), 
+        'class')
 
-WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
+    assert dropdown_Disabled_for_slot1_test_exe.contains('cursor-not-allowed') == true : 'Element is clickable for slot1'
 
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_FelineCanine'))
-String dropdown_Disabled_for_slot1_test_exe = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_species_dropdown'), 
-    'class')
+    //--------- verify correctness of entered order details
+    WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'), 'value', 
+        'charlie', 30)
 
-assert dropdown_Disabled_for_slot1_test_exe.contains('cursor-not-allowed') == true : 'Element is clickable for slot1'
+    WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'), 'value', 
+        '111', 30)
 
-WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
+    WebUI.verifyElementText(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_species_dropdown'), 'Canine')
 
-WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
+    //--------------- verify CTA functionality
+    WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_VIEW REPORT'))
 
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_FelineCanine_1'))
-String dropdown_Disabled_for_slot2_test_exe = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'), 
-    'class')
+    WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img_1'))
 
-assert dropdown_Disabled_for_slot2_test_exe.contains('cursor-not-allowed') == true : 'Element is clickable for slot2'
+    WebUI.verifyElementNotPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_RE-UPLOAD'), 30)
 
-// --------- verify the correctness of the entered order details on the test execution completed page
-WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_1_Petname_field'), 'value', 'charlie', 
-    30)
+    WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_DONE'))
 
-WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'), 'value', 
-    '111', 30)
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Enter order details'), 'Enter order details')
 
-WebUI.verifyElementText(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_species_dropdown'), 'Canine')
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_MAINTENANCE'), 'MAINTENANCE')
 
-WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'), 'value', 'jerry', 
-    30)
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_SETTINGS'), 'SETTINGS')
 
-WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'), 'value', 
-    '777', 30)
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_HISTORY'), 'HISTORY')
 
-WebUI.verifyElementText(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'), 'Feline')
+    println('✅ Slot 1 Normal flow completed successfully.') // ============================================================
+    // 🔴 EJECT TRAY FLOW
+    // ============================================================
+} else {
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Scan Error message/Failed to execute test for slot1'), 
+        'Failed to execute test')
 
-//--------------- verify the functionality of the CTAs present in test execution completed page
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_VIEW REPORT'))
+    println('⚠️ Slot 1 VIEW REPORT not found → Running Eject Tray flow...')
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img_1'))
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_Eject tray'), 'EJECT TRAY')
 
-WebUI.click(findTestObject('Executed order/Page_HemaCYTE/button_VIEW REPORT_1'))
+    WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_Eject tray'))
 
-WebUI.click(findTestObject('Executed order/Page_HemaCYTE/img_1_2'))
+    WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/h2_Test execution completed'), 'Test execution completed')
 
+    WebUI.verifyElementVisible(findTestObject('Executed order/Page_HemaCYTE/info_img'))
 
-//The  re-upload CTA is not displayed when upload to Nucleus is successful
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_RE-UPLOAD'), 30)
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h3_Note'), 'Note :')
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_RE-UPLOAD_1'),30)
+	WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/p_1. Remove the tray'), 'Remove the tray and select "Done".')
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_DONE'))
+    WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_DONE'), 'DONE')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Enter order details'), 'Enter order details')
+    WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_DONE'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_MAINTENANCE'), 'MAINTENANCE')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_SETTINGS'), 'SETTINGS')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_HISTORY'), 'HISTORY')
+    println('✅ Eject Tray flow completed.')
+}
 

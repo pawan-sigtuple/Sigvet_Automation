@@ -6,22 +6,25 @@
    <elementGuidId>ac76a215-226d-4488-b32c-b165278f2c7e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//li[normalize-space()='Please place the tray into the device and select &quot;Execute&quot;.']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Please place the tray into the device and select &quot;Execute&quot;.' or . = 'Please place the tray into the device and select &quot;Execute&quot;.')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:text=&quot;1. Please place the tray into the tray holder and ensure it is seated properly&quot;</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>9fd5a015-188c-402d-adfb-4ace09c15cd2</webElementGuid>
+      <webElementGuid>798915e2-0569-4532-b7a6-c914b91240ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>text-sm md:text-base text-black mb-2</value>
-      <webElementGuid>e0096019-e636-4d85-90ff-49b6704f0173</webElementGuid>
+      <webElementGuid>c023df53-55c3-4656-92ba-a7712de2680e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1. Please place the tray into the tray holder and ensure it is seated properly</value>
-      <webElementGuid>ccda2cf3-d72a-4864-b2b4-f8545f685285</webElementGuid>
+      <value>Please place the tray into the device and select &quot;Execute&quot;.</value>
+      <webElementGuid>0a69dc0b-3979-4e20-8eef-f1dfe25fa654</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed left-1/2 top-[46.25rem] transform -translate-x-1/2 flex flex-wrap items-start my-4 p-4 border-2 border-black w-full max-w-[34rem] h-auto gap-2.5&quot;]/div[@class=&quot;flex-1&quot;]/p[@class=&quot;text-sm md:text-base text-black mb-2&quot;]</value>
-      <webElementGuid>62019e03-b192-4c67-a4a5-8486c9555296</webElementGuid>
+      <webElementGuid>bd04d342-a971-4929-970e-3f2a6d66c015</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[2]/div[2]/p</value>
-      <webElementGuid>06637891-6f47-4716-8b07-454f9ac876e8</webElementGuid>
+      <webElementGuid>32ab48e4-db0b-4bd3-9a35-0f565a15cc01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Note:'])[1]/following::p[1]</value>
-      <webElementGuid>ccace75e-6376-4dd6-b99f-434ffdc7e465</webElementGuid>
+      <webElementGuid>44144a9a-a045-4935-aa3f-5e15732f6598</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[1]/following::p[1]</value>
-      <webElementGuid>fe7609ac-c094-4166-b1c8-6ecf64233197</webElementGuid>
+      <webElementGuid>53c8219b-0e5e-4000-9635-80be0a8fc176</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/preceding::p[2]</value>
-      <webElementGuid>34750138-74f8-47ce-b174-00dc8e0d2232</webElementGuid>
+      <webElementGuid>9abb20bb-7df1-4a47-9f44-a5da324fb93a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EXECUTE'])[1]/preceding::p[2]</value>
-      <webElementGuid>e3d49e9f-ea14-425f-97f8-de74a62a31d4</webElementGuid>
+      <webElementGuid>fe286515-aee9-493b-8e18-8105dc0d1139</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1']/parent::*</value>
-      <webElementGuid>0179abec-e0b9-44fc-8367-abe73e94b16c</webElementGuid>
+      <webElementGuid>bb88c485-fa01-4005-add4-09af3485edc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/p</value>
-      <webElementGuid>23c3fd8a-932c-4e6e-be18-c150365bfb39</webElementGuid>
+      <webElementGuid>7fef5f2a-6d6c-47e6-b255-ea0118ecfd4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = '1. Please place the tray into the tray holder and ensure it is seated properly' or . = '1. Please place the tray into the tray holder and ensure it is seated properly')]</value>
-      <webElementGuid>1242a06c-06c8-46f1-8a05-223a9e2dbc64</webElementGuid>
+      <webElementGuid>6e7c7d2d-0304-49ce-9c2e-eb36e57823f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

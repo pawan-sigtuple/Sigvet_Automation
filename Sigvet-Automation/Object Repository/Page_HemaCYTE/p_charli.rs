@@ -6,12 +6,12 @@
    <elementGuidId>757f6015-b135-43b8-85e4-54bb0e2346b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div[6]/div/div/div[2]/div/div/p[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.break-words.whitespace-normal.text-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'leading-10') and contains(text(), 'charli')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>5893d5ff-faac-4f66-8004-a333062bb09a</webElementGuid>
+      <webElementGuid>ed5c2750-b8ab-41d2-a96a-771379921582</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>break-words whitespace-normal text-sm</value>
-      <webElementGuid>8bfbffe7-7100-4afc-9780-61bea8be74d1</webElementGuid>
+      <webElementGuid>1cee59f9-eea7-4c3d-b94b-375b8f58b3bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>charli</value>
-      <webElementGuid>7445926e-ba0d-4216-bca7-e793b882334a</webElementGuid>
+      <webElementGuid>1d5a3d81-a62d-4baa-a23e-b6ef1c5076a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 top-[37%] flex flex-col justify-center w-full md:w-11/12 lg:max-w-4xl h-auto 
         transition-transform duration-500 ease-in-out  py-6 rounded-lg&quot;]/div[@class=&quot;flex flex-col px-4&quot;]/div[@class=&quot;flex flex-row justify-start p-2 gap-2&quot;]/div[@class=&quot;flex flex-col w-full&quot;]/div[@class=&quot;flex flex-col justify-start items-start min-h-[24.75rem] w-[98%] max-w-sm md:max-w-md lg:max-w-lg bg-[#AD4183] p-4 md:p-5 mb-3&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white h-auto w-[100%] min-h-[56px] mt-2&quot;]/div[@class=&quot;flex justify-between items-center w-full h-[6vh] p-2&quot;]/div[@class=&quot;min-w-[20%] max-w-[30%]&quot;]/p[@class=&quot;break-words whitespace-normal text-sm&quot;]</value>
-      <webElementGuid>c7f401e3-338a-427f-bb92-50c96d28b0c1</webElementGuid>
+      <webElementGuid>a57a009b-0394-41dc-b3b6-e7a671b2a99f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div[6]/div/div/div[2]/div/div/p[2]</value>
-      <webElementGuid>1d15dde1-aff0-42e1-90e9-06c7b1a0b716</webElementGuid>
+      <webElementGuid>fa0788cc-f82a-4158-ae46-c2f6c7e32020</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[2]</value>
-      <webElementGuid>41e8a745-f22a-4d5c-a235-a09daaba1837</webElementGuid>
+      <webElementGuid>6424dabc-16d7-438d-8c09-bc5383c8c683</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 1'])[2]/following::p[2]</value>
-      <webElementGuid>a476feb9-b6da-4a4e-9475-0593365cb9f5</webElementGuid>
+      <webElementGuid>efccf851-79e1-4b0d-8fec-ca6efa40e2a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test completed'])[1]/preceding::p[94]</value>
-      <webElementGuid>e6d7ed05-8230-4ae3-81fa-90f6ccdf1155</webElementGuid>
+      <webElementGuid>e7563ffe-4ff5-4a20-9d5c-973e6f92335f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet name'])[2]/preceding::p[95]</value>
-      <webElementGuid>b2e2acc9-b5f1-49be-9247-a33709796d16</webElementGuid>
+      <webElementGuid>831e7538-7b26-4c66-9e6a-f23d5ffba4b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='charli']/parent::*</value>
-      <webElementGuid>b606346d-9e42-4d00-9e32-7729d86abfda</webElementGuid>
+      <webElementGuid>29e92efb-9ea8-4b5b-9833-13fa5cddf7c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]</value>
-      <webElementGuid>99b62628-2aa1-4144-a429-d97b9c3dec0f</webElementGuid>
+      <webElementGuid>b5a02acf-b188-4c31-abbf-83cfb50051b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'charli' or . = 'charli')]</value>
-      <webElementGuid>fa20b0d9-1a49-4a0a-858b-9e2405215a6c</webElementGuid>
+      <webElementGuid>a6664122-93a1-463d-a065-f61bb4a3324f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

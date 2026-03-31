@@ -34,7 +34,8 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_e'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'))
+//Accession number for slot1
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_1'))
 
@@ -45,9 +46,11 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine'), 'canine', true)
-GenericClass gen_methods = new GenericClass()
+GenericClass genericClass = new GenericClass()
 
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+genericClass.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_NEXT'))
 
@@ -151,7 +154,7 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Pag
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Enter order details'), 'Enter order details')
 
 //--------------the cancellation for slot 2 when slot 1 is empty
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_2_Petname_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_j'))
 
@@ -165,7 +168,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_accession_no_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_7'))
 
@@ -176,7 +179,9 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine_1'), 'feline', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+genericClass.selectSpeciesFromDropDown('Slot_2', 'Feline')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_NEXT'))
 
@@ -186,8 +191,8 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 //canceliing test for the order that is in just started
 WebUI.waitForElementNotPresent(findTestObject('Executed order/Page_HemaCYTE/Checking'), 60)
-//WebUI.delay(50)
 
+//WebUI.delay(50)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_CANCEL'), 30)
 
 WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/button_CANCEL'), 'CANCEL')
@@ -293,7 +298,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_e'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_1'))
 
@@ -305,7 +310,9 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img')
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine'), 'canine', true)
 //GenericClass gen_methods2 = new GenericClass()
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+genericClass.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_NEXT'))
 
@@ -316,7 +323,7 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Pag
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_EXECUTE'))
 
 //canceliing test for the order that is about to complete
-WebUI.delay(300)
+WebUI.delay(200)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Test in progress'), 'Test in progress')
 

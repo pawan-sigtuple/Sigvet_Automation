@@ -6,19 +6,19 @@
    <elementGuidId>d086241b-1718-49ac-bd9e-784fc9fae0b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div/p[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.break-words.whitespace-normal.text-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div/p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>p >> internal:has-text=&quot;bruno&quot;i</value>
+         <value>//div[contains(@class, 'font-normal') and contains(@class, 'leading-10') and contains(text(), 'bruno')]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>76f8dd2b-0c1a-4e04-bf9e-3bda3031812f</webElementGuid>
+      <webElementGuid>85f9b329-5dd3-4379-b16a-86192cd3f466</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>break-words whitespace-normal text-sm</value>
-      <webElementGuid>5577ff87-8423-44a4-b752-02f848b8679f</webElementGuid>
+      <webElementGuid>a6078c81-97a3-419d-a633-eab8deb02edd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>bruno</value>
-      <webElementGuid>af45a06e-2599-43e9-bdf0-75c54dab3c4b</webElementGuid>
+      <webElementGuid>17c8820b-0cd1-4831-8d47-5c0465b9570c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[95%] h-[65%] max-h-auto min-w-[20rem] md:min-w-[36.25rem] top-[10.75rem] left-[0.625rem] md:left-[1.25rem] lg:left-[2.5rem] xl:left-[3.75rem]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white h-auto w-[100%] min-h-[56px] mt-2&quot;]/div[@class=&quot;flex justify-between items-center w-full h-[6vh] p-2&quot;]/div[@class=&quot;min-w-[20%] max-w-[30%]&quot;]/p[@class=&quot;break-words whitespace-normal text-sm&quot;]</value>
-      <webElementGuid>305db8ef-80ed-43f6-86a9-cea726af4019</webElementGuid>
+      <webElementGuid>50300fdb-2955-4519-a76f-1d301ef725b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div/p[2]</value>
-      <webElementGuid>e61aaadc-c79c-4abd-b805-7c4dd843c1eb</webElementGuid>
+      <webElementGuid>23ee0d94-6598-44d8-8fa2-73b4ab978217</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[2]</value>
-      <webElementGuid>e50e6289-4cec-44c9-adb9-c303682745ca</webElementGuid>
+      <webElementGuid>a9b03611-f68b-4155-a262-dd6841a77af3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[103]/following::p[2]</value>
-      <webElementGuid>8c41fd57-046b-44ff-b6fd-59675b4bbd14</webElementGuid>
+      <webElementGuid>84cc2f4f-40de-49d6-aced-cd988a1e7d3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]</value>
-      <webElementGuid>52d98d67-ea5d-4b88-b5ef-ff9e6454b1f3</webElementGuid>
+      <webElementGuid>8e57f800-35c3-4f5d-8052-f04a87ba86eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'bruno' or . = 'bruno')]</value>
-      <webElementGuid>64380539-e2b5-4a11-b3a5-1e2d6500ab57</webElementGuid>
+      <webElementGuid>2484ede6-1d5c-4662-a99c-06f8f92745fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[6]/div/div/div[2]/div/div/p[2]</value>
-      <webElementGuid>3004d881-56f3-4043-b375-f39587219d7a</webElementGuid>
+      <webElementGuid>eabe5253-ba1b-4fd9-b271-815712fe5d63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 2'])[2]/following::p[2]</value>
-      <webElementGuid>3d3c24f1-b6c1-479a-af94-f77aa873fbe2</webElementGuid>
+      <webElementGuid>d6c53ee2-585c-4d1f-b448-cc40aa9144a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test completed'])[2]/preceding::p[93]</value>
-      <webElementGuid>864f0e68-ea1f-4d2d-b895-7cfcad16860d</webElementGuid>
+      <webElementGuid>11a3e85d-269d-49b4-8c30-ba9686baae8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='bruno']/parent::*</value>
-      <webElementGuid>50774f25-6837-4462-bac4-bd582a8710bd</webElementGuid>
+      <webElementGuid>a8405589-1f32-4c35-bfbc-220c37c79e0b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

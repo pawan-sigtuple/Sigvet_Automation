@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[6]</value>
+         <value>//div[contains(@class, 'font-normal') and contains(@class, 'leading-10') and contains(text(), 'Canine')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>68334b0b-fa8c-44ec-a46e-850f9739332e</webElementGuid>
+      <webElementGuid>d72dbdc3-583e-4af3-9139-c7e485bfa6da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>canine</value>
-      <webElementGuid>b08c6aba-b5c0-4330-816f-0f7680de0a3c</webElementGuid>
+      <webElementGuid>f00c3ac0-48a1-4747-ad0b-dad0e172d86f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white w-[560px] h-[56px] mt-[24px]&quot;]/div[@class=&quot;flex justify-between items-center w-[521px] h-[37px]&quot;]/div[3]/p[2]</value>
-      <webElementGuid>2a29803c-4105-4961-83e4-cd07fd4e14c1</webElementGuid>
+      <webElementGuid>5092117c-5c4e-44fc-84d7-0299adf8f18b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div[3]/p[2]</value>
-      <webElementGuid>118d50d0-6ea0-450d-8f1e-1a2f080d3e19</webElementGuid>
+      <webElementGuid>b565682e-2646-47d6-8c62-b2650ef2cc3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[6]</value>
-      <webElementGuid>3a487b67-d74c-464f-bed1-1f7a330bc5ab</webElementGuid>
+      <webElementGuid>31903f3e-4b02-485c-9b49-0bf5ed973dc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[89]/following::p[6]</value>
-      <webElementGuid>f6672fb0-45d3-4a20-ad07-4bcddc333271</webElementGuid>
+      <webElementGuid>3cee0b3b-49cb-42c1-b575-5c9d05f8990d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='canine']/parent::*</value>
-      <webElementGuid>e93987f1-92c6-425f-9a9b-7cab0f645c9e</webElementGuid>
+      <webElementGuid>2d5d1a2c-526b-4a68-ab61-004a67d5f982</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/p[2]</value>
-      <webElementGuid>bfce9ce5-4998-4430-8fb7-447608875123</webElementGuid>
+      <webElementGuid>2953457f-fc03-4be0-9cc4-2bc62a87cb69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'canine' or . = 'canine')]</value>
-      <webElementGuid>b5b74e57-d787-4fe3-aa23-aa9d21f03b35</webElementGuid>
+      <webElementGuid>cf8f76d9-1934-4598-a613-90df84d9b269</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

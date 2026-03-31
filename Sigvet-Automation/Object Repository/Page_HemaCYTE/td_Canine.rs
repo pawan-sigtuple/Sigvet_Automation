@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[4]/div/table/tbody/tr/td[3]</value>
+         <value>//div[contains(@class, 'font-normal') and contains(@class, 'leading-10') and contains(text(), 'Canine')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>ca9fc8eb-5420-4fc5-8ca1-e10fc39dd23b</webElementGuid>
+      <webElementGuid>f12d364b-b7b6-4c0f-bde8-7275586355c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>px-3 py-1 text-[12px] text-start text-black cursor-pointer</value>
-      <webElementGuid>584872a4-008d-4648-8349-281a9e630224</webElementGuid>
+      <webElementGuid>340376dc-ea2c-4a4f-8990-2544d89d275d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Canine</value>
-      <webElementGuid>9ad62379-9106-4d11-8140-f88639588dca</webElementGuid>
+      <webElementGuid>3219b54b-9958-4440-b9bc-50ae2267345a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[580px] top-[172px] left-[10px]&quot;]/div[@class=&quot;max-h-[700px] overflow-y-auto&quot;]/table[@class=&quot;w-full border-separate border-spacing-y-1&quot;]/tbody[1]/tr[@class=&quot;h-[50px] bg-white&quot;]/td[@class=&quot;px-3 py-1 text-[12px] text-start text-black cursor-pointer&quot;]</value>
-      <webElementGuid>e43c44c3-ec9e-4dc1-91cf-f2f3e07a4a00</webElementGuid>
+      <webElementGuid>f6ddc8e7-acdb-4893-bf14-5d0b317bf928</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[4]/div/table/tbody/tr/td[3]</value>
-      <webElementGuid>874e98ff-3a86-41cd-a6de-7f640be716f0</webElementGuid>
+      <webElementGuid>0a71795d-bb81-479b-9b5f-81ed7ed37435</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='t'])[1]/following::td[1]</value>
-      <webElementGuid>f9b318bf-d58f-4860-ba31-2f73d3cdc10d</webElementGuid>
+      <webElementGuid>5dcda596-bcb9-4496-a6dc-9dee0efb4a38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NUCLEUS STATUS'])[1]/following::td[3]</value>
-      <webElementGuid>af115d41-fb1f-4699-a836-cdbb359965ce</webElementGuid>
+      <webElementGuid>98fdfd83-5740-46e8-b28e-dfe88a8e3ff5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[1]/preceding::td[1]</value>
-      <webElementGuid>9e8b4d7d-948a-48b1-a908-c252fbb0bdc0</webElementGuid>
+      <webElementGuid>c16c72fd-d580-49b8-9670-c434087870e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mar 18, 2025 08:24 AM (PCT)'])[1]/preceding::td[2]</value>
-      <webElementGuid>9db6300c-5bed-448a-8cbc-e5c458990340</webElementGuid>
+      <webElementGuid>81a79233-a72c-42f1-8603-3471e08d5ba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Canine']/parent::*</value>
-      <webElementGuid>b5c47bd4-f80e-4c8c-8ed0-66bdcfa1d0e5</webElementGuid>
+      <webElementGuid>05e0ebaf-57b6-4b42-a8b0-93331e5e5988</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]</value>
-      <webElementGuid>377189c2-6cf2-4185-9b2f-ba9eda71c11c</webElementGuid>
+      <webElementGuid>63154b5b-6b5e-4e6b-a1f7-a7fd56587100</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Canine' or . = 'Canine')]</value>
-      <webElementGuid>940c2d96-bce8-4260-8795-cb119433ce8b</webElementGuid>
+      <webElementGuid>a7941517-c6d0-4961-b191-07503ba08333</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

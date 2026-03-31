@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[6]</value>
+         <value>//div[contains(@class, 'font-normal') and contains(@class, 'leading-10') and contains(text(), 'Feline')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>71be0664-0e8d-44c6-abfd-6983a53ab0c3</webElementGuid>
+      <webElementGuid>ee352b61-3b80-4606-b512-4284d7f43f0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>break-words whitespace-normal text-sm</value>
-      <webElementGuid>8b47f7a8-e222-436c-b110-094767d44af6</webElementGuid>
+      <webElementGuid>8e6a38da-4aa2-4b41-b1f8-208ddc276329</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>feline</value>
-      <webElementGuid>dfc7bdae-f800-4d84-a8e1-b05ef1df38f3</webElementGuid>
+      <webElementGuid>22b56dcb-b435-410a-8a2d-7273742f5418</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed w-[95%] h-[65%] max-h-auto min-w-[20rem] md:min-w-[36.25rem] top-[10.75rem] left-[0.625rem] md:left-[1.25rem] lg:left-[2.5rem] xl:left-[3.75rem]&quot;]/div[@class=&quot;modal-overlay&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;flex flex-col p-4&quot;]/div[@class=&quot;flex flex-row justify-center items-center bg-white h-auto w-[100%] min-h-[56px] mt-2&quot;]/div[@class=&quot;flex justify-between items-center w-full h-[6vh] p-2&quot;]/div[3]/p[@class=&quot;break-words whitespace-normal text-sm&quot;]</value>
-      <webElementGuid>b7542086-e353-447d-9e5a-4b7bf432b109</webElementGuid>
+      <webElementGuid>7548f789-f056-4769-b132-f31bf8ae0f10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]/div/div[3]/p[2]</value>
-      <webElementGuid>b574a44d-b3a0-4a82-b1a6-a5e2ad3731cf</webElementGuid>
+      <webElementGuid>6599997d-f1bc-4683-8ed3-20f66bd9649a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/following::p[6]</value>
-      <webElementGuid>3b333c4e-ef91-4320-81df-a12640f74e04</webElementGuid>
+      <webElementGuid>5c66c014-0305-4904-807b-fc51509d5037</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[103]/following::p[6]</value>
-      <webElementGuid>70c03868-f3d8-43d7-ad39-c70b34aa48ce</webElementGuid>
+      <webElementGuid>358f1b4f-45aa-48d3-8deb-a88b5482fcfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='feline']/parent::*</value>
-      <webElementGuid>31f8df5a-a281-4b65-afbc-344c92a515c8</webElementGuid>
+      <webElementGuid>f9b4cc03-7bc0-4ebd-9182-a8f55f808459</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/p[2]</value>
-      <webElementGuid>f8ea09f8-ee7b-4df9-a4ca-cd1062046c31</webElementGuid>
+      <webElementGuid>55068255-eede-47d6-8de6-3ba510c290fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'feline' or . = 'feline')]</value>
-      <webElementGuid>cb283b0d-70e0-4f56-b284-d294e4ee8094</webElementGuid>
+      <webElementGuid>358b59dd-53df-4bec-ade2-5f06e5c18d0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[6]/div/div/div[2]/div/div[3]/p[2]</value>
-      <webElementGuid>6d17ea21-8b51-4e98-b499-31ae3912aacb</webElementGuid>
+      <webElementGuid>f416f77b-0a9e-4a0d-a320-adeb8c5d9aac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 2'])[2]/following::p[6]</value>
-      <webElementGuid>1854c03e-8535-41f7-91ad-674b1df68b12</webElementGuid>
+      <webElementGuid>83b25949-1d5f-4b7e-a5b8-fd14d3c3d0cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test completed'])[2]/preceding::p[89]</value>
-      <webElementGuid>1fbdcbc8-50ba-4a1d-b3b1-4aa7f43c6bb7</webElementGuid>
+      <webElementGuid>8a14ac98-3737-41f3-8a44-6692f044615c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

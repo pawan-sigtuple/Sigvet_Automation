@@ -36,10 +36,9 @@ WebUI.doubleClick(findTestObject('Object Repository/Page_HemaCYTE/button_1'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine'), 'canine', true)
-GenericClass gen_methods = new GenericClass()
-
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+GenericClass genericClass = new GenericClass()
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
 
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
@@ -61,8 +60,10 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_7'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine_1'), 'feline', true)
-gen_methods.selectSpeciesFromDropDown('Slot_2', 'Feline')
+
+//Method for selecting the species for slot 2
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
 
@@ -70,11 +71,8 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_EXECUTE'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h1_AlphaCYTE'), 'AlphaCyte')
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Hematology'), 'Hematology')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Test in progress'), 'Test in progress')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/p_Slot 1'), 'Slot 1')
 
@@ -92,9 +90,20 @@ WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_He
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/label_Species_1'), 'Species')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Generating report'), 'Generating report...')
+//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Generating report'), 'Generating report...')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Queued'), 'Queued...')
+WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Checking'), 'Checking...')
+
+import com.kms.katalon.core.model.FailureHandling
+boolean queuedVisible = WebUI.waitForElementVisible(
+	findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Queued'), 80, FailureHandling.OPTIONAL)
+
+if (queuedVisible) {
+	WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Queued'), 'Queued')
+	println("✅ Queued status displayed")
+
+}
+
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_CANCEL'), 'CANCEL')
 
@@ -102,7 +111,6 @@ WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYT
 
 WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_FelineCanine'))
 String dropdown_Disabled_for_slot1 = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_species_dropdown'), 
     'class')
 

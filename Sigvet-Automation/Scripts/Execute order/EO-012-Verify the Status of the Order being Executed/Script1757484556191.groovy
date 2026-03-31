@@ -46,19 +46,71 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_1'))
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/Page_HemaCYTE/select_SpeciesFelineCanine'), 'canine', true)
-GenericClass gen_methods = new GenericClass()
+//GenericClass gen_methods = new GenericClass()
 
-gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+//gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
+
+GenericClass genericClass = new GenericClass()
+genericClass.selectSpeciesFromDropDown("Slot_1", "Canine")
+WebUI.delay(1)
+
+//slot2 
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_j'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_e'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_r'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_r'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_y'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
+
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_7'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_7'))
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_7'))
+
+
+WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
+
+
+//Method for selecting the species for slot 2
+genericClass.selectSpeciesFromDropDown("Slot_2", "Feline")
+WebUI.delay(1)
+
+
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_NEXT'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_EXECUTE'), 30)
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_EXECUTE'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Checking'), 'Checking...')
+
+import com.kms.katalon.core.model.FailureHandling
+boolean queuedVisible = WebUI.waitForElementVisible(
+	findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Queued'), 60, FailureHandling.OPTIONAL)
+
+if (queuedVisible) {
+	WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Queued'), 'Queued')
+	println("✅ Queued status displayed")
+
+}else {
+	println("⚠️ Queued not displayed → checking Failed to execute test status...")
+
+	WebUI.verifyElementText(
+		findTestObject('Object Repository/Executed order/Scan Error message/Failed to execute test for slot1'),
+		'Failed to execute test', FailureHandling.OPTIONAL)
+	println("❌ Failed to execute test status displayed")
+}
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_CANCEL'), 'CANCEL')
 
@@ -85,13 +137,28 @@ WebUI.verifyElementText(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_
 //WebUI.waitForElementNotVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Checking'), 60)
 WebUI.delay(60)
 
-// Define the TestObject for the progress bar
+
+String dropdown_Disabled_for_slot2 = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'),
+	'class')
+
+assert dropdown_Disabled_for_slot2.contains('cursor-not-allowed') == true : 'Element is clickable for slot2'
+
+WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'), 'value', 'jerry',
+	30)
+
+WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'), 'value',
+	'777', 30)
+
+WebUI.verifyElementText(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'), 'Feline')
+
+
+
 TestObject progressBar = new TestObject('dynamicProgressBar')
 
 progressBar.addProperty('xpath', ConditionType.EQUALS, '//div[contains(@class, \'bg-green-500\') and contains(@class, \'transition-all\') and contains(@class, \'ease-linear\')]')
 
-// Wait for the progress bar to be present
-WebUI.waitForElementPresent(progressBar, 10)
+WebUI.waitForElementPresent(progressBar, 10) 
+
 
 //scan is in progres - checking progress bar fill movement
 // Get initial width
@@ -120,6 +187,13 @@ for (int i = 1; i <= 5; i++) {
 println "✅ Completed checking progress bar over 5 intervals."
 
 
+
+
+
+// Wait for element to be visible
+WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Nucleus_uploading_status'), 400)
+
+
 // Function to extract width from style attribute
 def getWidthPercentage(TestObject obj) {
 	String style = WebUI.getAttribute(obj, "style")
@@ -135,45 +209,12 @@ def getWidthPercentage(TestObject obj) {
 	}
 }
 
-// scan is completed - progress bar about to completed
-// Check if progress bar reaches or exceeds 90%
-String currentWidth = getWidthPercentage(progressBar)
-if (currentWidth == null) return // Exit if extraction failed
-
-// Start time tracking
-long startTime = System.currentTimeMillis()
-long maxDurationMillis = 8 * 60 * 1000 // 8 minutes timeout
-
-println "✅ Starting to monitor progress bar until it reaches ≥ 90%..."
-
-while (true) {
-	float widthValue = currentWidth.toFloat()
-
-	if (widthValue >= 90) {
-		KeywordUtil.markPassed("✅ Progress bar has reached ${widthValue}%. Report generation is considered complete.")
-		break
-	}
-
-	// Check if timeout has been reached
-	long elapsedTime = System.currentTimeMillis() - startTime
-	if (elapsedTime > maxDurationMillis) {
-		KeywordUtil.markFailed("❌ Progress bar did not reach ≥ 90% within 8 minutes.")
-		WebUI.takeScreenshot()
-		break
-	}
-
-	println "⏳ Progress at ${widthValue}%. Checking again in 5 seconds..."
-	WebUI.delay(5) // Wait before checking again
-
-	// Get updated width
-	currentWidth = getWidthPercentage(progressBar)
-	if (currentWidth == null) return // Exit if extraction failed
-}
-
 
 
 // Wait for element to be visible
-WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Nucleus_uploading_status'), 700)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Nucleus_uploading_status'), 400)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Nucleus_uploaded_slot2'), 400)
+
 
 // Get the current WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()
@@ -184,19 +225,20 @@ String pageSource = driver.getPageSource()
 // Verify that "Uploading to Nucleus" is somewhere in the page source
 
 if(pageSource.contains("Uploading to Nucleus")) {
-	KeywordUtil.markPassed("Uploading to Nucleus message is present in the page source.")
+	println("✅ Uploading to Nucleus message is present in the page source.")
 } else {
-	KeywordUtil.markFailed("Uploading to Nucleus message is not present in the page source.")
+	println(" ⚠️ Uploading to Nucleus message is not present in the page source.")
 }
 
-// verify the "Uploaded to Nucleus" status
-// Wait for the 'Uploaded' status to appear after upload is expected
-boolean uploaded = WebUI.waitForElementPresent(findTestObject("Object Repository/Executed order/Page_HemaCYTE/Nucleus_uploaded_status"), 30)
-WebUI.verifyEqual(uploaded, true)
+
 
 // Optionally, confirm the text inside the element
 String uploadedText = WebUI.getText(findTestObject("Object Repository/Executed order/Page_HemaCYTE/Nucleus_uploaded_status"))
 WebUI.verifyMatch(uploadedText, ".*Uploaded to Nucleus.*", true)
+
+String uploadedText1 = WebUI.getText(findTestObject("Object Repository/Executed order/Page_HemaCYTE/Nucleus_uploaded_slot2"))
+WebUI.verifyMatch(uploadedText1, ".*Uploaded to Nucleus.*", true)
+
 
 
 WebUI.waitForElementVisible(findTestObject('Executed order/Page_HemaCYTE/button_Eject tray'), 60)

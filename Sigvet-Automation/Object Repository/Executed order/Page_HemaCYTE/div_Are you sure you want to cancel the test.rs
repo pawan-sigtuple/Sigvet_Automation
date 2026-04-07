@@ -9,17 +9,17 @@
          <key>CSS</key>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>XPATH</key>
+         <value>//div[contains(@class, 'leading-relaxed') and contains(text(), 'Are you sure you want to cancel the test?')]
+
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'Are you sure you want to cancel the test  ? 
-       ' or . = 'Are you sure you want to cancel the test  ? 
-       ')]</value>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[normalize-space(.)=&quot;Are you sure you want to cancel the test ?&quot;]</value>
+         <key>IMAGE</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>25d2a723-3b22-4c84-8b47-0dba27dd90c6</webElementGuid>
+      <webElementGuid>a4fff7a0-4d16-45fe-824c-16b721e684a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,16 +45,16 @@
       <name>class</name>
       <type>Main</type>
       <value>flex justify-center items-center text-sm pr-[40px] pl-[40px] text-center break-words md:text-standard leading-relaxed md:leading-9</value>
-      <webElementGuid>0a509072-edd0-4073-8fc7-9f22d0e63c87</webElementGuid>
+      <webElementGuid>190258c2-f694-408d-b057-b7ba350cd21e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Are you sure you want to cancel the test  ? 
        </value>
-      <webElementGuid>6d576443-31d2-43b1-9e6e-1f137c231150</webElementGuid>
+      <webElementGuid>216d37d2-e270-4406-a1e8-e4bf75795644</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;flex flex-row py-5 h-auto justify-center mx-auto&quot;]/div[@class=&quot;fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-white rounded-lg shadow-lg w-[360px] h-[245px] p-6 flex flex-col justify-evenly md:w-[50%] md:h-[25vh]&quot;]/div[@class=&quot;flex justify-center items-center text-sm pr-[40px] pl-[40px] text-center break-words md:text-standard leading-relaxed md:leading-9&quot;]</value>
-      <webElementGuid>f7d2e515-2b43-4143-bb4d-c2b0307168b6</webElementGuid>
+      <webElementGuid>d0998b2d-e6bd-411d-8e12-32cc35bab2d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/div[2]/div/div[2]</value>
-      <webElementGuid>868e07ea-9927-4168-a7a7-006020daf1ca</webElementGuid>
+      <webElementGuid>22a31d63-e825-4617-b834-620a0da5d635</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Queued...'])[1]/following::div[4]</value>
-      <webElementGuid>1f965894-aeca-4b0a-90a5-c38539404d37</webElementGuid>
+      <webElementGuid>4e39e669-0687-47ce-8cfe-8e0bba6e0257</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Feline'])[1]/following::div[6]</value>
-      <webElementGuid>cc2ada9b-7394-40c4-8aa4-04ba8d72250c</webElementGuid>
+      <webElementGuid>541f16ec-a11d-41dc-b2b3-0e9ce1298189</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 1'])[2]/preceding::div[1]</value>
-      <webElementGuid>89e1d5ed-368a-4830-8807-fce105575d55</webElementGuid>
+      <webElementGuid>14498396-e195-45cd-a8bc-263d1994d582</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot 2'])[2]/preceding::div[2]</value>
-      <webElementGuid>f68171a7-7c6b-4f61-a1c2-3cd486745435</webElementGuid>
+      <webElementGuid>ac4bc343-803e-4bbf-8e64-68b24fc480c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Are you sure you want to cancel the test?']/parent::*</value>
-      <webElementGuid>6da8914d-3bcb-4c85-a27f-753aca6dcad1</webElementGuid>
+      <webElementGuid>25cf5a50-fac3-4b74-8ee5-0f0c03d86d8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]</value>
-      <webElementGuid>8b321453-db48-4862-9330-7b6b9c4c1ae3</webElementGuid>
+      <webElementGuid>7da98880-ff46-4539-bfb2-849770639d1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +128,7 @@
       <value>//div[(text() = 'Are you sure you want to cancel the test? 
        ' or . = 'Are you sure you want to cancel the test? 
        ')]</value>
-      <webElementGuid>b2cb539a-8696-42fd-b01c-42c22d8a5bb2</webElementGuid>
+      <webElementGuid>30073ad9-d48c-4664-a3ec-3a7c7fe498ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +136,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[4]/div/div[3]</value>
-      <webElementGuid>54c01157-9c70-48a7-bc9b-085dcdcb64ed</webElementGuid>
+      <webElementGuid>e818f42b-bb24-4289-9485-9018d8ff1399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +144,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/following::div[1]</value>
-      <webElementGuid>50342eb3-b23a-4929-a4e3-bea3967a9d6e</webElementGuid>
+      <webElementGuid>1d9514e8-9033-4c65-b562-3c6c42c43f98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,7 +152,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NEXT'])[1]/following::div[5]</value>
-      <webElementGuid>0b89167d-baa8-4a26-8d5c-0a7b07531d9a</webElementGuid>
+      <webElementGuid>96bca451-0e04-44db-bb1c-753578231f15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,7 +160,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[1]/preceding::div[1]</value>
-      <webElementGuid>4ab47651-0e8c-4837-8e1e-b8331bd43d09</webElementGuid>
+      <webElementGuid>62de5c3b-bbcd-4f6f-94d2-d1f2fcb17367</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -168,7 +168,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='YES'])[1]/preceding::div[1]</value>
-      <webElementGuid>0e922379-6601-46d2-8bc7-0c55b79c6f19</webElementGuid>
+      <webElementGuid>11106554-499c-46e7-b9da-509270284f35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -176,7 +176,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Are you sure you want to cancel the test ?']/parent::*</value>
-      <webElementGuid>02911d66-8281-4356-8bf5-540e560935cf</webElementGuid>
+      <webElementGuid>daa526b5-1d70-4759-978c-9b5b1363faba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -184,14 +184,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[3]</value>
-      <webElementGuid>03d95ea3-bd92-46ff-b254-0340c8b416e8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = ' Are you sure you want to cancel the test ?' or . = ' Are you sure you want to cancel the test ?')]</value>
-      <webElementGuid>0719ebb8-56f7-40d8-9a38-7efbf2d55d6d</webElementGuid>
+      <webElementGuid>2c7404a1-837c-4608-bc14-e90a07233da9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[4]/div/div[3]/div/table/thead/tr/th[2]</value>
+         <value>//th[contains(text(), 'Accession no')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Accession no' or . = 'Accession no')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>827f6078-ce64-4d80-b03c-10ea63e1f9cc</webElementGuid>
+      <webElementGuid>59a45851-c193-466f-9af7-578c94ce2240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-start sm:text-[10px] md:text-standard</value>
-      <webElementGuid>434467eb-8e18-4fb3-bc5f-357cac7e7c3e</webElementGuid>
+      <webElementGuid>949626e3-ff87-4d12-9621-92ed9cea43ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Accession no</value>
-      <webElementGuid>1f59dd64-7219-4d60-b003-269cd5b4434d</webElementGuid>
+      <webElementGuid>92db6884-3e6d-4254-b4e9-a72aa41e6ae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-tertiary rounded-lg shadow-lg w-[20%] md:w-[26%] max-w-[28%] h-fit min-h-[18vh] max-h-[30vh] p-6 md:p-16&quot;]/div[@class=&quot;text-center text-[10px] mb-5 md:text-standard sm:text-[10px] md:h-auto&quot;]/div[@class=&quot;overflow-x-auto&quot;]/table[@class=&quot;w-full text-sm sm:text-base md:text-standard&quot;]/thead[1]/tr[1]/th[@class=&quot;text-start sm:text-[10px] md:text-standard&quot;]</value>
-      <webElementGuid>1442d515-fb07-47b9-b458-b7039cd5ce51</webElementGuid>
+      <webElementGuid>fca50ab4-442a-478a-8277-474479de806b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[4]/div/div[3]/div/table/thead/tr/th[2]</value>
-      <webElementGuid>9c9ba126-443e-4524-91a3-d7e51710edfa</webElementGuid>
+      <webElementGuid>0c85548d-9399-4e94-bd48-01f4b338cdbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slot'])[1]/following::th[1]</value>
-      <webElementGuid>32017ce9-7434-4824-9dcd-43774eba9d79</webElementGuid>
+      <webElementGuid>cdc68f6c-5209-44e4-901d-aeb04e7f9507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm to cancel'])[1]/following::th[2]</value>
-      <webElementGuid>35a0fe13-445f-48ea-8421-1de3e374fae0</webElementGuid>
+      <webElementGuid>001f65e1-d8fc-4832-a8c2-a0092c3036af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pet name'])[3]/preceding::th[1]</value>
-      <webElementGuid>08571078-4cfd-41c7-b3ad-28f5db1f9bd1</webElementGuid>
+      <webElementGuid>554231ab-e86c-4e9e-96ba-721d5cc12504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='charli'])[1]/preceding::th[2]</value>
-      <webElementGuid>ae6c2bed-37e1-4d53-a215-2e373802c222</webElementGuid>
+      <webElementGuid>e4a63255-8863-41c0-b34a-271663491ae5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Accession no']/parent::*</value>
-      <webElementGuid>43814417-9d63-488e-9840-134ea243a387</webElementGuid>
+      <webElementGuid>be7905b7-a3b8-4b4f-9601-c6fb4c747239</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th[2]</value>
-      <webElementGuid>d8ffb312-8c12-4cca-8927-ec2ff6f54719</webElementGuid>
+      <webElementGuid>ef8f3f54-c447-4e08-a585-62f6e417cc74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//th[(text() = 'Accession no' or . = 'Accession no')]</value>
-      <webElementGuid>f5b9501e-cec7-46f9-9c03-e0a4ddfea0e9</webElementGuid>
+      <webElementGuid>6b5fb089-8abd-4b47-9d5c-70dd5c2ba22e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

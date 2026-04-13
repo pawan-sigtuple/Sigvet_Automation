@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_e'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_1'))
 
@@ -60,7 +60,7 @@ GenericClass gen_methods = new GenericClass()
 
 gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_2_Petname_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_j'))
 
@@ -74,7 +74,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_accession_no_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_7'))
 
@@ -100,21 +100,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_He
 //WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Hematology'), 'Hematology')
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Test in progress'), 'Test in progress')
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/p_Slot 1'), 'Slot 1')
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/label_Pet name'), 'Pet name')
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/label_Accession number'), 'Accession number')
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/label_Species'), 'Species')
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/div_Slot 2'), 'Slot 2')
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/label_Pet name_1'), 'Pet name')
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/label_Accession number_1'), 'Accession number')
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/label_Species_1'), 'Species')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Checking'), 'Checking...')
 
 WebUI.waitForElementNotPresent(findTestObject('Executed order/Page_HemaCYTE/Checking'), 60)
@@ -304,7 +290,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_e'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_1'))
 
@@ -318,7 +304,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img')
 //GenericClass gen_methods = new GenericClass()
 gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_2_Petname_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_j'))
 
@@ -332,7 +318,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_accession_no_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_7'))
 
@@ -473,7 +459,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_e'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_1'))
 
@@ -487,7 +473,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img')
 //GenericClass gen_methods = new GenericClass()
 gen_methods.selectSpeciesFromDropDown('Slot_1', 'Canine')
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_2_Petname_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_j'))
 
@@ -501,7 +487,7 @@ WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/butto
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/img'))
 
-WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_accession_no_field'))
+WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
 
 WebUI.click(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_7'))
 

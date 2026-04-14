@@ -100,7 +100,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_He
 //WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Hematology'), 'Hematology')
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/h2_Test in progress'), 'Test in progress')
 
-
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Checking'), 'Checking...')
 
 WebUI.waitForElementNotPresent(findTestObject('Executed order/Page_HemaCYTE/Checking'), 60)
@@ -112,7 +111,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_He
 // ---------user is not able to edit entered order details in test in progress----------
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_1_Petname_field'))
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'))
+//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'))
+
+WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
 
 //WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_FelineCanine'))
 String dropdown_Disabled_for_slot1 = WebUI.getAttribute(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_species_dropdown'), 
@@ -120,9 +121,15 @@ String dropdown_Disabled_for_slot1 = WebUI.getAttribute(findTestObject('Object R
 
 assert dropdown_Disabled_for_slot1.contains('cursor-not-allowed') == true : 'Element is clickable for slot1'
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_2_Petname_field'))
+//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_2_Petname_field'))
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_accession_no_field'))
+//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_accession_no_field'))
+
+//slot2 not editable value petname and accession number.
+
+WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'))
+
+WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
 
 //WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_FelineCanine_1'))
 String dropdown_Disabled_for_slot2 = WebUI.getAttribute(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_species_dropdown'), 
@@ -134,18 +141,23 @@ assert dropdown_Disabled_for_slot2.contains('cursor-not-allowed') == true : 'Ele
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_1_Petname_field'), 
     'value', 'charlie', 30)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'), 
-    'value', '111', 30)
+WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'), 'value',
+	'111', 30)
+
+//WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_accession_no_field'), 'value', '111', 30)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot1_species_dropdown'), 'Canine')
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot_2_Petname_field'), 
-    'value', 'jerry', 30)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_accession_no_field'), 
-    'value', '777', 30)
+WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot_2_Petname_field'), 'value', 'jerry',
+	30)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Executed order/Page_HemaCYTE/Slot2_species_dropdown'), 'Feline')
+WebUI.verifyElementAttributeValue(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'), 'value',
+	'777', 30)
+
+
+WebUI.verifyElementText(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'), 'Feline')
+
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/button_CANCEL'), 30)
 
@@ -212,7 +224,7 @@ WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Slot'), 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/th_Accession no'), 30)
 
-WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Accession no'), 'Accession no.')
+WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Accession no'), 'Accession no')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/th_Pet name'), 30)
 
@@ -389,7 +401,7 @@ WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Slot'), 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/th_Accession no'), 30)
 
-WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Accession no'), 'Accession no.')
+WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Accession no'), 'Accession no')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/th_Pet name'), 30)
 
@@ -558,7 +570,7 @@ WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Slot'), 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/th_Accession no'), 30)
 
-WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Accession no'), 'Accession no.')
+WebUI.verifyElementText(findTestObject('Executed order/Page_HemaCYTE/th_Accession no'), 'Accession no')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Executed order/Page_HemaCYTE/th_Pet name'), 30)
 

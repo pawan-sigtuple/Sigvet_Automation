@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_l'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_i'))
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
 //accession number for slot1
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot1_accession_no_field'))
@@ -60,7 +60,7 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_7'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_9'))
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
 //selection of the species for slot1
 GenericClass gen_methods = new GenericClass()
@@ -80,7 +80,7 @@ WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_n'))
 
 WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/button_o'))
 
-WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
+//WebUI.click(findTestObject('Object Repository/Page_HemaCYTE/img'))
 
 //Accession number enetry for the slot2
 WebUI.click(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))

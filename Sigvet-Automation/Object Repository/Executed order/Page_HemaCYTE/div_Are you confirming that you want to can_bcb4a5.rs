@@ -6,6 +6,10 @@
    <elementGuidId>ec3bb9aa-ac00-4bc8-a3a0-f9cbd5c7cf53</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Are you confirming that you want to cancel the following test(s)?SlotAccession noPet name1111charli2777jerry' or . = 'Are you confirming that you want to cancel the following test(s)?SlotAccession noPet name1111charli2777jerry')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div[4]/div/div[3]/div</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b9d98aa8-6b46-4a42-8dc2-03b4172cf9f5</webElementGuid>
+      <webElementGuid>52ef46d2-5b3d-47f9-905d-50706ef63543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>overflow-x-auto</value>
-      <webElementGuid>e61af71b-1996-46df-a5ad-78a514b17339</webElementGuid>
+      <webElementGuid>2b2429fd-45ce-4e65-a584-6a4fd560c05d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Are you confirming that you want to cancel the following test(s)?SlotAccession noPet name1111charli2777jerry</value>
-      <webElementGuid>d66602d7-ff4a-4697-9ae8-1defb879c834</webElementGuid>
+      <webElementGuid>17732e8b-2bcf-4f2b-af18-12a225157572</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;gradient&quot;]/div[@class=&quot;fixed inset-[-600px] bg-black bg-opacity-60 flex items-center justify-center z-[2000]&quot;]/div[@class=&quot;bg-tertiary rounded-lg shadow-lg w-[20%] md:w-[26%] max-w-[28%] h-fit min-h-[18vh] max-h-[30vh] p-6 md:p-16&quot;]/div[@class=&quot;text-center text-[10px] mb-5 md:text-standard sm:text-[10px] md:h-auto&quot;]/div[@class=&quot;overflow-x-auto&quot;]</value>
-      <webElementGuid>39038a6f-7180-4ec8-84c2-84ebed244743</webElementGuid>
+      <webElementGuid>f8c83462-f51f-4ff2-9da9-1cea167ed481</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[4]/div/div[3]/div</value>
-      <webElementGuid>266e977a-a074-45a8-9c0f-9e751234b490</webElementGuid>
+      <webElementGuid>27978dda-b93b-4431-8171-4737774f7662</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm to cancel'])[1]/following::div[2]</value>
-      <webElementGuid>4729de19-1903-4a57-96a3-6cc1b667cbff</webElementGuid>
+      <webElementGuid>2cee0592-1666-4aff-916a-03c629980194</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::div[6]</value>
-      <webElementGuid>8e87588f-edf8-49fe-b69a-1165e5c1fec0</webElementGuid>
+      <webElementGuid>f838cc4b-d50d-4060-9e02-8dc29992cbb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]/div</value>
-      <webElementGuid>6d21e44e-f9bc-483d-a6d8-36cc40f08dee</webElementGuid>
+      <webElementGuid>fa27f9a3-5aea-4a75-a740-f2551c6b599b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Are you confirming that you want to cancel the following test(s)?SlotAccession noPet name1111charli2777jerry' or . = 'Are you confirming that you want to cancel the following test(s)?SlotAccession noPet name1111charli2777jerry')]</value>
-      <webElementGuid>d53e7adc-a45e-43e3-8ac2-42d148e382a1</webElementGuid>
+      <webElementGuid>fafa07bc-b475-4a35-86f0-852e2c2cdca6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

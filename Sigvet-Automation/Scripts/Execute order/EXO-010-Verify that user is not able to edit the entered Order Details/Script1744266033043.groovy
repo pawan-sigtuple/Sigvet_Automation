@@ -120,7 +120,7 @@ WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYT
 
 WebUI.verifyElementNotClickable(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_accession_no_field'))
 
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Executed order/Page_HemaCYTE/select_FelineCanine_1'))
+
 String dropdown_Disabled_for_slot2 = WebUI.getAttribute(findTestObject('View_Report_Objects/Page_HemaCYTE/Slot2_species_dropdown'), 
     'class')
 
